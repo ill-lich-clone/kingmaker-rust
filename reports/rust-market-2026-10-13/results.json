@@ -1,0 +1,310 @@
+{
+  "stage": "rust_market",
+  "status": "implemented_verified_published",
+  "completed": "2026-10-13",
+  "spec": "docs/superpowers/specs/2026-10-13-rust-market-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-market.md",
+  "campaign": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "requested_runtime": {
+    "campaign_id": "world-306",
+    "db_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "not_implemented",
+    "storage": "memory",
+    "workers": 1
+  },
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "runtime_unchanged": true,
+  "source_database": {
+    "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "bytes": 5762625536,
+    "open_mode": "read_only",
+    "revision_date_stored_signatures_unchanged": true,
+    "full_byte_digest": "not_measured"
+  },
+  "rust_source_sha256": "287794395f3e60199c4c2490299c3c7d58b77ca9c3de24be9cf13313b89414ac",
+  "fingerprint_files": [
+    "Cargo.lock",
+    "Cargo.toml",
+    "crates\\kingmaker-cli\\Cargo.toml",
+    "crates\\kingmaker-cli\\src\\main.rs",
+    "crates\\kingmaker-cli\\tests\\cli_test.rs",
+    "crates\\kingmaker-core\\Cargo.toml",
+    "crates\\kingmaker-core\\src\\audit.rs",
+    "crates\\kingmaker-core\\src\\enterprise.rs",
+    "crates\\kingmaker-core\\src\\enums.rs",
+    "crates\\kingmaker-core\\src\\identity.rs",
+    "crates\\kingmaker-core\\src\\ids.rs",
+    "crates\\kingmaker-core\\src\\lib.rs",
+    "crates\\kingmaker-core\\src\\market.rs",
+    "crates\\kingmaker-core\\src\\money.rs",
+    "crates\\kingmaker-core\\src\\operations.rs",
+    "crates\\kingmaker-core\\src\\pop.rs",
+    "crates\\kingmaker-core\\src\\production.rs",
+    "crates\\kingmaker-core\\src\\province.rs",
+    "crates\\kingmaker-core\\src\\state.rs",
+    "crates\\kingmaker-core\\src\\storage.rs",
+    "crates\\kingmaker-core\\tests\\identity_test.rs",
+    "crates\\kingmaker-core\\tests\\primitives_test.rs",
+    "crates\\kingmaker-io\\Cargo.toml",
+    "crates\\kingmaker-io\\src\\codec.rs",
+    "crates\\kingmaker-io\\src\\lib.rs",
+    "crates\\kingmaker-io\\src\\market_projection.rs",
+    "crates\\kingmaker-io\\src\\production_projection.rs",
+    "crates\\kingmaker-io\\src\\projection.rs",
+    "crates\\kingmaker-io\\src\\runtime_config.rs",
+    "crates\\kingmaker-io\\src\\sqlite_loader.rs",
+    "crates\\kingmaker-io\\tests\\codec_test.rs",
+    "crates\\kingmaker-io\\tests\\common\\mod.rs",
+    "crates\\kingmaker-io\\tests\\identity_graph_test.rs",
+    "crates\\kingmaker-io\\tests\\load_world_test.rs",
+    "crates\\kingmaker-io\\tests\\market_projection_test.rs",
+    "crates\\kingmaker-io\\tests\\production_projection_test.rs",
+    "crates\\kingmaker-io\\tests\\review_regression_test.rs",
+    "crates\\kingmaker-io\\tests\\runtime_config_test.rs",
+    "crates\\kingmaker-server\\Cargo.toml",
+    "crates\\kingmaker-server\\src\\lib.rs",
+    "crates\\kingmaker-server\\src\\main.rs",
+    "crates\\kingmaker-server\\src\\routes.rs",
+    "crates\\kingmaker-server\\src\\state.rs",
+    "crates\\kingmaker-server\\tests\\server_api_test.rs",
+    "crates\\kingmaker-sim\\Cargo.toml",
+    "crates\\kingmaker-sim\\src\\artisan_capital.rs",
+    "crates\\kingmaker-sim\\src\\food_conversion.rs",
+    "crates\\kingmaker-sim\\src\\invariants.rs",
+    "crates\\kingmaker-sim\\src\\ledger.rs",
+    "crates\\kingmaker-sim\\src\\lib.rs",
+    "crates\\kingmaker-sim\\src\\market.rs",
+    "crates\\kingmaker-sim\\src\\market_clearing.rs",
+    "crates\\kingmaker-sim\\src\\market_cycle.rs",
+    "crates\\kingmaker-sim\\src\\market_inputs.rs",
+    "crates\\kingmaker-sim\\src\\market_invariants.rs",
+    "crates\\kingmaker-sim\\src\\market_operations.rs",
+    "crates\\kingmaker-sim\\src\\market_policy.rs",
+    "crates\\kingmaker-sim\\src\\money_math.rs",
+    "crates\\kingmaker-sim\\src\\needs.rs",
+    "crates\\kingmaker-sim\\src\\operation_session.rs",
+    "crates\\kingmaker-sim\\src\\ordering.rs",
+    "crates\\kingmaker-sim\\src\\pipeline.rs",
+    "crates\\kingmaker-sim\\src\\production.rs",
+    "crates\\kingmaker-sim\\src\\production_activities.rs",
+    "crates\\kingmaker-sim\\src\\production_feasibility.rs",
+    "crates\\kingmaker-sim\\src\\production_invariants.rs",
+    "crates\\kingmaker-sim\\src\\production_payroll.rs",
+    "crates\\kingmaker-sim\\src\\production_validation.rs",
+    "crates\\kingmaker-sim\\src\\state_procurement.rs",
+    "crates\\kingmaker-sim\\src\\storage.rs",
+    "crates\\kingmaker-sim\\src\\supply.rs",
+    "crates\\kingmaker-sim\\tests\\common\\market.rs",
+    "crates\\kingmaker-sim\\tests\\common\\production.rs",
+    "crates\\kingmaker-sim\\tests\\internal\\food_conversion_native.rs",
+    "crates\\kingmaker-sim\\tests\\internal\\market_policy_storage.rs",
+    "crates\\kingmaker-sim\\tests\\invariants_test.rs",
+    "crates\\kingmaker-sim\\tests\\ledger_contract_test.rs",
+    "crates\\kingmaker-sim\\tests\\ledger_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_big_budget_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_clearing_native_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_cycle_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_differential_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_input_orders_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_invariants_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_operations_test.rs",
+    "crates\\kingmaker-sim\\tests\\market_scaling_test.rs",
+    "crates\\kingmaker-sim\\tests\\money_math_test.rs",
+    "crates\\kingmaker-sim\\tests\\needs_native_test.rs",
+    "crates\\kingmaker-sim\\tests\\operation_session_test.rs",
+    "crates\\kingmaker-sim\\tests\\ordering_test.rs",
+    "crates\\kingmaker-sim\\tests\\pipeline_gate_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_activities_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_cycle_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_differential_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_feasibility_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_invariants_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_maintenance_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_review_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_test.rs",
+    "crates\\kingmaker-sim\\tests\\storage_production_test.rs",
+    "crates\\kingmaker-sim\\tests\\supply_test.rs"
+  ],
+  "reference_js_files": [
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\population\\needs-resolver.js",
+      "sha256": "58e269dc9fc31675b13b1e206f339ca2aeb8ca7ae884c458b50e67ed0829fe0c"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\market.cjs",
+      "sha256": "659d03944c90a24d11c7b75f7cb0d9fd2beb3155681b4b9f1d35c5c300c4a369"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-market.cjs",
+      "sha256": "2af9e87e8916700c95c310c2b66a26f1435d140a13554beb5f60f3679ba7264a"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\regional-market.cjs",
+      "sha256": "b61c831905bb4aa036fd54521730f50de8a2934d28b8c1eab1cd2bb689100f0f"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\food-conversion.cjs",
+      "sha256": "fcb844aa916012c7a601eb27cd849bf86812bb4a91a68cc3841b6931ab63601c"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\artisan-working-capital.cjs",
+      "sha256": "c8abf4823e46926aad0a873f69a783a561d2aa27ad94369ac1318bdce955907c"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\building-rules.cjs",
+      "sha256": "c29b5edcafa70a80baa4cab492c54d8fa4611473d83b5573445a5e0d122a80cd"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-network.cjs",
+      "sha256": "f81be64aeae4d01211f88e00b121c13e36419c96da62da8f9a19a67be69500a7"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-turn.cjs",
+      "sha256": "639c0d483a463821786d4f8527437fa003b4714954abaa81c585cd4be807425f"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\ledger.cjs",
+      "sha256": "30d99958b29f620fa919dfe6f5c899b48f72e1b682dc71769592ea6350b548ec"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\storage.cjs",
+      "sha256": "714bb332b0553617884f9255cb7a5123daed60da43a6af7df511ebe9549bbfc1"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\activity-plans.cjs",
+      "sha256": "31f24a5bd380c8476fcd2817979e7c59948a9b58531347ebb626af1e8a824220"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\production-catalog.cjs",
+      "sha256": "95b0eed681849d8c69a4ebefa80efd4f30234de36c8a6dd0e613dd5277670058"
+    }
+  ],
+  "binaries": {
+    "kingmaker-cli.exe": {
+      "sha256": "0f41e78bf87df052c8b93437b3590e4d077540700187e81a9fa24557f8165a31",
+      "bytes": 11589142,
+      "release_matches": true
+    },
+    "kingmaker-server.exe": {
+      "sha256": "878bf4064f0f38957cc3c76061844fb0950c74cf070f44ec09590dc129916978",
+      "bytes": 9395168,
+      "release_matches": true
+    }
+  },
+  "launchers": [
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "bca864e27c36a5608e2e3adde796be47e1f6189141bb5937cdd1c82eb2b5b4d6",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "2a10918a9493f1712ecf63bbce33840aa0d2ce619f5b53e1419329d4cee4b300",
+      "unchanged": true
+    }
+  ],
+  "counts": {
+    "accounts": 70050,
+    "enterprises": 15229,
+    "people": 94955590,
+    "personal_account_absent_in_source": 7340,
+    "personal_account_bindings": 58576,
+    "pops": 65916,
+    "provinces": 2679,
+    "source_records": 1146248,
+    "stockpiles": 160223
+  },
+  "market_data_counts": {
+    "maintenance_agreements": 7340,
+    "native_phase_receipts": 0,
+    "need_profiles": 48,
+    "profile_refs": 65916,
+    "sale_offers": 1620,
+    "territory": 2679
+  },
+  "tests": {
+    "workspace_fresh": {
+      "passed": 182,
+      "failed": 0,
+      "ignored": 0
+    },
+    "full_read_only_case_reused": {
+      "passed": 1,
+      "debug_seconds": 214.65,
+      "loader_unchanged_after_review": true
+    },
+    "combined_checked": 183,
+    "release": {
+      "passed": 11,
+      "failed": 0,
+      "ignored": 0
+    },
+    "source_oracles": "real isolated JS norms/orders/clearing/storage/inputs/food and full small-phase sequence with food flag false/true; economic operations/cash/quantities checked"
+  },
+  "release_inspect": {
+    "exit_code": 0,
+    "wall_seconds": 76.8043705,
+    "mode": "read_only",
+    "full_world_weeks": 0,
+    "load_elapsed_ms": 73379
+  },
+  "review": {
+    "independent": "work/rust-market-2026-10-13/final-review.md",
+    "resolution": "work/rust-market-2026-10-13/review-resolution.md",
+    "important_fixed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "critical_remaining": 0,
+    "important_remaining": 0,
+    "minor_deferred": []
+  },
+  "supported": [
+    "current-source needs, prices, scope and payer projection",
+    "exact paid joint regional clearing with ownership and held stock protections",
+    "finite warehouses, real rent/partial release/refunds",
+    "true potential/labor output-based input and existing construction demand",
+    "real 1.03 grain/flour and5 livestock/meat conversions, used virtual offer only",
+    "complete maintenance and same-period production linkage",
+    "atomic named Maintenance/EarlyFood/ClosingMarket, ordered stages and replay",
+    "source operation-aware cash/goods/people/labor/operational-rights audit",
+    "current readonly CLI/API and updated EXE"
+  ],
+  "not_implemented": [
+    "full native week integration",
+    "dated shipping/preorders/food reserves",
+    "state budgets and sponsored reserve funding",
+    "autohiring/professions/migration",
+    "adventurer issuance",
+    "ownership income/investment/construction execution",
+    "native changed-state checkpoint/export/restart history",
+    "full legal title validation",
+    "native heap limit enforcement"
+  ],
+  "full_world_weeks_executed": 0,
+  "full_world_production_phases_executed": 0,
+  "annual_save_reload_continuation": "not_tested",
+  "full_native_week_duration": "not_measured",
+  "economic_health": "not_measured",
+  "limits": [
+    "No working-world economic phase or annual series was run.",
+    "Native mutations and named receipts are RAM-only; source envelopes are preserved but native persistence is not implemented.",
+    "Full legal rights remain NotMeasured; operational transitions checked.",
+    "Source i64 money limit checked, BigInt intermediate invoices/ratios.",
+    "Surplus rent/conversion commute inside atomic publication; source reports conversion first, native authenticates rent first.",
+    "Native current-source singleton projection does not import fabricated native phase receipts from old saves."
+  ]
+}

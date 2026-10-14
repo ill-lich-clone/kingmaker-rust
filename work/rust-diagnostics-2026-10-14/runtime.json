@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "storage": "memory",
+  "dbPath": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\work\\rust-diagnostics-2026-10-14\\input.sqlite",
+  "campaignId": "world-306",
+  "workers": 1,
+  "maxHeapMiB": 16384,
+  "checkpointDirectory": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\checkpoints\\world-306-recovery-2026-10-12",
+  "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8"
+}

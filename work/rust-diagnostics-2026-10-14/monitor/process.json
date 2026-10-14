@@ -1,0 +1,9 @@
+{
+  "outcome": "memory_limit",
+  "exit_code": 999,
+  "pid": 42988,
+  "peak_private_bytes": 12884860928,
+  "peak_working_set_bytes": 12018216960,
+  "sampling_interval_ms": 100,
+  "memory_limit_notified": true
+}

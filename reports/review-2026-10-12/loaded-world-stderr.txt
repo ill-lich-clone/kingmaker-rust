@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.25s
+     Running `C:/Users/ill_lich/.cargo-target/kingmaker-rust\debug\kingmaker-review-probes.exe "../Проект карты Тейванкаля/data/kingmaker/current-world.sqlite"`

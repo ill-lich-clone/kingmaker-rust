@@ -1,0 +1,45 @@
+The target architecture is set to "auto" (currently "i386:x86-64").
+[New Thread 18780.0x6498]
+[New Thread 18780.0x65a0]
+
+Thread 3 (Thread 18780.0x65a0):
+#0  0x00007ffc965110d1 in ntdll!DbgBreakPoint () from C:\Windows\SYSTEM32\ntdll.dll
+#1  0x00007ffc9653cb3e in ntdll!DbgUiRemoteBreakin () from C:\Windows\SYSTEM32\ntdll.dll
+#2  0x00007ffc94b77374 in KERNEL32!BaseThreadInitThunk () from C:\Windows\System32\kernel32.dll
+#3  0x00007ffc964bcc91 in ntdll!RtlUserThreadStart () from C:\Windows\SYSTEM32\ntdll.dll
+#4  0x0000000000000000 in ?? ()
+
+Thread 2 (Thread 18780.0x6498):
+#0  0x00007ffc96510fd4 in ntdll!ZwWaitForAlertByThreadId () from C:\Windows\SYSTEM32\ntdll.dll
+#1  0x00007ffc964d4d6d in ntdll!RtlWaitOnAddress () from C:\Windows\SYSTEM32\ntdll.dll
+#2  0x00007ffc964d4c22 in ntdll!RtlWaitOnAddress () from C:\Windows\SYSTEM32\ntdll.dll
+#3  0x00007ffc964d4933 in ntdll!RtlWaitOnAddress () from C:\Windows\SYSTEM32\ntdll.dll
+#4  0x00007ffc93c1ee2f in WaitOnAddress () from C:\Windows\System32\KernelBase.dll
+#5  0x00007ff6a62ef684 in <std::thread::thread::Thread>::park_timeout ()
+#6  0x00007ff6a59e2fc9 in <std::sync::mpmc::list::Channel<()>>::recv::{closure#1} ()
+#7  0x00007ff6a59e3f75 in <std::sync::mpmc::list::Channel<()>>::recv ()
+#8  0x00007ff6a59d36f5 in std::sys::backtrace::__rust_begin_short_backtrace::<<kingmaker_cli::runner::Heartbeat>::new::{closure#0}, ()> ()
+#9  0x00007ff6a59e3498 in <std::thread::lifecycle::spawn_unchecked<<kingmaker_cli::runner::Heartbeat>::new::{closure#0}, ()>::{closure#1} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0} ()
+#10 0x00007ff6a63083c7 in <std::sys::thread::windows::Thread>::new::thread_start ()
+#11 0x00007ffc94b77374 in KERNEL32!BaseThreadInitThunk () from C:\Windows\System32\kernel32.dll
+#12 0x00007ffc964bcc91 in ntdll!RtlUserThreadStart () from C:\Windows\SYSTEM32\ntdll.dll
+#13 0x0000000000000000 in ?? ()
+
+Thread 1 (Thread 18780.0x78f4 "main"):
+#0  0x00007ff6a6340846 in <alloc::string::String as core::clone::Clone>::clone ()
+#1  0x00007ff6a5aff76b in <alloc::collections::btree::map::BTreeMap<_, _, _> as core::clone::Clone>::clone::clone_subtree::<alloc::string::String, kingmaker_core::storage::StorageGoods, alloc::alloc::Global> ()
+#2  0x00007ff6a5aff57b in <alloc::collections::btree::map::BTreeMap<_, _, _> as core::clone::Clone>::clone::clone_subtree::<alloc::string::String, kingmaker_core::storage::StorageGoods, alloc::alloc::Global> ()
+#3  0x00007ff6a5c0a0da in <kingmaker_sim::storage::StorageBatch>::new ()
+#4  0x00007ff6a5f23207 in kingmaker_sim::food_conversion::surplus ()
+#5  0x00007ff6a5f1df71 in kingmaker_sim::food_conversion::plan_food_conversion ()
+#6  0x00007ff6a5decee6 in kingmaker_sim::market_cycle::prepare_market_phase ()
+#7  0x00007ff6a5de9e1a in kingmaker_sim::market_cycle::execute_market_phase ()
+#8  0x00007ff6a59518c0 in kingmaker_sim::native_week::try_prepare_native_week::<kingmaker_cli::runner::run::{closure#1}::{closure#1}> ()
+#9  0x00007ff6a5993f25 in kingmaker_cli::runner::run::{closure#1} ()
+#10 0x00007ff6a599e2c3 in kingmaker_cli::runner::run ()
+#11 0x00007ff6a59a7bd9 in kingmaker_cli::main ()
+#12 0x00007ff6a59d3606 in std::sys::backtrace::__rust_begin_short_backtrace::<fn() -> core::result::Result<(), anyhow::Error>, core::result::Result<(), anyhow::Error>> ()
+#13 0x00007ff6a59e2dad in std::rt::lang_start::<core::result::Result<(), anyhow::Error>>::{closure#0} ()
+#14 0x00007ff6a62fc711 in std::rt::lang_start_internal ()
+#15 0x00007ff6a59acfbd in main ()
+[Inferior 1 (process 18780) detached]

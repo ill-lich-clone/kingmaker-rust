@@ -1,0 +1,1266 @@
+[
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\Cargo.toml",
+    "Hash": "702D83712D32D51FB70C63393876651AB80184584484C1935E47F3D209B97208"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\examples\\budget_probe.rs",
+    "Hash": "E3081AF874EE45AD3AFAE9B2F2494A497FCC3DCF39DBBBA28A230304390906A0"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\examples\\labor_probe.rs",
+    "Hash": "89323354C805BF2F6C6547BDDDEE8D924AC3E634C81B9052A6CDCDC1C5800834"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\examples\\mobility_probe.rs",
+    "Hash": "F5C1DBCDFA13F5AF7A7A4918A971535301480D207F81CDBF5A4C0340C8D1FEAB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\src\\main.rs",
+    "Hash": "08249073A0F57F1A217580F5A56EDE65C745B98DC1D69E6E6CABF6402BDE17F6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\src\\profile_tests.rs",
+    "Hash": "D996F4D7A0039A026BFBEAACB579725DAFA3F2D60F2567AC4973C7A60E685A68"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\src\\runner.rs",
+    "Hash": "641AD0B05A20932F3334AFED6D06CFD2ACBD6C5FDDFB91388DEE8A5F0E2A91B2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\tests\\cli_test.rs",
+    "Hash": "0417748663BDEB0DC1B878F94E05C105E58022DBE0D7A5C1BE6801E17F448A34"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-cli\\tests\\runner_test.rs",
+    "Hash": "5681C7EE72D3BF0C637EED85745E155326EB033BC526391BD64A90729E623851"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\Cargo.toml",
+    "Hash": "4B459B7709F5B59F517FA7181693AF85351C64DBCD0F4D58F065B9EC76EB8470"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\audit.rs",
+    "Hash": "F0E63CE7D1464DD321CD035E98A733B1246CBBC0540958BAEC085A53ECF6DBA1"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\budget.rs",
+    "Hash": "C5DEF696A09F46550BC7AB5A6938D16CA9B5E08D24D715321CCC7C05F4CF0E9F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\calendar.rs",
+    "Hash": "407C1E2241CD359F563579337565A61E698E969041510197759F29E3F792C6BE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\construction.rs",
+    "Hash": "5C3952A952F087BAE951F1753897DB557449A4FCE140094ADE727139593D630C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\diagnostics.rs",
+    "Hash": "BF10E9CF4586B8623D5EC96A141D8468D3EE7F4C690A36E6B06B408968AEF1CB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\enterprise.rs",
+    "Hash": "D5C8A121B0D0F1577B83184E66E7905A2EB9FD99C55C10DDFB19D9D787F6B4AB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\enums.rs",
+    "Hash": "1F7A2A5793D528C0FDD053418B4C9251E18FC7B0980BF9208574407552A7C254"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\extra.rs",
+    "Hash": "C95694DE4A72195846DEF2BC0519240878EF15A234CFA815D72A6FBEA2596B50"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\history_view.rs",
+    "Hash": "0294B846BA26A561DE341EAA05F44E03FED43B67B9D505942E39C6058CF7F205"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\history.rs",
+    "Hash": "96791DF1CB66FBB25A8C534E9ACBFC4EDB42BC087B3673C19DFFE1B604ED56B3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\identity.rs",
+    "Hash": "FC7256E308E1FEFC45603B5DD30A979C6117969AC012396C5D794FB3B0C8641F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\ids.rs",
+    "Hash": "49EA956D1CDD6EEA11CE22CE0B75ADEF693C597213BF81CA88D28584D0C90914"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\income.rs",
+    "Hash": "100D20D15FA566042E5B677B73440660A06EC1B3C7DC02227FE0BDEA0C2544D2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\labor.rs",
+    "Hash": "343B3B4D4A27CD8DBF4C4E189CD8A65AD20ACC341304A20E6A7E9130078EC5E6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\lib.rs",
+    "Hash": "9967B08B921C7DC19C3E0447BF7B66B6490E4208F08AD22C897A5501D4406CE9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\market.rs",
+    "Hash": "671E1803BD612CB910ED6B4E1D05F2724B39E353EF7268ED9160E936053D633B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\mobility.rs",
+    "Hash": "1A2FD8072F01F64D7D827FDD69EBDBADF9A30A5A7A78911651DE8CDB68AE1064"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\money.rs",
+    "Hash": "041822A16AE66E5C3A2A46C0FA586E43D245F879F2EA1E151E802D3D04FC73D9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\operations.rs",
+    "Hash": "4555FBF3BF3D1CC1268D6DCAE91736E4E68AB98074F99C227F873C9FC32C5C72"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\pop.rs",
+    "Hash": "12C873ED3918A878A4E5FBBAA7C3D0A536DF17627392D9CBAC01DBB41AE08217"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\production.rs",
+    "Hash": "73A6251877679256DE1B9A89431276D4F157027314751D04DCFEFC2A2071BF45"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\province.rs",
+    "Hash": "CA8C61D48462BB96A5FC4C2F2327A121B65A13B3A21AD28F76CD0C699AF26682"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\row_store.rs",
+    "Hash": "31F0257B3825AEDC52066B4228A8094A8C61F828E6D6AC0E18FB889CC202BBDF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\source_store.rs",
+    "Hash": "3B2476539F190D303DC1E1C4D72DA0EDE2B310F7FB9FFEEA6125802279FBE63E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\state.rs",
+    "Hash": "18FCF0ED71C7ADDC70ADF2D98DD5B59FE2E0C2E877B85325DCBE24292D6C3F26"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\storage.rs",
+    "Hash": "F4D853F963789AF4D9ED6C855454EFA9EB849573E0690115C1EAF6A3D07CB393"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\transport.rs",
+    "Hash": "412A37F068D147A9F05BC4790F8DA7AA92AC3A2DF3B882ED5307E6E6EBC0FE16"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\week.rs",
+    "Hash": "24A080AE10597FE18ACFCEFE96ACBD146FDEABC685F7A4C2CE3207B98311179C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\world_fields.rs",
+    "Hash": "43F8066A12A3909EDF50B3D1B0A59BB465AA0F1E291E5337FD4C9F6D42D99514"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\world_groups.rs",
+    "Hash": "5BEF52D6E7258808953AF4E6C90307E866102AFF23B73B5A40DB5E63D1874561"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\src\\world_read.rs",
+    "Hash": "49C552FB7F227ACCB334E964A5795676624FD492CFFE401B7D7DCEFA3B1AEC54"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\diagnostics_test.rs",
+    "Hash": "AAC0AC64B4A4183239121F6A278278B6BC75FD823DD165DB2A38B207679088F7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\float_snapshot_test.rs",
+    "Hash": "A56B459D81399565817CF6F55821FEAD01E3DF6C1E8BBA219F559452F7EA0934"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\identity_test.rs",
+    "Hash": "36E8BA7DD7A27F84DC0DE53043500248EA8B60F3DEF5FE723876F05BC1C355D7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\primitives_test.rs",
+    "Hash": "7228DBBF36F5E838773EBF114CF26EDE43E32DA7C8E751CA57380CD4EF15F240"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\row_access_complexity_test.rs",
+    "Hash": "AA4BE501A8B4E1AFF88DF2FFB44E60E26502B10A929E26F8B05E737A0F567D2A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-core\\tests\\shared_state_test.rs",
+    "Hash": "1A7AB05C099C0AF72B65D7D1658AEAC6196B25068C73CA4724E3DE16CB591AAC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\Cargo.toml",
+    "Hash": "B5AAEDFF0947FF044A69CFFE55CD701DA498F156A26FD91A99B87A25C25FAE49"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\budget_projection.rs",
+    "Hash": "E591CEAA439876704322975E6A97CA61795EE62EE2D65BB7C6FEA34C8B4916D8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\checkpoint.rs",
+    "Hash": "69E77595AAB246722DFB4D0375F1424940039F02A3E76F4CA5F65B6636C1BC50"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\codec.rs",
+    "Hash": "3ED721D452DFA0619670E2DD077F23A28D5E267AF8F53E2FC09A374D3142042F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\construction_projection.rs",
+    "Hash": "9C561025479625A46C8DF9B65F50879C0A38180F559C2F8EFCA645AD87B9A4DD"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\economic_comparison.rs",
+    "Hash": "CBDA0942A168863F1FCF5109B11FF4210AC7A611D14B3C071DB1072DB394A739"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\history_store.rs",
+    "Hash": "4E511D889AEE57358872E716D24A375D70E064F23A7B7915654D0E0B18C1EB74"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\income_projection.rs",
+    "Hash": "27F6690FE9337F225AA02339AB134854F912D354BF7B31FFE394CAEDB7918087"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\labor_projection.rs",
+    "Hash": "6275EA120F616DA3CD395D7BFFB0BDB3072FE92393B5970DE9DE5C4D27793590"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\lib.rs",
+    "Hash": "09367CFA8F7FE76DACBD84181028B34F2D078655B0545B7E416CA25620125B70"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\market_projection.rs",
+    "Hash": "DBFDB5BF6D09C7EB4CAEC8612F2308D5E053B9FC1BF60BAC019F4C968166B185"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\mobility_projection.rs",
+    "Hash": "3B62B34799937221B89FE024F2C074E20A69A42B3F97428451D4BC3BF230F068"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\production_projection.rs",
+    "Hash": "686BC91FDAC068CA1620E7F3588C99C72529E5157814E18D56981E210A1C6AFB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\projection.rs",
+    "Hash": "7732E6E7CC8EF99B6274EF22A580A7E41013E858A7152C744A984AABBC475BA3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\runtime_config.rs",
+    "Hash": "F1AB8E650F085F18DBACFDA93C1D17C5705B5E67E29A0D9AC1F2A7F04D28A8D6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\source_store.rs",
+    "Hash": "C364BA4BC3348C4010BB74E2E2316AE7E5CEFE75045BBEE2B1DFA618553641B4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\src\\sqlite_loader.rs",
+    "Hash": "695AF4F1F20E461DB924A7502D57520532E4DEABEABB89AE33C86E107CEDF6B0"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\budget_projection_test.rs",
+    "Hash": "F3A11AF4E6AB232F3A7DC95F980226C8FCA5EDE8BD8C2250F1D7A3591EA88903"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\checkpoint_test.rs",
+    "Hash": "6A691EDF163921DE97137EA1740657D68772F092CFED0F2E537F0063CA1BCFB6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\codec_test.rs",
+    "Hash": "5BAF1E40A722E1AF1C53D86EEE874D292BDE28CC089E2B64D8E88A26E41E7A30"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\construction_projection_test.rs",
+    "Hash": "DBB6EDA8763A0ABAB317867632CDAD51CA79E9F0C6E627E49BD3F9402517A7E8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\consumer_storage_projection_test.rs",
+    "Hash": "D04F1C537F6B332A08345218548D0291464B15EFC8D1F572F5D02940D6E6543F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\history_store_test.rs",
+    "Hash": "E7FA21C5D39B9E1E66212712C5178EBEFB85B220B838DA62427696AD97360599"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\identity_graph_test.rs",
+    "Hash": "B67D9FBF75330A59B93B036F7DD29414A2AEEB925F84132871EFA0E942EF36DA"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\income_projection_test.rs",
+    "Hash": "ED8599A3198CD46A89793687F0C66F0A644F3005A1E335282D74F63992C31CAC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\labor_projection_test.rs",
+    "Hash": "80770376494A55D0A28995883336B442799D4F136DA7BFC1FBAB49C6378F2734"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\load_world_test.rs",
+    "Hash": "1D0C0601C6B1A7703A2C6CAF52888B953B115B7B7FC8B471E95CCACDAD264916"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\market_projection_test.rs",
+    "Hash": "A09C9BEDAB774CD7364D4F006D31BB69920EB4D8795847D358BC061BDC0B1712"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\mobility_projection_test.rs",
+    "Hash": "13591CED492ACEBC48D4ABBCDFCA765391728C54B35CC2B1E76835C36B99E8AF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\production_projection_test.rs",
+    "Hash": "D7A85DF68470666C7621DA65C4DFF0E967A90B42AFEB69F02894389BBC31E591"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\review_regression_test.rs",
+    "Hash": "39EFA45879977898480FCD1566D4F8EE5147CF82B1F3C44B0C69F535D53C07EE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\runtime_config_test.rs",
+    "Hash": "85247B638F003340A24DC507DA87D79EDA6656DBDC40B6CFF976AF243B5B6EB2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\shipping_projection_test.rs",
+    "Hash": "FA52DBDE52B4B7779DC41B457297FB9F5F3280FAF7E70DBDE809EEF7083413E6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\source_store_test.rs",
+    "Hash": "0EA2E96F04E44A55CB674CF78DC0B37DD7FAB0112E17520428E40193DEB12D92"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-io\\tests\\common\\mod.rs",
+    "Hash": "443F9584C99727C9606718E9C5F5E5B6B81768BDD62959D8378ABFC84B2E1625"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\Cargo.toml",
+    "Hash": "3209E8D2E4143D391D33FC914768DDDDD60FC9D39010E5BB37C8D49A13F92639"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\src\\lib.rs",
+    "Hash": "170DA307E404602A8B16833E8BAD12279632AEA0C09BE7E1FC308BA8DC9FBB39"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\src\\main.rs",
+    "Hash": "12A6E46746D4AFFFD7D58E7D8A11211C070313A5BF42A9D3E87225CBB85A8F07"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\src\\routes.rs",
+    "Hash": "2D7B2383CDA06FAD476E7270D9509B64CCA505DCF38658C9BC5DE788360709B2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\src\\state.rs",
+    "Hash": "AFC298E7F6C8299F5FEBBB413FB4F3BC13178E5AD08DD06620D71F417C1BB533"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-server\\tests\\server_api_test.rs",
+    "Hash": "EBF59879CF862D24EDD9F0C962B79D83A2E49E033FF789C14D5D9E332F8A18BF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\Cargo.toml",
+    "Hash": "24808B119BEE099A9DD30E93B268D8CBD4B6E7AEF60D9580DD6EE8A1B7B26941"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\artisan_capital.rs",
+    "Hash": "FF7D684CBD53C8E46C8516316077F245994AB9994FB20CCCD6C2289ADC03B6D9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\artisan_choices.rs",
+    "Hash": "7136AF0FB595087B9BF721C7FC383C5023B237887A71725B2D8B9D8EB9B8818D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\artisan_income.rs",
+    "Hash": "54ADFE7EEDE3CC3ECE0D80F4FA8C8A5A317CFBC59AAA1492625A0973DAADD663"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\artisan_working_capital.rs",
+    "Hash": "612D3193925B5833FC073DD0D3AF571DCEF9234451961FD8FE96CFF90B4B0A54"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\budget_cycle.rs",
+    "Hash": "534F141D7F9A2AEF440BA9C0A3F3816FA1AB7EB652A5E0B1B07AB01DB6E7F10B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\budget_funding.rs",
+    "Hash": "3E8494BFFCB8AAC02FE7ED70A8FCC66CC1F591C911A412B7E019BF0394F5DDF7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\budget_invariants.rs",
+    "Hash": "7D5A43D4BEDE8522D880B85355B333E9FFAF43A6AF3828542D38940B1DAEDA76"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\calendar.rs",
+    "Hash": "D9945DE65C1F57427F3BBB52EDD41AF492684D3659B4173AC18E78E274B347FF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\cohort_assets.rs",
+    "Hash": "CEC34EF00D12C1281A257D9943D5408317A95820648665602106956CCD8B3DAA"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\cohort_cycle.rs",
+    "Hash": "8A45B8A89B5B823392BD399F8E4760AD590A958EF4823E60FBD01CD515639386"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\cohort_scope.rs",
+    "Hash": "00E0CAAA4AD4AD93B059BA3AA766F4D3141B0505F9AA01733DA432AC59E7E62F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_cancellation.rs",
+    "Hash": "19568D758D06E587C5EBB3D3FD8214F175E7D651DD5018FC9BE8CA7101F472D8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_cycle.rs",
+    "Hash": "F45C1C1990C10F4223677CB382E939B0EA65A4BA77E84CAE46B5FA44A032FE7F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_invariants.rs",
+    "Hash": "EC343F1320D8D8300DA0E35F486FDEA56072B115CD191B36DC50C334DD2C2AED"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_labor.rs",
+    "Hash": "05844C42BDF089F116CF71AA5DD205C926E5FB12C2CE3961E48BD5AC488E3819"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_limits.rs",
+    "Hash": "5699DD88A589D88594AAB463812C224A763F26ECB55053EE218F0E1936D885E2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_operations.rs",
+    "Hash": "9072BF41E88BA4F8366B3A0BE00643E85B4E84D44C151240E4A0C16DB15785BF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_payroll.rs",
+    "Hash": "CD7B5E346B16FA53B00993F2F77CA02B7DA7383BB08E41BF4EDCA67FEA81844A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction_rights.rs",
+    "Hash": "0B1A81124BE1ABB57B170638985228DEC49165AEDA45433922A0AE67840C739F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\construction.rs",
+    "Hash": "ED084F8E455F0D23B53009D82D1C888193A32586DFDF5EC97ECDDE273015D7F5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\food_conversion.rs",
+    "Hash": "3846490D1D72D1715811B89E2B89955F96F3ED0CC51B6905EA6092A0068F45CE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\food_supply_forecast.rs",
+    "Hash": "34E04CB8EC1C7AE192B4120C92DD58983170867F8E41F14B35AAF3C786D2BFF9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_attribution.rs",
+    "Hash": "AEC8A71BDA6A31BE80F79DCD34FC6F5173B520350C5484668FB83E964CD1C544"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_basis.rs",
+    "Hash": "04708288629CD10B6DE36F91DE5958EADD8D53498846CE0A9AD73EABAE9CE154"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_capital.rs",
+    "Hash": "95D8E8A7602B29DE0B2F9B4135C020A580DECFA4D69A9449D4ED244A685AEC1B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_cycle.rs",
+    "Hash": "130F49767E67109ECE89F9A186B560C484A9009186767655526AD526A9FA3FC6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_invariants.rs",
+    "Hash": "4FB269E4EBC0525FFF02D5BDB3049B5A02663C5ACB88C91F3BCFD7B7D1AD5E1F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_operations.rs",
+    "Hash": "AE65FFC70FDFC203DD07F88ED0A12D7CFA5FCF347D7E0F1BBE9D8EBC8B040A99"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\income_recognition.rs",
+    "Hash": "A9FF1D5E7B30CE76D1F32FE1ABBBC0F4DBB0A563DFF9C2CE4A21F6B21DE2A074"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\invariants.rs",
+    "Hash": "63C0DEFFB48C8DCB9B961AC4A78BF296BEFA3043ECC927CF32B2087FAE489CFA"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\investment_assessment.rs",
+    "Hash": "6A6FFDC8083E4B7F9815E24C36937E89D5C76A7AFBD47165852410A4A07739DB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\investment_invariants.rs",
+    "Hash": "0733ADC7465C4C9A11290E3AED594F88929BC92C8628E9BC0F6587A3D15E5D8C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\investment_labor_index.rs",
+    "Hash": "75721A041164286D533384D404C3EE4991EC42EECDF4EB25252675B33AE106A2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\investment_staff.rs",
+    "Hash": "5EA71D499B43AC1D7476430965A1A84FEB8255ECE1E4FC528BD22F17A0255314"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\investments.rs",
+    "Hash": "4ECFC66F5E8B404E44BB38111E4E0237A0E19CD7F216B15A9C1F3BB17DEFF810"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_capacity.rs",
+    "Hash": "17C7E9A8AE5C60CFE1598D47D689DA2598CF883F51131D509598CEB71A6922CC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_cycle.rs",
+    "Hash": "10487AACED9EC4B9E7920F3078E0B5A31784A6264D810EB515535BAA75CD03D5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_forecast.rs",
+    "Hash": "2B410F78052E19CA82E5D3216C1563F4372081A5AF2729FD21631BD5962A5C20"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_history_cycle.rs",
+    "Hash": "462CDBAFC4EC01192C3041F0A79D0A1AC1AE20F3BC328A016E8B694A52E19DE4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_history.rs",
+    "Hash": "BFF9A9EF77F0CE8587C8EB6B15BC8F10D9451FC041FAA0E26228EA533CE14203"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_identity.rs",
+    "Hash": "75F216A8F2180C7242327E3CF25EDE43BB75F6B4F17EFBD11D9700C6A26F3035"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_money.rs",
+    "Hash": "D6F1510A25537DC238CAC34E9DC1D88C54D1C2568FCAAE3BD697ED81AEFFB571"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_offers.rs",
+    "Hash": "BB81DA206CDD2CA158297E97F9B483E22B96C625B67034ECA014373F34E1D97D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_release.rs",
+    "Hash": "8BD2904BEF67D1538E888240A6776FD5C38FE597347AECF572C056BAD18C9661"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\labor_roster.rs",
+    "Hash": "3F891A3DCCDD1A35F7DE5858B3DB63861F70D9EFBC65385EDEB645985E2D0092"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\land_paths.rs",
+    "Hash": "2735D708983A7BB011BA77610EAD497B10F7A742BA8E2479E78E1501655F183F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\ledger.rs",
+    "Hash": "CEF67B3D284EB4AAF5FCC10FDA760F19B8018C9D49070892836CA220865D450D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\lib.rs",
+    "Hash": "3A74CE985AD8BEB63D92CBC07B473F8C3FBACCC5307158043B56AD760338562D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\local_food_reserves.rs",
+    "Hash": "45B06359B141C50EDCADCB9EFF0273CF260EE6FD94B2BAB075FC82AE3167155E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\local_hiring.rs",
+    "Hash": "77AC6D424286D0C2C01B3282E54877EB78BD377702EB3CE1CB26622D65FC4202"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_clearing.rs",
+    "Hash": "1C0B053CE2CA2881F1DDE6FA75780A6A0E6F3DF9B7893935BFF72B420EB51033"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_cycle.rs",
+    "Hash": "D82DD50DECE9600410CC5CD3FA8A5EB810E3AE6DCFFF7A2E93480CE48537B102"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_index.rs",
+    "Hash": "4D6B305A2C2B5AEEB241F81BDE8EB693B28B15B20439A77896FADBF2F3674ACB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_inputs.rs",
+    "Hash": "A75EDDF347005D5EB249D30D170D31DCA37BBBC62F55AE19C39C48E7772EEF8A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_invariants.rs",
+    "Hash": "F302437153AB760787B94058E356A74637353B3475518CB6DBB5A901B44B421F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_operations.rs",
+    "Hash": "8B7D1DE25DF7560B520760548BD97E3E3A598457A80A1F95488E603141B619E8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market_policy.rs",
+    "Hash": "4B7B9EBBE04F589BEC6C6A29180AEC67D4A3B103CA9319F062854EE3226A3E79"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\market.rs",
+    "Hash": "36CB56BB8F18E7CB7533A853FFAEB345C88F2C6DC995B8D66F51D42C1FEE2FEE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\migration_cycle.rs",
+    "Hash": "89DC3304A65C3EE7967408E18E0B127BBAA0933245869FDB4D7E0035F3A98432"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\migration_path.rs",
+    "Hash": "9A0672A8ABA257FD5CFD8CCE0EF146F584C6E3FDB5B6833105C7BEB6A2488AFB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\mobility_cycle.rs",
+    "Hash": "3C9ED96E19154AB2CA058D5BB4A54A1E629BB8378EB211FAD3AEB6EFAEF59292"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\mobility_invariants.rs",
+    "Hash": "8AC1CDEC6D61B80EE1C9E0C864EC2CFC43A7E36FF7ECBC1CEA6DC36953D79655"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\money_math.rs",
+    "Hash": "03FD2CBD82BD706D8CCE30E0BFDEA00B5AB0E46DBBD0BA92FED5FFAEE0E5F08A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\native_week.rs",
+    "Hash": "17A861850F529B3CE1091D25D83A292E52489E07B1C57EABBC2CC89F015D6E22"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\needs.rs",
+    "Hash": "4FF5DA3E1B8A456A7C4B1BF549F02A4A4069DCBD6A5E12824F68C30E5B157A72"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\operation_history.rs",
+    "Hash": "051A5E9D4028C9F1CC0AE81A0F20E16BF89EF84824110CEF0670BF1F0BD34D37"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\operation_session.rs",
+    "Hash": "99179B9CB33EE570ACE4174D9F2148EB18F7C59105546D0C15135E8B79516556"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\ordering.rs",
+    "Hash": "822167AF8627BAB35A2B103DB8329935B3415AAB0E6F36DD4DA456C3A51D0651"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\physical_supply.rs",
+    "Hash": "5C95D490B05A5C91114179F6EA9BB227073527F03D258F5CF3B02F7676E3584B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\pipeline.rs",
+    "Hash": "16CC2808E365889EB3A3BED4E0C820C6D37BBD7072C15976EC0FAEDE6AF1990E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\pop_invariant_projection.rs",
+    "Hash": "60604CD20A8EA840EEAA868F55CABE9C28690E661C9DEA27C63C34D3D6221927"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\producer_income.rs",
+    "Hash": "320B186CEB64BE6A7C23F54C3915FA0760E512F7131138D6C301E370CF165C34"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\producer_reserves.rs",
+    "Hash": "3730BAD447598FED64D0A8738FAF8BAB90599091BAAB6EDC5CC5565B6D5F945B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production_activities.rs",
+    "Hash": "12EEB454E69B56C06723D1CDBD6788C8EAB8D8828EC1F6143974A5E7C6337F50"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production_feasibility.rs",
+    "Hash": "3A640BBF81497BA1F9CF0A3716EC5411E840D3C0D74DA2843E2C3EBFBBF44E26"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production_invariants.rs",
+    "Hash": "1A83406BA2BD128CC754B2F3D7D6D129E1D561D2288E2D5781B29FD6FF165C24"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production_payroll.rs",
+    "Hash": "884831E29EAAA8082F4C342F1A7788B9B22209D7ED7972DA588EB57F289F1E2C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production_validation.rs",
+    "Hash": "66648ADB528E7180979AD7B40E2F5D854B085F50497346281D1D7B532962FA34"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\production.rs",
+    "Hash": "1542583584FB114ACE9D04B64A76C96341E0C18A1A6795B2BB6FB3A4ABCDF52F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\profession_cycle.rs",
+    "Hash": "6FA84FD835DE9D5181DACF761ABDED2F41FBEC685CEFA1A0E4705094F9BD4DBF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\profession_scope.rs",
+    "Hash": "5AD45E2B29B3BD88608DDFA30DA733D0B8C49CC53EF0544DD1C803E6D4C0CB7A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\profit_rights.rs",
+    "Hash": "83F5090E31195543F3B5623881A67C12ECB124BA493C3A1AFA102A91DEB18092"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\raw_procurement.rs",
+    "Hash": "A6845B12D3F9D1DE2B50F7C1551A7A521ED58325326550F0C421799ECEAACE41"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\read_guard.rs",
+    "Hash": "717BF408EE56823BF9E9C14CA739205F4BAD73E63656FF0AE96C1D7507B8CB4F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\run_control.rs",
+    "Hash": "C14E33DFD6A031D4AD222B3AC11B40BCEF3497BAA140406CF9D54B8DAB2BAB0B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\service_payroll.rs",
+    "Hash": "935010B153DED08E0ED477376AD977AAA774BF1FCE1CF7ADF82CAEEFBC37BB28"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\shipment_actions.rs",
+    "Hash": "43DAAFD4508525583D4CA55B357F48A6618031E95AD2CF43B577E5A6FB1A6C0B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\shipment_arrivals.rs",
+    "Hash": "C3608C3F7F6C21E2F86CDAEF13945D16EF464B119A94617634FBFE43F5D7FCBC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\shipment_dispatch.rs",
+    "Hash": "235D9380A88AD7405AA9ADD1ABC4CDE73FE7097944EA01022A04094B90FDC3C7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\shipping_invariants.rs",
+    "Hash": "7958090B5A8E11E6FAE0BB6DB4D29397D6012647AAC5195B1B276ECCED61344E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\shipping_operations.rs",
+    "Hash": "D951BFDB35F2DD753D8963FA26C73E7BE4A3AC11B4B5A277767B634F6E455253"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\state_procurement.rs",
+    "Hash": "002B39FE18CC784B2253879E6B5C8E1250BF7EE8734B5EF6C29F0F6F774F9442"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\stock_provenance.rs",
+    "Hash": "773B15389B28C1FFA50EA6EBB2DF8C6CBF69F04D2045FD6532932235A295D3E6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\storage.rs",
+    "Hash": "CBE2C2735C6B2FADDC4E904346B969E38210E389EF7958BB22B53B9AE9C5839A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\supply.rs",
+    "Hash": "1BF1CC921B2F1D0A536D495A37E97869117EEE140F99562E10D5E6A1A4D6D43E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\trade_offers.rs",
+    "Hash": "1431FF644F511A46F4FC7884C79345DCA00B19DBE535F0775435AF5B8EFF8C54"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\transport_validation.rs",
+    "Hash": "A83DB2A7BF9F6241366B8D3F09A77B407FEE532C423695CEB3DE594C13A3E222"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\warehouse_capacity.rs",
+    "Hash": "AACFF385EE6189DBF542E72C3DD82285D83D74A595C0A03E63B5DFEFFE49AD63"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\week_history.rs",
+    "Hash": "A8022993F6FE9B3D148762DEAF46E8701DD9B1FEC7A09E7751A86FD8AC69EFAB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\week_invariants.rs",
+    "Hash": "D4A760116ECEF0FB521D3973F8764DDA3CE700474589EB73C5731876A14D2351"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\week_metrics.rs",
+    "Hash": "9EB59E7A9B83B7CBAD98D2B01EE656969479493B0DD165F018199370FE71CC12"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\world_audit.rs",
+    "Hash": "203FFA94E7B64D65741221E8F30854EF42F3777F2DE80E8B949892E7E1B60150"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\src\\world_transaction.rs",
+    "Hash": "F7E1B7A14E6F2B1C5416E95F62AC36768094A4E3C1D4561D5759667D67140A0D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\archived_week_test.rs",
+    "Hash": "D5C813F6E017ADC4EB33CB3B7CC6AB05E96A7719F41A8D20F2FA899F06B76D96"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\artisan_capital_opening_test.rs",
+    "Hash": "463BA70296F4E2DE7FCED9D0AD5326C2E0FD1B2542DB8A098AD709A45342A56B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\artisan_choices_test.rs",
+    "Hash": "3AAD9E53201D87D86FAA99D12288CE7C8F448A000861DDAD2B527D6DE2E4024B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\artisan_hiring_test.rs",
+    "Hash": "3436848A4EA7975C94988EBF43AF39070DCEB92EC7484FC8621A1511DCB3F4C5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\artisan_income_test.rs",
+    "Hash": "90933C06319C8674EE52CBED8C8F73652C83E39D5617EB2DBFCB9EE7D332829E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\budget_cycle_test.rs",
+    "Hash": "5B45B2A9F253E28B2CB1C108400B1F49D04E23B5AA711ACC3070654F2415B0E3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\budget_funding_test.rs",
+    "Hash": "524C4D66552C1EB5339C44F0FCA8C95B71C7CB78C8C7BC067DE3834DB67D6B4D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\budget_opening_test.rs",
+    "Hash": "061F21C6670F593F4D815515913862A035AAF8D0CE69672C1BBFFBBF371C96CD"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\calendar_native_test.rs",
+    "Hash": "4E1C31549D100B945D1ACED1B28D79109EB394DD4EE4034CD60C68EF0520EEF5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\cohort_scope_test.rs",
+    "Hash": "07FE6FD45A1BDAF31D50E583506604F14BE5707162E07EF1BF29D6A4923B1875"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\cohort_split_test.rs",
+    "Hash": "3AC967E603343CE7EB0D39C9851342AC4FB1795D8FFAB7A161B44E1C56F352A5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_authority_test.rs",
+    "Hash": "DC65AC1DE70EC4ADE34C472BD38605C3BC2F0639F1D83CB26A7C5512F7F53D83"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_building_test.rs",
+    "Hash": "C5E6813E93C854CCA43946E7A81ACE93CA9194EBF0A86A9B745178D4E097AF33"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_cancel_test.rs",
+    "Hash": "2907A55CCCE9465ABE01B7BA8B98D24FBB7DF9A96A3C44ABAF1D89EB4D0D02F4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_cycle_test.rs",
+    "Hash": "0A92D212F468AF3DA041547C47E6F03306D2B54F4F041D36861E15268709CE47"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_expansion_test.rs",
+    "Hash": "9073D895ADE4EDB911BF525AE2322C6E86AE91EBEE79986E36A8C66AAEF4A4F4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_labor_test.rs",
+    "Hash": "7AAFED1CFFACE3DB6C9C71E3B9A8638B095C1D01A9A2FEC7EF18C153992E2869"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_payroll_test.rs",
+    "Hash": "DF5E51FEF9A7AC7E79D18820C33B0DF9785310B656F047F6C0E25FB866C67041"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\construction_rights_test.rs",
+    "Hash": "1A16119203B3873E586B1688EF5776E777924CAC4988AAD98831575A556C8605"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\destination_funding_test.rs",
+    "Hash": "87F2F07A7CC1850CFBC16442F0F5809122188D9EFD353262916EADEBD3DCCC26"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\food_supply_forecast_test.rs",
+    "Hash": "F7E6C7A0579DE94AA02A71135F0C2297D553359C35EC755D18CEED51AED5166C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\hiring_scope_test.rs",
+    "Hash": "78EDC5FBB240CF62DF6CDF64EC4F309D729F7C2BD342654F7B772F011B64B8F8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_basis_scaling_test.rs",
+    "Hash": "A6483FBB513677EF618C36165ABC26E10742A885ACE58B6524DD2AF3EF03BB1E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_basis_test.rs",
+    "Hash": "38D128A3CCCED0F6758E5268F2CEEEE5FEBF771344D66C387B7E066E95CDF905"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_capital_test.rs",
+    "Hash": "8C3BD0205A6F7B897B3F74F03A6D667437443B0BE961E01DC417B1B1952FB4BE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_cycle_test.rs",
+    "Hash": "DD6E918EAB074B993B0125C532322BE7D5CDD2D9F15EFB93BA000EF583210ED7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_recognition_test.rs",
+    "Hash": "E00D88820E8365165BD16CC8FC6F37A435E673D8973A11DA4E21E115B23157F0"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\income_shipping_phase_test.rs",
+    "Hash": "D765BCAC8D3C232707190ACEAE5C7CF15B779B257098A0C69C184BB540F6517D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\invariants_test.rs",
+    "Hash": "D8E8CDB20B3DF56E82B4190403C5E554FC3F477293932CE73C37A2334CE9D0E2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\investments_test.rs",
+    "Hash": "140AAE1F944143FBA6A5BF01A0C91BD3E4F1330B69E56723E066DA8048764413"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_capacity_test.rs",
+    "Hash": "D09343C33099D617C1873D9DBE6A93330C5A627A61CE9A43C4FD785FCA50E320"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_cycle_test.rs",
+    "Hash": "7622F4D9AAD56E835D6603CB1FABC78D1E9AFBA2A50B6E79A405A101B00B71C8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_differential_test.rs",
+    "Hash": "30F46D4D2F49004D1F5BB88BD747376426435B7AD2D7885FFD3E1A3B69B60744"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_forecast_test.rs",
+    "Hash": "AB149E25A8734784EC0BFB8BF6128DFE693486F4DA7774A9D880C399C19A4610"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_history_cycle_test.rs",
+    "Hash": "C67C357AC98FCD89E15D6521F505D24F7FFCBAD3E5A39E79D8432B24EB44713B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_history_test.rs",
+    "Hash": "BECD5B3609D8E702D58F4D070C0F6F8DD34BD4920BAFDFCA2899C168DC356FAD"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_money_test.rs",
+    "Hash": "91C302EF37E3CA91BFDF6B52CAB58F28D70A5AAAF6CFBCA9EC0637D3E0126E91"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_offers_test.rs",
+    "Hash": "1F6BD5B1F0190EA532878575FF68EA9917F9C6FF156136AD3B4AFA66669A9D32"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_release_test.rs",
+    "Hash": "FAC7B9E2890F458FFE645FB18E42876E0FADAEDF0239DC6023DEFED30DB77AD1"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_review_regression_test.rs",
+    "Hash": "562D7C4454C27C19538F0E9D525E797F7FEEC6DA1FDE9E6E225C9D47308286EB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_roster_test.rs",
+    "Hash": "86BD5BD9286265AEE2E7C557A327024D1C33B6D907C38B467E98EBBB035B05F1"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\labor_scaling_test.rs",
+    "Hash": "B1C0A7545FEC3B9282739321F93F863318234072D7D3B9CE8D5D797E6D84C00A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\ledger_contract_test.rs",
+    "Hash": "67AEDB1F7539945F46946A33100CC4E9600E341D960F8990A56F8976BEB908F7"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\ledger_test.rs",
+    "Hash": "6282933EF4486A8478852F76EAE3D85AB7FC2A44DC80124E22A3C86753245E7C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\local_food_reserves_test.rs",
+    "Hash": "72C5DA5CC06FFA14668C2E8099226C03296C2D82B560341601F7589D72DF3A95"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\local_hiring_test.rs",
+    "Hash": "6E6F2DACFE37809BAE592B92F98C7ECC3EFC1A0C58082C16293708239A5AE791"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_big_budget_test.rs",
+    "Hash": "D5A7E09D12B5C657B8134596DE73D71FF2AEBCBAF0F0ABA8020C76C730903A15"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_clearing_native_test.rs",
+    "Hash": "C6D8EB4B9B13216BD33D6A141581F02CD14F38F05CBD83705B8022C63ABC36B4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_cycle_test.rs",
+    "Hash": "5F84D6927D8E35EBC0DF3302FEE9A4F72DC432680F98A491F91B68352066D8CC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_differential_test.rs",
+    "Hash": "26B94CDB6D01EB8899DDBC1531314A5DC467C065E5E512E8F00ED561341395E5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_input_orders_test.rs",
+    "Hash": "4772672B9E04F165F6AEE62E5E60042833B59F84DB65F6910A4C8580DF3320CD"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_invariants_test.rs",
+    "Hash": "E2657559A12CA1B2ECEF1CE7793A719E3AF05B6D9B0F3B37BD16887C84B0C9A0"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_operations_test.rs",
+    "Hash": "A69508D87F03B770F9D71E74D4ABAC710815312255E05AAE0A5A257FCE5650E5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_order_evidence_test.rs",
+    "Hash": "D82DD2F858E2A1A12CED2699B9AE45DBC123020486E4AD1F0CB58FD5D498365C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_path_scaling_test.rs",
+    "Hash": "1E6DCDE9D76E9EDE0A257C8301EFA257881727FAE6DB8858A6751C2A5FA1A90F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\market_scaling_test.rs",
+    "Hash": "F852A07F3381EA0BD9FEF4EBA91307BE997DC802411C7A5B3BCA91324059D636"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\migration_cycle_test.rs",
+    "Hash": "97AD2389BBDBEA75FE85303543AFC4FEC5D4CB8F800257F0F5FC4210DA693F88"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\migration_path_test.rs",
+    "Hash": "A9EC131F682F76DE9544F7C0AFDF6CB65482D63177A0328BC9631E88C77C1910"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\mobility_invariants_test.rs",
+    "Hash": "8431EBCDB45B4FE77F2BBC92FF2BECEE35F2F4EE8185F8FD363D0137658BEF8F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\mobility_opening_test.rs",
+    "Hash": "C8775E830795BDAA59856BEABC4EADCDE45F800A4378479B412C1A04B00AA52A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\money_math_test.rs",
+    "Hash": "E2930DFD5AA87812C826381B7DFCA7BEC34568F687E8CA0BB893F4CE0B11256E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\native_procurement_test.rs",
+    "Hash": "7D8F46FA205C60E52E3BD6E8C597BB3747BA162DD5CC02938E725D8AFD395484"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\native_week_history_test.rs",
+    "Hash": "929BDCC9772080F43203390BB8FAFFCC8DDAA205AED82BB71F0C18B9E6C7959B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\native_week_profile_test.rs",
+    "Hash": "6D3ACA48CCE9E23C0B1DB3F7CCD1B293F5A733500266E6F1F94DEA031C9425BE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\native_week_test.rs",
+    "Hash": "E8F20721AEA3A46D990C1063834EF4AAF2B31B171F628FD8A2BB0C5607713B1C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\needs_native_test.rs",
+    "Hash": "83EEF1AB629C8EA37F4616E371F5F1F0604028AE3798C703BC1499993F7CF4E4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\operation_session_test.rs",
+    "Hash": "B1B56C754F94009F02379D526BB7850EF9693DA4F3AC9FD400535182923042CF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\ordering_test.rs",
+    "Hash": "C29540E2C362B7845B91F04A0B741599C6A4542CCE108A91D195E43D6FF4173D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\performance_contract_test.rs",
+    "Hash": "F3C8837865E40E907C45675FB234DEFF76EACCE2573CDF6679C4E8DDB2D7D52E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\physical_supply_test.rs",
+    "Hash": "D51546124CAC6FC16CC9EB4CD7ABF493066695D96F515CD2D9D42FBEA273C8A4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\pipeline_gate_test.rs",
+    "Hash": "D2A2C48B3A62DB2AB158D5F7EBAD40BCC6A57F0C871896FD3C7E4D44FF0F18D6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\pop_projection_test.rs",
+    "Hash": "DB9CFB2D8D1833E59D833BB33C68B356245DB9238AA4FB153C75FC9A13B0D12F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\producer_income_test.rs",
+    "Hash": "005EED19B9B869037B41E0500E4BDE995D1F65B57D2A891A54DABE83CC9E08E8"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_activities_test.rs",
+    "Hash": "8C3CC3B32E85E9DB965D55DE9B2458834E589CB646EA2D7D0A264B316BC4F284"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_cycle_test.rs",
+    "Hash": "1BB323010F58A4BA8B5F4493E2C3CE61B0764CBA422452AB91E6B7E1A67D5F62"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_differential_test.rs",
+    "Hash": "E1A4A33FAEE4934AE3035AD36A43F03C905D658FB8F30951BE75FFF1C3E78351"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_feasibility_test.rs",
+    "Hash": "D99B793980685BB540FAA71B6A771CAEBF8C2DA4821A72C466FEEE681A945A83"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_invariants_test.rs",
+    "Hash": "ECF48425764A191790BFCA5DB3C80C559F3796B5B8742150680E710876842BCE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_maintenance_test.rs",
+    "Hash": "717FF15A3E63A5C9CF44B9CD6B8D63D651291BDBB18E6B29CD7912D2ACB9D5EE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_review_test.rs",
+    "Hash": "6651BA3B2EED643414D7C7B1563DEDD744EC107C483E09EC5E790AC34E02369B"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\production_test.rs",
+    "Hash": "A8755AE9A311B6D12C22CF56CA37165FBF2FEA5A9B8BC9EDF6B91F2440321F10"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\profession_cycle_test.rs",
+    "Hash": "0C676A38CC5383140B21CC506280C004D297BA37A8350FB000986E1AF754C4A4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\read_guard_test.rs",
+    "Hash": "46253539BDA82A6C32C46A09132EB2CF2E6E5A7F8285C2F3620BC411922B64E9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\remediation_phase_probe_test.rs",
+    "Hash": "A3B6DA0CE322D35E191F5EE05CF247272C58869936C0C49079F58B84F08486BF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\service_payroll_test.rs",
+    "Hash": "C7FECC8DACE1BD6957BE95914AFE3432556467A93DAF29FCB40D2BA451FDD90E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\session_history_scaling_test.rs",
+    "Hash": "ADEECA0D0829D964B042F2AFE51F36FD2480D8CB0143434C10976E2316F5B8E0"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\shipment_actions_test.rs",
+    "Hash": "246F304DCB52927F66B646E0F7CAC697E7BB8DC8088C7A4C3C618DF8FCDBC452"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\shipment_arrival_rights_test.rs",
+    "Hash": "0CCF324CB4C6AA9DA32283B2E3EED611222EB840192559315F4F007951FF2FDB"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\shipment_arrivals_test.rs",
+    "Hash": "0316661F10EFD6569C0783AD00535047D72FA85C950C541F2B8F1A5269A5322A"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\shipping_authority_test.rs",
+    "Hash": "EE3C6CBD08267425F659DFE59F33ED3B2DD308F39680CA70FBD83B6D026FBE16"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\stock_provenance_test.rs",
+    "Hash": "16D47D97CBB22D73B665126ABA3A1590FC6AFFC5FF0ADCC8137DED948647E2B9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\storage_production_test.rs",
+    "Hash": "1556407B0083696AE3D5278C527023992812B1510C69C390D9E5B3AD40876663"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\supply_test.rs",
+    "Hash": "4B9A4CBBBB9FC30AF70323ECFD74A7CAE83677153C81B725A22FE81B144A6F16"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\trade_offers_test.rs",
+    "Hash": "BD44BADA3E3889645F487063C81257404A20894FB423CE340C9B559FD8C53CE4"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\warehouse_capacity_test.rs",
+    "Hash": "AA3CA54F4F5E5CF01CCE9ACC48854FFEA3C8DA931DEE72D9BA27C5D9DF64886D"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\week_metrics_test.rs",
+    "Hash": "419DFC0ACC5F8E2A632F83E96DB347EACA1A99DF3618F002D78989E324E31ABE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\week_scaling_test.rs",
+    "Hash": "4DF3E64D0C968639F1B6DE9FDFFAC9D1B50F0F1B3A02EEE247E862E9022832C5"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\world_audit_test.rs",
+    "Hash": "C2938E2241C78A53BC451A3B8A19E9E84BAAE2A3BDE0CBFC991257BF2948207C"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\world_transaction_test.rs",
+    "Hash": "286C2361B4AB42575C8AA8AE318A176B733E4288497A2A4C809277CE32CF2FFF"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\allocation_meter.rs",
+    "Hash": "B97FA856DC2D59C773367BFBA523BBE4CBD76AF3AC65D2F977476CCE1FC080EE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\budget.rs",
+    "Hash": "957A95FCAACB7B90C837177D0F06C7C981E46A84C99B2C72BAF4F3EF97EC02FC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\construction.rs",
+    "Hash": "1019E2040292AA602AB98A0C5FA27AF916ECAB61F4FBF2A6E6AD19522A275FBE"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\dynamic_week.rs",
+    "Hash": "66A5AFCFC29EDE07C27BD1C0850CE7FC94340A9F23C586AE6BE30E77A1578819"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\income.rs",
+    "Hash": "197F9626BB1943E04D6BDF23F92E19A3CE9026B13EC67A0183F4D973530B2CD6"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\labor.rs",
+    "Hash": "796638C163BA56ED4AA0731DAD5E8EB93CB9C479E0A5CAD9A483904164396B73"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\market.rs",
+    "Hash": "2BA6472993E0E73A963BDAFAE1566FDA061C09DF79129EB9C25FC07FD6FF8054"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\native_week.rs",
+    "Hash": "C63A5AF27473B7C4DED1C7E8AC557196EC15B453278B5919C295603BAFCA37EA"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\physical_supply.rs",
+    "Hash": "FDDCDDEAD2BB02EBA71FC7751A61370AA6A1E6B72FB4D862611ADDF1D3BF0926"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\production.rs",
+    "Hash": "956588A2CDFAF5BB6072BE5FD565CB7EC24CC997BD80628BE70402487544EFC2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\common\\shipping.rs",
+    "Hash": "BE3F3C46152B1ABC3B0F050F4BF717390F13F4C9E2E9E458015623BAB64B85BA"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\construction_invariants.rs",
+    "Hash": "14E8ED3CA666257ECBEA7F319E859A976237D8C4E1B1FFFC275CC593572F8FB2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\construction_operations.rs",
+    "Hash": "41F467EABA5A2F9C572A92FA8D2CBF4FECA888DD6F4AFC5CED9339E3408DC520"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\food_conversion_native.rs",
+    "Hash": "1DAE458372C97A76C8A1CD8BC2FAE587E11CCF715D1D2F688A4C261D9B73BB3E"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\income_operations.rs",
+    "Hash": "2CF394C6ED975B5BB7E0F9F1A8DA678FA46FA48C9DAEB283ECD08463EEA83195"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\income_shipping_recognition.rs",
+    "Hash": "DD8A66E9F898021F075B4148699F249205BE68049C4ECCAB502D010498EBD04F"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\investment_indexes.rs",
+    "Hash": "16D2DB4AF4B97B992CE94ED6414DD5A621AD602FE909BBF17440E59B59EA15FC"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\investment_staff_cases.rs",
+    "Hash": "744267C9882D52E5A3FD95130C0741214E0C436DA68214034711E13369F2BDF3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\investment_staff_reference.rs",
+    "Hash": "C3E9E5BE42B31790396D2311AEBFEEBFB213C7413D8B18D42DC79D0D9B4C1851"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\market_policy_storage.rs",
+    "Hash": "B3D33BE00653EC1D636838139BA285900F4FBF9C6FAE6C7AF807381E944FDDAD"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\private_income_context.rs",
+    "Hash": "803CA55FCF6C93A8B194C6D4EB3F479969DFBB16905B45BD1748B7D3C505D1D9"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\shipment_dispatch.rs",
+    "Hash": "FEFF206B66771908B906F695756EFCE8A4127A3515A60956FBEFB888E313A4A2"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\shipping_invariants.rs",
+    "Hash": "C20D9EEB30EAA7E3007DD0ABAD9C685620319E48B528598CA4A71ECF9F33F6D3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\shipping_operations.rs",
+    "Hash": "3D4B3929EE04A77A6F059EF0540B2ABEB46D59E1F15CEDE009DF165D98ACEFD3"
+  },
+  {
+    "Path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\crates\\kingmaker-sim\\tests\\internal\\week_invariants.rs",
+    "Hash": "E52DAFC701D90D3988C1F11FF7A14988D17B5DF6C3A682D4BE9BDF018D684DF5"
+  }
+]

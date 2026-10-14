@@ -1,0 +1,44 @@
+# Build products and local machine configuration
+/target/
+/bin/
+/.cargo/config.toml
+**/target/
+*.exe
+*.dll
+*.pdb
+*.rlib
+*.rmeta
+
+# Temporary research, source backups and large diagnostic runs
+/work/*
+!/work/rust-diagnostics-2026-10-14/
+/work/rust-diagnostics-2026-10-14/*
+!/work/rust-diagnostics-2026-10-14/*.json
+!/work/rust-diagnostics-2026-10-14/*.md
+!/work/rust-diagnostics-2026-10-14/*.py
+!/work/rust-diagnostics-2026-10-14/*.ps1
+!/work/rust-diagnostics-2026-10-14/*.txt
+!/work/rust-diagnostics-2026-10-14/monitor/
+/work/rust-diagnostics-2026-10-14/monitor/*
+!/work/rust-diagnostics-2026-10-14/monitor/process.json
+
+# Generated world snapshots and databases (source/test code stays tracked)
+/reports/**/initial/
+/reports/**/final/
+/reports/**/failed/
+/reports/**/checkpoint/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Caches, local environment and credentials
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

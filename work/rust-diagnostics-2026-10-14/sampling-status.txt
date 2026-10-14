@@ -1,0 +1,1 @@
+WPR CPU start failed: 0xc5585011, Failed to enable the policy to profile system performance. No sampling trace captured; instrumentation profile is used.

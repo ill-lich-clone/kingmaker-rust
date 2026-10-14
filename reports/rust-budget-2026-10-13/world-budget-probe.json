@@ -1,0 +1,26 @@
+{
+  "budget_ms": 301,
+  "counts": {
+    "adventurer_rates": 1513,
+    "employment": 59998,
+    "jobs": 12321,
+    "pops": 65916,
+    "source_revision": 20
+  },
+  "error": "Economic operation rejected: Service profession differs from authored job/contract: employment=employment:pop306:1101:humans:culture_vanovtsy:religion_унгадзе:clerks:middle:jobs_1101:jobs_1101:contract:clerks:clerks pop=pop306:1101:humans:culture_vanovtsy:religion_унгадзе:clerks:middle actual=artisans expected=clerks job=jobs_1101 contract=jobs_1101:contract:clerks:clerks",
+  "full_world_weeks_executed": 0,
+  "load_ms": 66632,
+  "mode": "isolated_ram_budget_probe",
+  "source_header": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "source_writes": 0,
+  "status": "failed"
+}

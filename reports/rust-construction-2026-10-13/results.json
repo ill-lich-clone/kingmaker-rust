@@ -1,0 +1,74 @@
+{
+  "status": "completed_stage_only",
+  "stage": "native_investments_and_construction",
+  "goal_status": "active",
+  "full_world_weeks_executed": 0,
+  "spec": "docs/superpowers/specs/2026-10-13-rust-construction-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-construction.md",
+  "source": {
+    "campaign": "world-306",
+    "revision": 20,
+    "date": "306-01-01",
+    "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+    "source_writes": 0,
+    "readonly_projection": "work/rust-construction-2026-10-13/full-source-inspect.json",
+    "workers": 1,
+    "economy": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано"
+  },
+  "native_source_fingerprint": "7263fb2038d70e62dd916189d1ea9859c8c1f5a0ef91f24499395fb86b56e458",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "112ed84d78f59b72740c074f4e25bf32aa81dd71cd64a2411565eb9141b15194",
+      "previous_sha256": "0636283878139063af000700a65f7c60fe3736aa1b42edc62244b32960675cce"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "78d418d88b39437a8ba66b14e21da877ff0544961e69c14fab2932ed86763f77",
+      "previous_sha256": "fb0e6d41834be4e52330ab10db7261f3a3260a4cf2b473b6af1ba88009a52275"
+    }
+  ],
+  "verification": {
+    "workspace_cases": 486,
+    "release_cases": 83,
+    "final_reviews": 1,
+    "review_important": 3,
+    "review_fixed": 3,
+    "review_minor": 0,
+    "correction_passes": 1,
+    "roundtrip": "mini native serde, replay and ordinary next-opening hiring/production; no full-world checkpoint proof",
+    "loader": "unchanged costly test excluded; actual readonly full-source projection verified Task1"
+  },
+  "regressions": {
+    "real_joint_investment": "3000+7000, escrow6000/startup4000",
+    "completion": "gross wage10, tax1/net9, fee990, startup4000, refund5000, capital5000",
+    "expansion": "old5000+net5000; A13/20 B7/20; level2/80000slots/equipment200/storage200",
+    "two_periods": "materials and wages once",
+    "cancellation": "unspent money only; original account purposes and retained stocks/cargo claims",
+    "refund_rounding": "1+1 on escrow1/reserve1 refunds exactly1 each",
+    "net_building_rights": "1+2, cost/wage1, refund1 each; remaining capital1 belongs to B",
+    "configuration": "cannot overwrite real shares/net capital/provenance/initial level",
+    "income": "canonical native construction phases justify builder payroll"
+  },
+  "corrected_defects": [
+    "aggregate project cash exceeding actual contributions",
+    "per-account rounding overrefunds one investor",
+    "factory configuration overwrites computed asset rights",
+    "nonfactory/RGO rights omitted real net refunds",
+    "construction payroll rejected by required income evidence"
+  ],
+  "not_yet_verified": [
+    "dated physical supply execution and food forecasting/state buy",
+    "assembled full native week",
+    "full-world snapshot/new-process continuation",
+    "10-week economy and performance"
+  ],
+  "unsupported": [
+    "native heap budget enforcement",
+    "school/medical gameplay outcomes",
+    "hunger deaths",
+    "sea passenger migration"
+  ]
+}

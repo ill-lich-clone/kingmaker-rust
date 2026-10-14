@@ -1,0 +1,1114 @@
+[
+  {
+    "path": "Cargo.lock",
+    "sha256": "9c24c1c1423d53a6a779272cd1b86d1a2d4413b9fa872bd30342dcef5368ec11"
+  },
+  {
+    "path": "Cargo.toml",
+    "sha256": "a9cdcc2fea5ca508f47e3cc119cc0668b7107825d6b67bf5476dc759df595b4f"
+  },
+  {
+    "path": "crates/kingmaker-cli/Cargo.toml",
+    "sha256": "cd4464df4f7fbac94629b97c229072c154b32b2b83b589b8b55ae0582ff1eebe"
+  },
+  {
+    "path": "crates/kingmaker-cli/examples/budget_probe.rs",
+    "sha256": "e3081af874ee45ad3afae9b2f2494a497fcc3dcf39dbbba28a230304390906a0"
+  },
+  {
+    "path": "crates/kingmaker-cli/examples/labor_probe.rs",
+    "sha256": "89323354c805bf2f6c6547bdddee8d924ac3e634c81b9052a6cdcdc1c5800834"
+  },
+  {
+    "path": "crates/kingmaker-cli/examples/mobility_probe.rs",
+    "sha256": "f5c1dbcdfa13f5af7a7a4918a971535301480d207f81cdbf5a4c0340c8d1feab"
+  },
+  {
+    "path": "crates/kingmaker-cli/src/main.rs",
+    "sha256": "b4ba2b3848773793f4a0d1b462c31219abf267edd2152212bc3f647958a8ccab"
+  },
+  {
+    "path": "crates/kingmaker-cli/tests/cli_test.rs",
+    "sha256": "e4a316144a015c3c1c25fdfb1f95b807e32520ea00cc0f876b94a8ca21a42519"
+  },
+  {
+    "path": "crates/kingmaker-core/Cargo.toml",
+    "sha256": "4b459b7709f5b59f517fa7181693af85351c64dbcd0f4d58f065b9ec76eb8470"
+  },
+  {
+    "path": "crates/kingmaker-core/src/audit.rs",
+    "sha256": "f0e63ce7d1464dd321cd035e98a733b1246cbbc0540958baec085a53ecf6dba1"
+  },
+  {
+    "path": "crates/kingmaker-core/src/budget.rs",
+    "sha256": "c5def696a09f46550bc7ab5a6938d16ca9b5e08d24d715321ccc7c05f4cf0e9f"
+  },
+  {
+    "path": "crates/kingmaker-core/src/calendar.rs",
+    "sha256": "407c1e2241cd359f563579337565a61e698e969041510197759f29e3f792c6be"
+  },
+  {
+    "path": "crates/kingmaker-core/src/construction.rs",
+    "sha256": "5c3952a952f087bae951f1753897db557449a4fce140094ade727139593d630c"
+  },
+  {
+    "path": "crates/kingmaker-core/src/enterprise.rs",
+    "sha256": "d5c8a121b0d0f1577b83184e66e7905a2eb9fd99c55c10ddfb19d9d787f6b4ab"
+  },
+  {
+    "path": "crates/kingmaker-core/src/enums.rs",
+    "sha256": "1f7a2a5793d528c0fdd053418b4c9251e18fc7b0980bf9208574407552a7c254"
+  },
+  {
+    "path": "crates/kingmaker-core/src/identity.rs",
+    "sha256": "455a8644e2dc792407602f7da294385f022147a0a1dbf05ab58cc3af3db4a6f5"
+  },
+  {
+    "path": "crates/kingmaker-core/src/ids.rs",
+    "sha256": "49ea956d1cdd6eea11ce22ce0b75adef693c597213bf81ca88d28584d0c90914"
+  },
+  {
+    "path": "crates/kingmaker-core/src/income.rs",
+    "sha256": "100d20d15fa566042e5b677b73440660a06ec1b3c7dc02227fe0bdea0c2544d2"
+  },
+  {
+    "path": "crates/kingmaker-core/src/labor.rs",
+    "sha256": "343b3b4d4a27cd8dbf4c4e189cd8a65ad20acc341304a20e6a7e9130078ec5e6"
+  },
+  {
+    "path": "crates/kingmaker-core/src/lib.rs",
+    "sha256": "c3ea5679fb57b00e38b52eda128118d83c135584399d297da8c1b810fcb707ec"
+  },
+  {
+    "path": "crates/kingmaker-core/src/market.rs",
+    "sha256": "671e1803bd612cb910ed6b4e1d05f2724b39e353ef7268ed9160e936053d633b"
+  },
+  {
+    "path": "crates/kingmaker-core/src/mobility.rs",
+    "sha256": "1a2fd8072f01f64d7d827fdd69ebdbadf9a30a5a7a78911651de8cdb68ae1064"
+  },
+  {
+    "path": "crates/kingmaker-core/src/money.rs",
+    "sha256": "041822a16ae66e5c3a2a46c0fa586e43d245f879f2ea1e151e802d3d04fc73d9"
+  },
+  {
+    "path": "crates/kingmaker-core/src/operations.rs",
+    "sha256": "4555fbf3bf3d1cc1268d6dcae91736e4e68ab98074f99c227f873c9fc32c5c72"
+  },
+  {
+    "path": "crates/kingmaker-core/src/pop.rs",
+    "sha256": "12c873ed3918a878a4e5fbbaa7c3d0a536df17627392d9cbac01dbb41ae08217"
+  },
+  {
+    "path": "crates/kingmaker-core/src/production.rs",
+    "sha256": "5012b70acb1521cf8dfbdf3410cd4673e7e88f01b6ee4f802ff3fad55b32b75b"
+  },
+  {
+    "path": "crates/kingmaker-core/src/province.rs",
+    "sha256": "ca8c61d48462bb96a5fc4c2f2327a121b65a13b3a21ad28f76cd0c699af26682"
+  },
+  {
+    "path": "crates/kingmaker-core/src/state.rs",
+    "sha256": "4d3c4d85f4dffc67a4449daaaf2c1e46cc65a7d82cc5d5e37bd226108643afb3"
+  },
+  {
+    "path": "crates/kingmaker-core/src/storage.rs",
+    "sha256": "f4d853f963789af4d9ed6c855454efa9eb849573e0690115c1eaf6a3d07cb393"
+  },
+  {
+    "path": "crates/kingmaker-core/src/transport.rs",
+    "sha256": "412a37f068d147a9f05bc4790f8da7aa92ac3a2df3b882ed5307e6e6ebc0fe16"
+  },
+  {
+    "path": "crates/kingmaker-core/src/week.rs",
+    "sha256": "24a080ae10597fe18acfcefe96acbd146fdeabc685f7a4c2ce3207b98311179c"
+  },
+  {
+    "path": "crates/kingmaker-core/tests/float_snapshot_test.rs",
+    "sha256": "a56b459d81399565817cf6f55821fead01e3df6c1e8bba219f559452f7ea0934"
+  },
+  {
+    "path": "crates/kingmaker-core/tests/identity_test.rs",
+    "sha256": "36e8ba7dd7a27f84dc0de53043500248ea8b60f3def5fe723876f05bc1c355d7"
+  },
+  {
+    "path": "crates/kingmaker-core/tests/primitives_test.rs",
+    "sha256": "7228dbbf36f5e838773ebf114cf26ede43e32da7c8e751ca57380cd4ef15f240"
+  },
+  {
+    "path": "crates/kingmaker-io/Cargo.toml",
+    "sha256": "f84ee7ac6b2871b3f007a79a09d2f8851219628f4168110ff7db185de9f4add0"
+  },
+  {
+    "path": "crates/kingmaker-io/src/budget_projection.rs",
+    "sha256": "e591ceaa439876704322975e6a97ca61795ee62ee2d65bb7c6fea34c8b4916d8"
+  },
+  {
+    "path": "crates/kingmaker-io/src/codec.rs",
+    "sha256": "f3dfa8c2cda31ea57f239464b8caa8084b8fafa392fade5f807bef8323c120cb"
+  },
+  {
+    "path": "crates/kingmaker-io/src/construction_projection.rs",
+    "sha256": "9c561025479625a46c8df9b65f50879c0a38180f559c2f8efca645ad87b9a4dd"
+  },
+  {
+    "path": "crates/kingmaker-io/src/income_projection.rs",
+    "sha256": "27f6690fe9337f225aa02339ab134854f912d354bf7b31ffe394caedb7918087"
+  },
+  {
+    "path": "crates/kingmaker-io/src/labor_projection.rs",
+    "sha256": "6275ea120f616da3cd395d7bffb0bdb3072fe92393b5970de9de5c4d27793590"
+  },
+  {
+    "path": "crates/kingmaker-io/src/lib.rs",
+    "sha256": "d2e8aa6ca8a2212b15e07b9e25d6a206838870e83b7a1467b0f2a8022353b54d"
+  },
+  {
+    "path": "crates/kingmaker-io/src/market_projection.rs",
+    "sha256": "dbfdb5bf6d09c7eb4caec8612f2308d5e053b9fc1bf60bac019f4c968166b185"
+  },
+  {
+    "path": "crates/kingmaker-io/src/mobility_projection.rs",
+    "sha256": "3b62b34799937221b89fe024f2c074e20a69a42b3f97428451d4bc3bf230f068"
+  },
+  {
+    "path": "crates/kingmaker-io/src/production_projection.rs",
+    "sha256": "b0e2d41d56501aa407e200469f882f39c33defa35e5ec4884dcfa3c70113834c"
+  },
+  {
+    "path": "crates/kingmaker-io/src/projection.rs",
+    "sha256": "b6c8db80a344ee5b73dd5ef2cf0a742a40f5a2c45a99561f476bbcde3d423e82"
+  },
+  {
+    "path": "crates/kingmaker-io/src/runtime_config.rs",
+    "sha256": "f1ab8e650f085f18dbacfda93c1d17c5705b5e67e29a0d9ac1f2a7f04d28a8d6"
+  },
+  {
+    "path": "crates/kingmaker-io/src/sqlite_loader.rs",
+    "sha256": "59753a49d61cff4a2d30acded89ff2cae86b139de9ea0d4570667a1d19747791"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/budget_projection_test.rs",
+    "sha256": "f3a11af4e6ab232f3a7dc95f980226c8fca5ede8bd8c2250f1d7a3591ea88903"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/codec_test.rs",
+    "sha256": "5baf1e40a722e1af1c53d86eee874d292bde28cc089e2b64d8e88a26e41e7a30"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/common/mod.rs",
+    "sha256": "443f9584c99727c9606718e9c5f5e5b6b81768bdd62959d8378abfc84b2e1625"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/construction_projection_test.rs",
+    "sha256": "dbb6eda8763a0abab317867632cdad51ca79e9f0c6e627e49bd3f9402517a7e8"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/consumer_storage_projection_test.rs",
+    "sha256": "d04f1c537f6b332a08345218548d0291464b15efc8d1f572f5d02940d6e6543f"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/identity_graph_test.rs",
+    "sha256": "ff11201b9a08a820dc8ca0744e69f7a44e6bd3b6e8608fc222009a2e418eeeb7"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/income_projection_test.rs",
+    "sha256": "ed8599a3198cd46a89793687f0c66f0a644f3005a1e335282d74f63992c31cac"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/labor_projection_test.rs",
+    "sha256": "80770376494a55d0a28995883336b442799d4f136da7bfc1fbab49c6378f2734"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/load_world_test.rs",
+    "sha256": "8835951deb70c04f8e5fc3dad7042bb2d5a9194ffefa78de09fd6f6545a86ba6"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/market_projection_test.rs",
+    "sha256": "a09c9bedab774cd7364d4f006d31bb69920eb4d8795847d358bc061bdc0b1712"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/mobility_projection_test.rs",
+    "sha256": "13591ced492acebc48d4abbcdfca765391728c54b35cc2b1e76835c36b99e8af"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/production_projection_test.rs",
+    "sha256": "d7a85df68470666c7621da65c4dff0e967a90b42afeb69f02894389bbc31e591"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/review_regression_test.rs",
+    "sha256": "39efa45879977898480fcd1566d4f8ee5147cf82b1f3c44b0c69f535d53c07ee"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/runtime_config_test.rs",
+    "sha256": "85247b638f003340a24dc507da87d79eda6656dbdc40b6cff976af243b5b6eb2"
+  },
+  {
+    "path": "crates/kingmaker-io/tests/shipping_projection_test.rs",
+    "sha256": "fa52dbde52b4b7779dc41b457297fb9f5f3280faf7e70dbde809eef7083413e6"
+  },
+  {
+    "path": "crates/kingmaker-server/Cargo.toml",
+    "sha256": "3209e8d2e4143d391d33fc914768ddddd60fc9d39010e5bb37c8d49a13f92639"
+  },
+  {
+    "path": "crates/kingmaker-server/src/lib.rs",
+    "sha256": "170da307e404602a8b16833e8bad12279632aea0c09be7e1fc308ba8dc9fbb39"
+  },
+  {
+    "path": "crates/kingmaker-server/src/main.rs",
+    "sha256": "12a6e46746d4afffd7d58e7d8a11211c070313a5bf42a9d3e87225cbb85a8f07"
+  },
+  {
+    "path": "crates/kingmaker-server/src/routes.rs",
+    "sha256": "a7c816997349532f5279526d0a4e8762812fadc9ead27fd022b057745074606e"
+  },
+  {
+    "path": "crates/kingmaker-server/src/state.rs",
+    "sha256": "afc298e7f6c8299f5febbb413fb4f3bc13178e5ad08dd06620d71f417c1bb533"
+  },
+  {
+    "path": "crates/kingmaker-server/tests/server_api_test.rs",
+    "sha256": "0499756a1b8c7cb7f1f1cdc5111bc9818a0f15f2f7022511cc16306031f1a0f9"
+  },
+  {
+    "path": "crates/kingmaker-sim/Cargo.toml",
+    "sha256": "24808b119bee099a9dd30e93b268d8cbd4b6e7aef60d9580dd6ee8a1b7b26941"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/artisan_capital.rs",
+    "sha256": "6a4b08412782a2cc44ce80b20735c7ca4b91a64d98e84b08daf6342394cd2ff0"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/artisan_choices.rs",
+    "sha256": "009a05380c7cbd98d5466ebd594ad91cb32bdeb94c77c7fd04a205ffe58293d9"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/artisan_income.rs",
+    "sha256": "97809d213efc4fba7d3441b1925398d5ee79ceb2284dc32d05e490f858d7dd92"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/artisan_working_capital.rs",
+    "sha256": "2f0d7cd2dfc7dcb6de588fd07839dc2a1cddfa84a7585f70c01b7efdca044c9d"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/budget_cycle.rs",
+    "sha256": "98abcc7cef488d7621b02ebbe8444d2c5489cd9024adf640da00ec1c89afe696"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/budget_funding.rs",
+    "sha256": "9e2793c2db42b34b1a005e9e6d0cf7cbd2f5b797b216ee2e958f5573bd3f3b0b"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/budget_invariants.rs",
+    "sha256": "e366f371fe6306983a6a496cf1f0c9a9ce364b367c34198470b5dfa588622120"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/calendar.rs",
+    "sha256": "b6d2832864031d2fe89e703c8f613b34b76ec46bc44ef11e5ecdfc6f5878afda"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/cohort_assets.rs",
+    "sha256": "c67cdf58e3c4eb5510b227b89b0b395a77dddf5b3cf88aab10c7b93c61e8ce72"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/cohort_cycle.rs",
+    "sha256": "fe2420eda5ec09ffa08fb48d93d3b6688b3fed0b25b5f0a1a0419a55c1f67033"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/cohort_scope.rs",
+    "sha256": "4050216197d7b03c9ee315b8a66b0766ccb3660eed6348869e7f7c842e1c9c1f"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_cancellation.rs",
+    "sha256": "418072639babd0db5e9072cdc6c964e66ecac187f2fa8acf693b166454455631"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_cycle.rs",
+    "sha256": "40efedcfab9eed504266ee32646bd2c136e0eac3fe0033567f84675aab9c73a3"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_invariants.rs",
+    "sha256": "107dcd7f011a391d8c95e01cc10b63fa85e8bc0bd329a7a203335e2de7ba249a"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_labor.rs",
+    "sha256": "d602e55faa7f9151e6d03e0e26f631a936f159ba0735bad026c34cc24a5a48c7"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_limits.rs",
+    "sha256": "0e1b64c38fb4b4825edde83d95efe4ec4fc6061f1d055f3498ec123d09f0fb39"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_operations.rs",
+    "sha256": "c3c5a48bf8ff9dbf472bc80f338d6de6352969ad82b5f3dc961e6681d40bf362"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_payroll.rs",
+    "sha256": "055ed55ed732b7647b18e3ab40e987e438215719a2494b904089c29c02cffaf3"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction_rights.rs",
+    "sha256": "10763a27110a0f195558f80b4983b670eab56a909a49a76a24ed6724b8465be7"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/construction.rs",
+    "sha256": "89108c5d2a4c523c9a9889a4de5141ed5d480a98c8fbed364a3815e7eed60e57"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/food_conversion.rs",
+    "sha256": "edaea0c8020b2af335fae141af7afdecae89047641749aef3abc72fcd2954166"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/food_supply_forecast.rs",
+    "sha256": "600be47ce1eedc4d8b33aef735e2dcd9b3e50a1c3b8de9bb4ee804d9d775d582"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_attribution.rs",
+    "sha256": "70985f5071ebe2638f807c8fadb9d415903c160b1b82ab7fedc3f4a29f242dd9"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_basis.rs",
+    "sha256": "1a5f3a990eb1b3258daced3903300a35f916c2c9c96a9c70533a6171a21ca8d7"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_capital.rs",
+    "sha256": "4f9f8234444a7f058ed41c4a0683716fb4d1e4b34a0fcce9f14a884d8277cea6"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_cycle.rs",
+    "sha256": "a735f693c22ffbf23be2d9663ca16252bacacb401585c0cbe255e14312fef74c"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_invariants.rs",
+    "sha256": "74e9cf8ef378cc551568faf64ac9491c5487b89a4b067d2152f30ee7a4d40510"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_operations.rs",
+    "sha256": "4265ae3d8ded856237b187dde81bbbea0f0dc9deb62a9c882ea36983bb7b2ef6"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/income_recognition.rs",
+    "sha256": "d12951c31ffab6cb43bdf9608625e9fe35f699fa26c23a90edf6010cf861cbf6"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/invariants.rs",
+    "sha256": "ab47407beb62ea3b3d5a5fe3fb52f53dc1a20ce56811ef5582b9d1a178d6c730"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/investment_assessment.rs",
+    "sha256": "bcc116424c5c072a4fd4a81c6ecf1a38eec180d27f03e3d5c8dbdb889dd44a98"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/investment_invariants.rs",
+    "sha256": "ed68ea9efb34f1537e0631863f12d893772259c5f5a38e9cb191f2fcbac53f6f"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/investment_staff.rs",
+    "sha256": "8289a5b3956845297d869923befed161c35ed71e75e15e7996731c506b52972e"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/investments.rs",
+    "sha256": "3ab171efc09be416c69d96db7cc8172715ecd2c06b29c9ad0ffeeebe2c07d094"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_capacity.rs",
+    "sha256": "a73449d1f9182598801872551fbdc791f38c4f0c453fdec1fa834c22515d7248"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_cycle.rs",
+    "sha256": "addd10b270c0354baab18540f865cb1e7319ecb9d16dd06a615d912ee24fa0e3"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_forecast.rs",
+    "sha256": "2368015bdfe2ab979cba779870a2649ac0c839e6e639729c6923cb369cb6838d"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_history_cycle.rs",
+    "sha256": "f9f90280313c2985dbabc1d6c90e4073b903d2144aaf516391df610134650a5a"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_history.rs",
+    "sha256": "d85468b1d19f9846b21cd3d39919141834f7df45f53c371471e58713d60b94b5"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_identity.rs",
+    "sha256": "31391d0c0e98030f6c74088f4440273e56cd3f4f188ccaa51fd98fb200984059"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_money.rs",
+    "sha256": "ac41661313fe204532d4487a78536c0c1302cae47464e4795b2a2ebfd3589a7a"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_offers.rs",
+    "sha256": "86e04728c86e3cb90c025d34c045464b13ed558283d7f34789414fd8c012bdd1"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_release.rs",
+    "sha256": "811ef6086068f38ee5244efcc5074d93bbe42bb931d28433d73fdbbdb04de003"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/labor_roster.rs",
+    "sha256": "74759ee7046e6caaad200879a6ba5afd2871aa13d1f01a92ebdc477b3ba08af5"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/ledger.rs",
+    "sha256": "84a1dd16bfacf41362844bcd5b5d8101ecafe3357c1808c8234efb8685a3e651"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/lib.rs",
+    "sha256": "a7b95af37382ecea202772ea86cdfd17f8efa4ac9f3f6f17b5ec69ea2a8f0f0f"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/local_food_reserves.rs",
+    "sha256": "979b9afe903ada1781133220e9111097c1164fdbfb333c70fcc912bf50a78669"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/local_hiring.rs",
+    "sha256": "732e8564940fc01cb72748dd89524e02feef13f378a0055f68f5735cb6333dd4"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_clearing.rs",
+    "sha256": "f34d7cf48c09d977ca3bb0103fc74ef0959bad6a14f6a78b185d499d008d696b"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_cycle.rs",
+    "sha256": "c7ac43a74fb48ff602cd0a49c44fd43e15b51f41c149528ed1e3cbe3e737d982"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_inputs.rs",
+    "sha256": "3a468d5427985d87111fbc9bb1f44c67086df900422530f550a619a3ac1e70ed"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_invariants.rs",
+    "sha256": "9fd7676a8dc97ac04a2f92d83565f41cd78981d32dc9b1377024c874997e9e7e"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_operations.rs",
+    "sha256": "ba6a9e5a3fbc5de13f7043b630dfb633156c75952e95d2c089c31e411538b9e1"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market_policy.rs",
+    "sha256": "9efa12ea1cce6bb53a07de60b32b5530339aa15a9462c9359f3a78bef06acf5d"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/market.rs",
+    "sha256": "2840f881fb2b79c9a3fc74e2371706c73b29e1454877a7250630eab05b3e078c"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/migration_cycle.rs",
+    "sha256": "a17c0f529fff2b95751406355571dcd48d486234a9a8b45688683036ddd0d8fb"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/migration_path.rs",
+    "sha256": "6bab26d8ed35e69bbe925ef32a59f9865fb5c502004ea69a94e9784ca03d9ce8"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/mobility_cycle.rs",
+    "sha256": "55c49158c0d7062d68fb227e3a1eb8fedba2f8d6c4ca25cfd5169c8de1e2ee15"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/mobility_invariants.rs",
+    "sha256": "6528ffa61afc2b5382d8d43f29d55fa3bb27a875eb6b1f06609ad0adc2f6c1a8"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/money_math.rs",
+    "sha256": "c1d8376e5215d0a26009dc98aface576243b8dc494e6a3953748bb6901d5d741"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/native_week.rs",
+    "sha256": "b6576870b9b1abc1f8a61db0659cae211bf885e107b9eaa8871dbe0f24281709"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/needs.rs",
+    "sha256": "29adc0e12884b0bccf5643ad73bf5b52f8018a542ccf1def944ed6de45b5cd4b"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/operation_history.rs",
+    "sha256": "cc56e9f7540fc8d8f84173d04c56339b903fc4c589c0f4c591914193350d826d"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/operation_session.rs",
+    "sha256": "4847474e736c5ac2a1fdacd80a535cfda2a4748cb436e308537639f01b42555c"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/ordering.rs",
+    "sha256": "c0c033249a5c8656a9298170a753f47f71fdebb8d74dd012a239d8e4843b2531"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/physical_supply.rs",
+    "sha256": "bcd44856dc9bf63f0a97795d3f38c0d146b15d2721e0988024aa5ba603180a2d"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/pipeline.rs",
+    "sha256": "1cc5b17c4342356c3f80890d828c607c609670f91840b59278bc37ea65026bc9"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/producer_income.rs",
+    "sha256": "23382a85b0fac0c9ebd50c14974b01290d17adb63027cb2467c5467aacfedbff"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/producer_reserves.rs",
+    "sha256": "ec71b8c0331f63affaa7deb69d739906eec60596fb56819ef1694bb0155fb185"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production_activities.rs",
+    "sha256": "1d38c66625ef228cd91fe8ba64d4c77f91db64b7c4e678577e04a889f069dde5"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production_feasibility.rs",
+    "sha256": "1fc27766360bb8472e4fc99d3fc4308897ab66217918b1d8e4546f0de5f12bbb"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production_invariants.rs",
+    "sha256": "b3ed8c0ad024bcc2db70b96a02544009f87476815db07a17f5fe43ecf162c0dd"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production_payroll.rs",
+    "sha256": "1738cbb826e829fe00da6c4782d25c09313de614cc9487f17dc9daef78a2fd27"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production_validation.rs",
+    "sha256": "abff4dec45c447c74aa8f306497f71da8f6db627a1a4089f8634ba3ab4c7d2af"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/production.rs",
+    "sha256": "bf1a9c15f6efe12ee54a021dbe3baa177d6d1391346725c43bb712e21aa4e195"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/profession_cycle.rs",
+    "sha256": "c491d4801ae1847b70ae272c80cf217864623f5dd2dbe433e1a87f6291913599"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/profession_scope.rs",
+    "sha256": "bc2724fcf5439b118779b7ed7f73a40fe73e2d6153f60923ec7021ad900fb485"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/profit_rights.rs",
+    "sha256": "ab824e8d81fc8403e0d941ce9212121145b18cfb3f94ea02023293fe4ab400d9"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/raw_procurement.rs",
+    "sha256": "4b62514f87809d899f0b0e040f235bfaf7794ecabd7bae399e699a218d318ec0"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/service_payroll.rs",
+    "sha256": "b57375ab863bf8475ef3e7d68f06ecd3051715d24370db37cc05036366755d88"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/shipment_actions.rs",
+    "sha256": "c44a984eed037802fb13be1c8f0c9b4849f8eca85f60108ebac8b7bb657606db"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/shipment_arrivals.rs",
+    "sha256": "12cc45d7b7364455ca0bcdb5f47f16231d4f5217850ee8cdfd4e6388ce7de657"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/shipment_dispatch.rs",
+    "sha256": "dfbdf20e4c41150a6f2495afe34588c269bc84ab8dc76b7e01284de9abaa109c"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/shipping_invariants.rs",
+    "sha256": "31513693fab8ccb7e2834bf4b7e4a5c8c449640bfdf2740b72dbbeb4cb27463f"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/shipping_operations.rs",
+    "sha256": "c4c99ba87f55efa7d617627d7559abd02fc3a470dfa58117fcd7755f1b57c386"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/state_procurement.rs",
+    "sha256": "b806c2f7a96ee82d6f27e13ef7888ec6f7bdd7e55943b16ab1e48d048be956c4"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/stock_provenance.rs",
+    "sha256": "1d0df6c2a6fa82d5e750c67a20b6f2e4eb57b229444f92e70a7598c64dd14537"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/storage.rs",
+    "sha256": "35511d553b5e5c6babcd9ad3c26a002961a95418642013bd1608d68535ae1bd8"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/supply.rs",
+    "sha256": "da5df5c2db577d4fb668c69a99a3bdb0731a3468b656a98ca75178787d37044b"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/trade_offers.rs",
+    "sha256": "34db73db48a1466a13d03efcfef6a79b2cf6e8ed79a138d87cf7df07730260ec"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/transport_validation.rs",
+    "sha256": "bffd7aa33e6de6c832b36d7651391b41073c2916a67cf4676e3e1c79b2adeb71"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/warehouse_capacity.rs",
+    "sha256": "f942f1f6d6c386157968133ea9ce2ff6fdeef5461b57f2af8d4fc06d17331e6e"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/week_history.rs",
+    "sha256": "9ea28b02fa09b4e2acbed6b2c5a54d957b956a34fb34d53c6c0561b5931c8bdc"
+  },
+  {
+    "path": "crates/kingmaker-sim/src/week_invariants.rs",
+    "sha256": "075a5c1c398622cc2506cf81ac908358bcea2bb8c10c084eac6aec79a194167d"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/artisan_capital_opening_test.rs",
+    "sha256": "0bd486ba7bd5d74b422b0a79d02bdbbd20e39767695b4be40ed7c7e341ddfdd3"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/artisan_choices_test.rs",
+    "sha256": "3aad9e53201d87d86faa99d12288ce7c8f448a000861ddad2b527d6de2e4024b"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/artisan_hiring_test.rs",
+    "sha256": "3436848a4ea7975c94988ebf43af39070dceb92ec7484fc8621a1511dcb3f4c5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/artisan_income_test.rs",
+    "sha256": "90933c06319c8674ee52cbed8c8f73652c83e39d5617eb2dbfcb9ee7d332829e"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/budget_cycle_test.rs",
+    "sha256": "5b45b2a9f253e28b2cb1c108400b1f49d04e23b5aa711acc3070654f2415b0e3"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/budget_funding_test.rs",
+    "sha256": "524c4d66552c1eb5339c44f0fca8c95b71c7cb78c8c7bc067de3834db67d6b4d"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/budget_opening_test.rs",
+    "sha256": "061f21c6670f593f4d815515913862a035aaf8d0ce69672c1bbffbbf371c96cd"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/calendar_native_test.rs",
+    "sha256": "4e1c31549d100b945d1aced1b28d79109eb394dd4ee4034cd60c68ef0520eef5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/cohort_scope_test.rs",
+    "sha256": "07fe6fd45a1bdaf31d50e583506604f14be5707162e07ef1bf29d6a4923b1875"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/cohort_split_test.rs",
+    "sha256": "3ac967e603343ce7eb0d39c9851342ac4fb1795d8ffab7a161b44e1c56f352a5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/budget.rs",
+    "sha256": "957a95fcaacb7b90c837177d0f06c7c981e46a84c99b2c72baf4f3ef97ec02fc"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/construction.rs",
+    "sha256": "1019e2040292aa602ab98a0c5fa27af916ecab61f4fbf2a6e6ad19522a275fbe"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/dynamic_week.rs",
+    "sha256": "66a5afcfc29ede07c27bd1c0850ce7fc94340a9f23c586ae6be30e77a1578819"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/income.rs",
+    "sha256": "197f9626bb1943e04d6bdf23f92e19a3ce9026b13ec67a0183f4d973530b2cd6"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/labor.rs",
+    "sha256": "796638c163ba56ed4aa0731dad5e8eb93cb9c479e0a5cad9a483904164396b73"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/market.rs",
+    "sha256": "2ba6472993e0e73a963bdafae1566fda061c09df79129eb9c25fc07fd6ff8054"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/native_week.rs",
+    "sha256": "c63a5af27473b7c4ded1c7e8ac557196ec15b453278b5919c295603bafca37ea"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/physical_supply.rs",
+    "sha256": "fddcddead2bb02eba71fc7751a61370aa6a1e6b72fb4d862611addf1d3bf0926"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/production.rs",
+    "sha256": "956588a2cdfaf5bb6072be5fd565cb7ec24cc997bd80628be70402487544efc2"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/common/shipping.rs",
+    "sha256": "be3f3c46152b1abc3b0f050f4bf717390f13f4c9e2e9e458015623bab64b85ba"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_authority_test.rs",
+    "sha256": "dc65ac1de70ec4ade34c472bd38605c3bc2f0639f1d83cb26a7c5512f7f53d83"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_building_test.rs",
+    "sha256": "c5e6813e93c854cca43946e7a81ace93ca9194ebf0a86a9b745178d4e097af33"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_cancel_test.rs",
+    "sha256": "2907a55ccce9465abe01b7ba8b98d24fbb7df9a96a3c44abaf1d89eb4d0d02f4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_cycle_test.rs",
+    "sha256": "0a92d212f468af3da041547c47e6f03306d2b54f4f041d36861e15268709ce47"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_expansion_test.rs",
+    "sha256": "9073d895ade4edb911bf525ae2322c6e86ae91ebee79986e36a8c66aaef4a4f4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_labor_test.rs",
+    "sha256": "7aafed1cfface3db6c9c71e3b9a8638b095c1d01a9a2fec7ef18c153992e2869"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_payroll_test.rs",
+    "sha256": "df5e51fef9a7ac7e79d18820c33b0df9785310b656f047f6c0e25fb866c67041"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/construction_rights_test.rs",
+    "sha256": "1a16119203b3873e586b1688ef5776e777924cac4988aad98831575a556c8605"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/destination_funding_test.rs",
+    "sha256": "87f2f07a7cc1850cfbc16442f0f5809122188d9efd353262916eadebd3dccc26"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/food_supply_forecast_test.rs",
+    "sha256": "f7e6c7a0579de94aa02a71135f0c2297d553359c35ec755d18ceed51aed5166c"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/hiring_scope_test.rs",
+    "sha256": "78edc5fbb240cf62df6cdf64ec4f309d729f7c2bd342654f7b772f011b64b8f8"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/income_basis_test.rs",
+    "sha256": "38d128a3ccced0f6758e5268f2ceeee5febf771344d66c387b7e066e95cdf905"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/income_capital_test.rs",
+    "sha256": "96a17f3293feaf621c78c933f62076074cd9e63e2d65fb51d58afd19d10856df"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/income_cycle_test.rs",
+    "sha256": "dd6e918eab074b993b0125c532322be7d5cdd2d9f15efb93ba000ef583210ed7"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/income_recognition_test.rs",
+    "sha256": "e00d88820e8365165bd16cc8fc6f37a435e673d8973a11da4e21e115b23157f0"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/income_shipping_phase_test.rs",
+    "sha256": "d765bcac8d3c232707190aceae5c7cf15b779b257098a0c69c184bb540f6517d"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/construction_operations.rs",
+    "sha256": "41f467eaba5a2f9c572a92fa8d2cbf4feca888dd6f4afc5ced9339e3408dc520"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/food_conversion_native.rs",
+    "sha256": "c56a2dd1823114da2404829da5a4b7fb692245ee73a5bd5d73c72f65590d39c2"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/income_operations.rs",
+    "sha256": "2cf394c6ed975b5bb7e0f9f1a8da678fa46fa48c9daeb283ecd08463eea83195"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/income_shipping_recognition.rs",
+    "sha256": "dd8a66e9f898021f075b4148699f249205be68049c4eccab502d010498ebd04f"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/market_policy_storage.rs",
+    "sha256": "b3d33be00653ec1d636838139ba285900f4fbf9c6fae6c7af807381e944fddad"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/private_income_context.rs",
+    "sha256": "dcb58eee7bab68295cdf5b7857afc2d1c242511e31486db22eed62b950b68a16"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/shipment_dispatch.rs",
+    "sha256": "feff206b66771908b906f695756efce8a4127a3515a60956fbefb888e313a4a2"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/shipping_invariants.rs",
+    "sha256": "2cfe41ea03844d01bcda1345dae51e1333b1079b7763d47e78b1db349a9fc751"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/shipping_operations.rs",
+    "sha256": "3d4b3929ee04a77a6f059ef0540b2abeb46d59e1f15cede009df165d98acefd3"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/internal/week_invariants.rs",
+    "sha256": "e52dafc701d90d3988c1f11ff7a14988d17b5df6c3a682d4be9bdf018d684df5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/invariants_test.rs",
+    "sha256": "d8e8cdb20b3df56e82b4190403c5e554fc3f477293932ce73c37a2334ce9d0e2"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/investments_test.rs",
+    "sha256": "3cc249249d51a7b38bde7832556557312e6af3d92768438a45aa19fb7822cb63"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_capacity_test.rs",
+    "sha256": "d09343c33099d617c1873d9dbe6a93330c5a627a61ce9a43c4fd785fca50e320"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_cycle_test.rs",
+    "sha256": "7622f4d9aad56e835d6603cb1fabc78d1e9afba2a50b6e79a405a101b00b71c8"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_differential_test.rs",
+    "sha256": "30f46d4d2f49004d1f5bb88bd747376426435b7ad2d7885ffd3e1a3b69b60744"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_forecast_test.rs",
+    "sha256": "ab149e25a8734784ec0bfb8bf6128dfe693486f4da7774a9d880c399c19a4610"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_history_cycle_test.rs",
+    "sha256": "c67c357ac98fcd89e15d6521f505d24f7ffcbad3e5a39e79d8432b24eb44713b"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_history_test.rs",
+    "sha256": "becd5b3609d8e702d58f4d070c0f6f8dd34bd4920bafdfca2899c168dc356fad"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_money_test.rs",
+    "sha256": "91c302ef37e3ca91bfdf6b52cab58f28d70a5aaaf6cfbca9ec0637d3e0126e91"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_offers_test.rs",
+    "sha256": "1f6bd5b1f0190ea532878575ff68ea9917f9c6ff156136ad3b4afa66669a9d32"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_release_test.rs",
+    "sha256": "fac7b9e2890f458ffe645fb18e42876e0fadaedf0239dc6023defed30db77ad1"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_review_regression_test.rs",
+    "sha256": "562d7c4454c27c19538f0e9d525e797f7feec6da1fde9e6e225c9d47308286eb"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/labor_roster_test.rs",
+    "sha256": "86bd5bd9286265aee2e7c557a327024d1c33b6d907c38b467e98ebbb035b05f1"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/ledger_contract_test.rs",
+    "sha256": "67aedb1f7539945f46946a33100cc4e9600e341d960f8990a56f8976beb908f7"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/ledger_test.rs",
+    "sha256": "6282933ef4486a8478852f76eae3d85ab7fc2a44dc80124e22a3c86753245e7c"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/local_food_reserves_test.rs",
+    "sha256": "72c5da5cc06ffa14668c2e8099226c03296c2d82b560341601f7589d72df3a95"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/local_hiring_test.rs",
+    "sha256": "6e6f2dacfe37809bae592b92f98c7ecc3efc1a0c58082c16293708239a5ae791"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_big_budget_test.rs",
+    "sha256": "d5a7e09d12b5c657b8134596de73d71ff2aebcbaf0f0aba8020c76c730903a15"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_clearing_native_test.rs",
+    "sha256": "c6d8eb4b9b13216bd33d6a141581f02cd14f38f05cbd83705b8022c63abc36b4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_cycle_test.rs",
+    "sha256": "5f84d6927d8e35ebc0df3302fee9a4f72dc432680f98a491f91b68352066d8cc"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_differential_test.rs",
+    "sha256": "26b94cdb6d01eb8899ddbc1531314a5dc467c065e5e512e8f00ed561341395e5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_input_orders_test.rs",
+    "sha256": "4772672b9e04f165f6aee62e5e60042833b59f84db65f6910a4c8580df3320cd"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_invariants_test.rs",
+    "sha256": "e2657559a12ca1b2ecef1ce7793a719e3af05b6d9b0f3b37bd16887c84b0c9a0"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_operations_test.rs",
+    "sha256": "a69508d87f03b770f9d71e74d4abac710815312255e05aae0a5a257fce5650e5"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_order_evidence_test.rs",
+    "sha256": "d82dd2f858e2a1a12ced2699b9ae45dbc123020486e4ad1f0cb58fd5d498365c"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/market_scaling_test.rs",
+    "sha256": "f852a07f3381ea0bd9fef4eba91307be997dc802411c7a5b3bca91324059d636"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/migration_cycle_test.rs",
+    "sha256": "97ad2389bbdbea75fe85303543afc4fec5d4cb8f800257f0f5fc4210da693f88"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/migration_path_test.rs",
+    "sha256": "a9ec131f682f76de9544f7c0afdf6cb65482d63177a0328bc9631e88c77c1910"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/mobility_invariants_test.rs",
+    "sha256": "8431ebcdb45b4fe77f2bbc92ff2becee35f2f4ee8185f8fd363d0137658bef8f"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/mobility_opening_test.rs",
+    "sha256": "c8775e830795bdaa59856beabc4eadcde45f800a4378479b412c1a04b00aa52a"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/money_math_test.rs",
+    "sha256": "e2930dfd5aa87812c826381b7dfca7bec34568f687e8ca0bb893f4ce0b11256e"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/native_procurement_test.rs",
+    "sha256": "7d8f46fa205c60e52e3bd6e8c597bb3747ba162dd5cc02938e725d8afd395484"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/native_week_history_test.rs",
+    "sha256": "929bdcc9772080f43203390bb8faffcc8ddaa205aed82bb71f0c18b9e6c7959b"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/native_week_test.rs",
+    "sha256": "3d68be5d6befb21fc1000205738d4046bad496a774ff3609e88b294b001d6852"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/needs_native_test.rs",
+    "sha256": "83eef1ab629c8ea37f4616e371f5f1f0604028ae3798c703bc1499993f7cf4e4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/operation_session_test.rs",
+    "sha256": "b1b56c754f94009f02379d526bb7850ef9693da4f3ac9fd400535182923042cf"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/ordering_test.rs",
+    "sha256": "c29540e2c362b7845b91f04a0b741599c6a4542cce108a91d195e43d6ff4173d"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/physical_supply_test.rs",
+    "sha256": "d51546124cac6fc16cc9eb4cd7abf493066695d96f515cd2d9d42fbea273c8a4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/pipeline_gate_test.rs",
+    "sha256": "d2a2c48b3a62db2ab158d5f7ebad40bcc6a57f0c871896fd3c7e4d44ff0f18d6"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/producer_income_test.rs",
+    "sha256": "005eed19b9b869037b41e0500e4bde995d1f65b57d2a891a54dabe83cc9e08e8"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_activities_test.rs",
+    "sha256": "8c3cc3b32e85e9db965d55de9b2458834e589cb646ea2d7d0a264b316bc4f284"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_cycle_test.rs",
+    "sha256": "1bb323010f58a4ba8b5f4493e2c3ce61b0764cba422452ab91e6b7e1a67d5f62"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_differential_test.rs",
+    "sha256": "e1a4a33faee4934ae3035ad36a43f03c905d658fb8f30951be75fff1c3e78351"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_feasibility_test.rs",
+    "sha256": "d99b793980685bb540faa71b6a771caebf8c2da4821a72c466feee681a945a83"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_invariants_test.rs",
+    "sha256": "ecf48425764a191790bfca5db3c80c559f3796b5b8742150680e710876842bce"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_maintenance_test.rs",
+    "sha256": "717ff15a3e63a5c9cf44b9cd6b8d63d651291bdbb18e6b29cd7912d2acb9d5ee"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_review_test.rs",
+    "sha256": "6651ba3b2eed643414d7c7b1563dedd744ec107c483e09ec5e790ac34e02369b"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/production_test.rs",
+    "sha256": "a8755ae9a311b6d12c22cf56ca37165fbf2fea5a9b8bc9edf6b91f2440321f10"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/profession_cycle_test.rs",
+    "sha256": "0c676a38cc5383140b21cc506280c004d297ba37a8350fb000986e1af754c4a4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/service_payroll_test.rs",
+    "sha256": "c7fecc8dace1bd6957be95914afe3432556467a93daf29fcb40d2ba451fdd90e"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/shipment_actions_test.rs",
+    "sha256": "246f304dcb52927f66b646e0f7cac697e7bb8dc8088c7a4c3c618df8fcdbc452"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/shipment_arrival_rights_test.rs",
+    "sha256": "0ccf324cb4c6aa9da32283b2e3eed611222eb840192559315f4f007951ff2fdb"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/shipment_arrivals_test.rs",
+    "sha256": "ea143bd779220dde5370d0d955132e6d11c0cbe0d720f3dfc004f1a17c933616"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/shipping_authority_test.rs",
+    "sha256": "ee3c6cbd08267425f659dfe59f33ed3b2dd308f39680ca70fbd83b6d026fbe16"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/stock_provenance_test.rs",
+    "sha256": "16d47d97cbb22d73b665126aba3a1590fc6affc5ff0adcc8137ded948647e2b9"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/storage_production_test.rs",
+    "sha256": "1556407b0083696ae3d5278c527023992812b1510c69c390d9e5b3ad40876663"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/supply_test.rs",
+    "sha256": "4b9a4cbbbb9fc30af70323ecfd74a7cae83677153c81b725a22fe81b144a6f16"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/trade_offers_test.rs",
+    "sha256": "bd44bada3e3889645f487063c81257404a20894fb423ce340c9b559fd8c53ce4"
+  },
+  {
+    "path": "crates/kingmaker-sim/tests/warehouse_capacity_test.rs",
+    "sha256": "aa3ca54f4f5e5cf01cce9acc48854ffea3c8da931dee72d9ba27c5d9df64886d"
+  },
+  {
+    "path": "scripts/tests/budget-oracle.cjs",
+    "sha256": "b27d4c43e4a2f84f2cf2ab01d197f084174ebf796485b5389f5a8f2d9a5f7946"
+  },
+  {
+    "path": "scripts/tests/codec-oracle.cjs",
+    "sha256": "29714d7f94237a31a5b9eb0e16b03f302b83849df1297689c826e798f13ce261"
+  },
+  {
+    "path": "scripts/tests/construction-oracle.cjs",
+    "sha256": "f23b7e81550b37986178aba88e0ea288ee6b572f1862952549fdfae7d9492f0f"
+  },
+  {
+    "path": "scripts/tests/income-oracle.cjs",
+    "sha256": "69063209cd59a4302f28582f1200aff4e536c27724105cb2d3f16dcab1d46935"
+  },
+  {
+    "path": "scripts/tests/labor-oracle.cjs",
+    "sha256": "9cac172892e7231342ff89b500bc71248ae97ec46b2bca23cfe8ba2e84a22ac4"
+  },
+  {
+    "path": "scripts/tests/market-oracle.cjs",
+    "sha256": "d080e1519651285888ad6f461c1a5e0265495c360dde285f88f99bdc1ab4ea08"
+  },
+  {
+    "path": "scripts/tests/money-math-oracle.cjs",
+    "sha256": "6d21e0306a17463ced458a6d7d509f3cb6f1cd5ab319fb30a7779687027e0ae5"
+  },
+  {
+    "path": "scripts/tests/production-oracle.cjs",
+    "sha256": "60572a9668b04b3b1fad4708ca9cd686f717806d4083fad4186a860b3cb03ca1"
+  },
+  {
+    "path": "scripts/tests/shipping-oracle.cjs",
+    "sha256": "db90426171691f0b3dc4301c5cc1219cc0af0336d0869e769b744ce9dbe59b0e"
+  },
+  {
+    "path": "scripts/tests/week-oracle.cjs",
+    "sha256": "feabbb08952237deb0e155254176b10fc448f031c3438ec5467f2a33262baf9f"
+  }
+]

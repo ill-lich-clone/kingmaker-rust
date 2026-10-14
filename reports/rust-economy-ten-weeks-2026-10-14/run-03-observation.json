@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-10-14T03:28:53.8141361Z",
+  "session": 42364,
+  "process_alive": true,
+  "cpu_seconds": 6697.625,
+  "status": "running",
+  "completed_weeks": 0,
+  "last_progress": [
+    "Неделя 1/10; фаза market; прошло 1646.2 с",
+    "Неделя 1/10; фаза market; прошло 1676.2 с",
+    "Неделя 1/10; фаза market; прошло 1706.3 с"
+  ],
+  "goal_turn": "verified wait"
+}

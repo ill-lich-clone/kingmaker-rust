@@ -1,0 +1,77 @@
+{
+  "status": "completed_stage_only",
+  "stage": "native_income_and_artisan_decisions",
+  "goal_status": "active",
+  "full_world_weeks_executed": 0,
+  "spec": "docs/superpowers/specs/2026-10-13-rust-income-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-income.md",
+  "source": {
+    "campaign": "world-306",
+    "revision": 20,
+    "date": "306-01-01",
+    "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+    "source_writes": 0,
+    "actual_projection_probe": "work/rust-income-2026-10-13/full-source-inspect.json",
+    "workers": 1,
+    "storage": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано"
+  },
+  "native_source_fingerprint": "ca6daa3d525e3922231c13f152f0bcd284d809084eaadd8ce7289c8b3137c7b2",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "0636283878139063af000700a65f7c60fe3736aa1b42edc62244b32960675cce",
+      "previous_sha256": "d7910f2b4d4ccdf7585ffbf30fa24e8b3dfcf6e60cf4c9ab5a57ac70947dbede"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "fb0e6d41834be4e52330ab10db7261f3a3260a4cf2b473b6af1ba88009a52275",
+      "previous_sha256": "04d9a6594f101b2c806b79ff8b3a8a0b5015f51c359137aff05f45d1e6bf4d54"
+    }
+  ],
+  "verification": {
+    "workspace_cases": 433,
+    "release_cases": 71,
+    "final_reviews": 1,
+    "review_important": 2,
+    "review_fixed": 2,
+    "roundtrip": "mini native state; no full-world checkpoint proof",
+    "loader_test": "unchanged loader excluded; actual full-source readonly inspect passed Task1"
+  },
+  "regression_results": {
+    "joint_recipe": {
+      "fleet": 12,
+      "inputs": "grain1+coal1",
+      "feasible_output": 6,
+      "reserve_minor": "1224"
+    },
+    "shared_route_and_terminal_limits": "no double allocation",
+    "paid_retooling": "actual closing payment, serde, due opening and exact replay no second charge",
+    "provenance": "actual production, consumption, purchase, full/partial cohort transfer, serde",
+    "conservation": "actual closed phase money/goods/people/labor/rights"
+  },
+  "confirmed_legacy_bugs": [
+    "stock-specific route cache poisoning",
+    "forecast lot exceeding own transport limit",
+    "shared artisan owner revenue paid twice",
+    "distribution recorded without recipient"
+  ],
+  "corrected_native_gaps": [
+    "production required history replay",
+    "duplicate income evidence/events",
+    "empty-phase lost receipt replay",
+    "opening/closing prepared stage mismatch",
+    "purchased producer trace lost at income",
+    "private labor world omitted income/transport context",
+    "weekly route and terminal capacity allocated twice",
+    "joint recipe shared fleet false refusal and insufficient reserve"
+  ],
+  "not_yet_verified": [
+    "actual dated cargo execution and food forecasting",
+    "investments/construction cycle",
+    "complete dated week",
+    "full-world checkpoint/new-process continuation",
+    "10-week economic health and timing"
+  ]
+}

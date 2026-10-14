@@ -1,0 +1,22 @@
+### Static Hypotheses
+
+1. **$O(N^2)$ Scans & Per-Entity Allocation in Working Capital**: In the enterprise loop, matching via `initial.entities.iter().find(...)` incurs $O(N^2)$ scanning, while each enterprise allocates and clones a fresh `Vec<Value>` via `quotes.iter().filter(...).cloned().collect()`.
+2. **Combinatorial Simulation in `choose_for_enterprise`**: For each enterprise, nested loops traverse `catalog.methods` $\times$ `m.inputs` with a fixed `for _ in 0..64` stepping loop, repeatedly evaluating stock lookups and `BigInt` quote invoices.
+3. **Repeated Serde Parsing in Decision Loops**: Hot loops deserialize dynamic JSON structures on every iteration (e.g., `serde_json::from_value(ready.clone())?` in `plan_artisan_choices` and `integer(&terms["cost_minor"])`) rather than querying strongly typed, pre-indexed fields.
+
+---
+
+### Exact Instrumentation Boundaries
+
+- **Phase Level (`income_prepare`)**:
+  - `state.replace_stock_contributions(capture_stock_provenance(w)?)`
+  - `plan_artisan_choices(&state, r, ...)`
+  - `crate::artisan_working_capital::plan_artisan_working_capital(&state, r, ...)`
+- **Working Capital Setup & Loop**:
+  - `build_opening_artisan_quotes(w, profile)`
+  - Both pre- and post-loop calls to `working_capital_requirements(...)`
+  - Loop boundary `for e in &mut result.enterprises`, with an inner child span enclosing `choose_for_enterprise(w, e, ...)`
+- **Method Optimization (`choose_for_enterprise`)**:
+  - Method catalog loop `for m in &catalog.methods`
+  - Inner iteration block `for _ in 0..64`
+

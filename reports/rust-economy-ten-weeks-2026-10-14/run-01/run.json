@@ -1,0 +1,50 @@
+{
+  "automatic_systems": [
+    "employment/mobility",
+    "existing budget funding",
+    "capitalist construction",
+    "artisan capital/methods",
+    "production/market/supply",
+    "raw state procurement",
+    "income/history"
+  ],
+  "completed_weeks": 0,
+  "configuration": {
+    "db_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "economy": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано",
+    "runtime": "../Проект карты Тейванкаля/data/kingmaker/runtime.json",
+    "source_campaign": "world-306",
+    "source_writes": 0,
+    "workers": 1
+  },
+  "error": "Initial audit rejects measured series; see initial-audit.json",
+  "failed_phase": "начальный снимок",
+  "identity": {
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "native_fingerprint": "16c389014038c7435ee58491cac92b93115f95102973ec8637e1ebe94de7a39b",
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d"
+  },
+  "initial_campaign": {
+    "campaign_id": "rust-test-10344-20",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "initial_save_elapsed_ms": 34673,
+  "initial_snapshot": "initial",
+  "last_recoverable_checkpoint": "initial",
+  "load_elapsed_ms": 78921,
+  "native_heap_limit": "не реализовано",
+  "player_decisions": "no synthetic orders; existing policies only",
+  "repro_request": null,
+  "schema": 1,
+  "status": "failed_initial_data",
+  "target_weeks": 10
+}

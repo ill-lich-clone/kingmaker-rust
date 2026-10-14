@@ -1,0 +1,504 @@
+{
+  "schema": 1,
+  "complete": false,
+  "process": {
+    "outcome": "memory_limit",
+    "exit_code": 999,
+    "pid": 42988,
+    "peak_private_bytes": 12884860928,
+    "peak_working_set_bytes": 12018216960,
+    "sampling_interval_ms": 100,
+    "memory_limit_notified": true
+  },
+  "process_association": "matched",
+  "profile_pid": 42988,
+  "supplied_process_pid": 42988,
+  "corrupted": false,
+  "truncated_tail": false,
+  "errors": [],
+  "footer": null,
+  "last_open_scopes": [
+    {
+      "event": "begin",
+      "id": 1,
+      "name": "run.total",
+      "parent_id": null,
+      "relative_ns": 128600,
+      "parent_name": null
+    },
+    {
+      "event": "begin",
+      "id": 9,
+      "name": "run.week",
+      "parent_id": 1,
+      "relative_ns": 105446877600,
+      "parent_name": "run.total"
+    },
+    {
+      "event": "begin",
+      "id": 11,
+      "name": "run.prepare",
+      "parent_id": 9,
+      "relative_ns": 105540570700,
+      "parent_name": "run.week"
+    },
+    {
+      "event": "begin",
+      "id": 12,
+      "name": "week.prepare",
+      "parent_id": 11,
+      "relative_ns": 105540870800,
+      "parent_name": "run.prepare"
+    },
+    {
+      "event": "begin",
+      "id": 122063,
+      "name": "phase.early_food",
+      "parent_id": 12,
+      "relative_ns": 1093059797600,
+      "parent_name": "week.prepare"
+    }
+  ],
+  "completed_scopes": 122058,
+  "total_self_ns": 1092575884100,
+  "counters": {
+    "audit_stock_changes": 0,
+    "hash_bytes": 40756436899,
+    "hash_calls": 121974,
+    "history_cache_hits": 0,
+    "history_cache_misses": 0,
+    "history_payload_bytes": 0,
+    "history_sql_queries": 0,
+    "index_builds": 58,
+    "index_rows": 979148,
+    "source_cache_hits": 0,
+    "source_cache_misses": 0,
+    "source_payload_bytes": 3043440268,
+    "source_sql_queries": 3986
+  },
+  "scopes": [
+    {
+      "parent": "week.prepare",
+      "name": "phase.artisan_opening",
+      "calls": 1,
+      "inclusive_ns": 389263569700,
+      "self_ns": 383157271000,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.investments",
+      "calls": 1,
+      "inclusive_ns": 210020001900,
+      "self_ns": 208492577800,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.maintenance",
+      "calls": 1,
+      "inclusive_ns": 101321801000,
+      "self_ns": 94039896200,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.mobility",
+      "name": "guard.serialize",
+      "calls": 121574,
+      "inclusive_ns": 97309898000,
+      "self_ns": 92253536100,
+      "outcomes": {
+        "ok": 121574
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.service_payroll",
+      "calls": 1,
+      "inclusive_ns": 95029883100,
+      "self_ns": 87531520600,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.load",
+      "name": "io.load",
+      "calls": 1,
+      "inclusive_ns": 65018447900,
+      "self_ns": 50458358600,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.initial_save",
+      "name": "io.checkpoint.save",
+      "calls": 1,
+      "inclusive_ns": 39282384200,
+      "self_ns": 39282384200,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.mobility",
+      "calls": 1,
+      "inclusive_ns": 132451233500,
+      "self_ns": 35141335500,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "storage.capacity.needs",
+      "calls": 1,
+      "inclusive_ns": 27754696200,
+      "self_ns": 26672591700,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "io.load",
+      "name": "io.project",
+      "calls": 1,
+      "inclusive_ns": 14560089300,
+      "self_ns": 14560089300,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.budget_opening",
+      "calls": 1,
+      "inclusive_ns": 20827110000,
+      "self_ns": 13545836900,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.service_payroll",
+      "name": "guard.serialize",
+      "calls": 56,
+      "inclusive_ns": 7498362500,
+      "self_ns": 7498362500,
+      "outcomes": {
+        "ok": 56
+      }
+    },
+    {
+      "parent": "phase.maintenance",
+      "name": "guard.serialize",
+      "calls": 48,
+      "inclusive_ns": 7281904800,
+      "self_ns": 7281904800,
+      "outcomes": {
+        "ok": 48
+      }
+    },
+    {
+      "parent": "phase.budget_opening",
+      "name": "guard.serialize",
+      "calls": 56,
+      "inclusive_ns": 7281273100,
+      "self_ns": 7281273100,
+      "outcomes": {
+        "ok": 56
+      }
+    },
+    {
+      "parent": "phase.artisan_opening",
+      "name": "guard.serialize",
+      "calls": 67,
+      "inclusive_ns": 6106298700,
+      "self_ns": 6106298700,
+      "outcomes": {
+        "ok": 67
+      }
+    },
+    {
+      "parent": "guard.serialize",
+      "name": "guard.serialize",
+      "calls": 60,
+      "inclusive_ns": 6083350700,
+      "self_ns": 5056870200,
+      "outcomes": {
+        "ok": 60
+      }
+    },
+    {
+      "parent": "phase.arrivals",
+      "name": "guard.serialize",
+      "calls": 58,
+      "inclusive_ns": 4669508000,
+      "self_ns": 4669508000,
+      "outcomes": {
+        "ok": 58
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.arrivals",
+      "calls": 1,
+      "inclusive_ns": 7165958500,
+      "self_ns": 2313823700,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "storage.capacity.occupancy",
+      "name": "guard.serialize",
+      "calls": 1,
+      "inclusive_ns": 1877682600,
+      "self_ns": 1877682600,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.investments",
+      "name": "guard.serialize",
+      "calls": 38,
+      "inclusive_ns": 1527424100,
+      "self_ns": 1526915800,
+      "outcomes": {
+        "ok": 38
+      }
+    },
+    {
+      "parent": "storage.capacity.needs",
+      "name": "guard.serialize",
+      "calls": 6,
+      "inclusive_ns": 1082104500,
+      "self_ns": 1082104500,
+      "outcomes": {
+        "ok": 6
+      }
+    },
+    {
+      "parent": "run.total",
+      "name": "run.initial_audit",
+      "calls": 1,
+      "inclusive_ns": 994294100,
+      "self_ns": 994294100,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "guard.serialize",
+      "calls": 1,
+      "inclusive_ns": 393427200,
+      "self_ns": 393427200,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "world.index",
+      "name": "index.rows",
+      "calls": 58,
+      "inclusive_ns": 337265100,
+      "self_ns": 337265100,
+      "outcomes": {
+        "ok": 58
+      }
+    },
+    {
+      "parent": "phase.arrivals",
+      "name": "audit.arrivals.stock_rights",
+      "calls": 1,
+      "inclusive_ns": 182626800,
+      "self_ns": 182626800,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "week.income_basis",
+      "calls": 1,
+      "inclusive_ns": 174551600,
+      "self_ns": 174551600,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "storage.capacity.installed",
+      "name": "guard.serialize",
+      "calls": 6,
+      "inclusive_ns": 171136000,
+      "self_ns": 171136000,
+      "outcomes": {
+        "ok": 6
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "storage.capacity.finalize",
+      "calls": 1,
+      "inclusive_ns": 167393500,
+      "self_ns": 167393500,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "storage.capacity.occupancy",
+      "calls": 1,
+      "inclusive_ns": 1988462900,
+      "self_ns": 110780300,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.week",
+      "name": "run.summary",
+      "calls": 1,
+      "inclusive_ns": 93166800,
+      "self_ns": 93166800,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "storage.capacity.installed",
+      "calls": 1,
+      "inclusive_ns": 246931400,
+      "self_ns": 75795400,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.total",
+      "name": "run.identity",
+      "calls": 1,
+      "inclusive_ns": 19326400,
+      "self_ns": 19326400,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "phase.storage_capacity",
+      "name": "storage.capacity.index",
+      "calls": 1,
+      "inclusive_ns": 11668300,
+      "self_ns": 6680700,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.total",
+      "name": "run.load",
+      "calls": 1,
+      "inclusive_ns": 65024588000,
+      "self_ns": 6140100,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "storage.capacity.index",
+      "name": "guard.serialize",
+      "calls": 1,
+      "inclusive_ns": 4987600,
+      "self_ns": 4987600,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "phase.storage_capacity",
+      "calls": 1,
+      "inclusive_ns": 30564856700,
+      "self_ns": 2277200,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "week.transaction",
+      "calls": 1,
+      "inclusive_ns": 2821700,
+      "self_ns": 1770400,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "week.history",
+      "calls": 1,
+      "inclusive_ns": 1589900,
+      "self_ns": 1589900,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.transaction",
+      "name": "guard.serialize",
+      "calls": 1,
+      "inclusive_ns": 1051300,
+      "self_ns": 1051300,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "world.index",
+      "calls": 1,
+      "inclusive_ns": 338055300,
+      "self_ns": 790200,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "week.prepare",
+      "name": "guard.serialize",
+      "calls": 1,
+      "inclusive_ns": 641700,
+      "self_ns": 641700,
+      "outcomes": {
+        "ok": 1
+      }
+    },
+    {
+      "parent": "run.total",
+      "name": "run.initial_save",
+      "calls": 1,
+      "inclusive_ns": 39282434200,
+      "self_ns": 50000,
+      "outcomes": {
+        "ok": 1
+      }
+    }
+  ],
+  "allocation_bytes": null,
+  "physical_disk_bytes": null,
+  "coverage": "Only completed scopes contribute times/counters; unfinished scopes are lower-bound evidence. SQLite payload bytes are logical, not physical disk IO. Self times avoid child double counting; inclusive times must not be summed."
+}

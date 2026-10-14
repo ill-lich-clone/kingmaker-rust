@@ -1,0 +1,14 @@
+[New Thread 18780.0x6498]
+[New Thread 18780.0x4ae0]
+warning: No executable has been specified, and target executable D:\������ ����\?? ��� ��� ������\����� ����������\���� �����\kingmaker-rust\bin\kingmaker-cli.exe could not be found.  Try using the "file" command.
+
+Thread 3 (Thread 18780.0x4ae0):
+#0  0x00000000 in ?? ()
+
+Thread 2 (Thread 18780.0x6498):
+#0  0x00000004 in ?? ()
+Backtrace stopped: Cannot access memory at address 0x0
+
+Thread 1 (Thread 18780.0x78f4 "main"):
+#0  0x00000001 in ?? ()
+[Inferior 1 (process 18780) detached]

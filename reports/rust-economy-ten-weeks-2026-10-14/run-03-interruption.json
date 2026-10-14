@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-14T03:46:01.3728878Z",
+  "reason": "confirmed repeated global StorageBatch cloning in food_conversion::surplus plus severe physical-memory pressure",
+  "classification": "implementation resource/performance defect; no economic health conclusion",
+  "completed_weeks": 0,
+  "last_recoverable_checkpoint": "initial",
+  "native_fingerprint": "1ee80bf3d911290d9393d9b7472fc234c3c837520e81a6a820a157f34a5f1e86",
+  "source_campaign": "world-306",
+  "source_writes": 0,
+  "memory_evidence": "run-03-memory-pressure-01.json",
+  "stack_evidence": "run-03-stack-sample-02.txt",
+  "exact_call": "food_conversion.rs:362 -> storage.rs:56, clones every facility and scans all stock/reservations for each eligible raw stock",
+  "source_location": "food_conversion.rs:288 loop; storage.rs:58-60 global clone",
+  "stop_method": "STOP requested then terminate only verified test CLI; no published weeks lost",
+  "unpublished_private_week": "discarded on termination; no snapshot of partial economic state claimed"
+}

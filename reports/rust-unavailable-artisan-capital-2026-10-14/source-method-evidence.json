@@ -1,0 +1,380 @@
+{
+  "method_count": 87,
+  "unresolved_methods": {
+    "artisan:electrical_equipment": {
+      "method_id": "artisan:electrical_equipment",
+      "kind": "artisan",
+      "output_goods_id": "electrical_equipment",
+      "output_unit": "условный узел",
+      "status": "unresolved",
+      "weekly_productivity": null,
+      "inputs": [],
+      "staffing": [
+        "artisans"
+      ],
+      "technology": [],
+      "capacity": null,
+      "construction": null,
+      "provenance": {
+        "goods_source": "corrected-tables:Товары:electrical_equipment",
+        "productivity": null,
+        "recipes": [],
+        "rule": null
+      },
+      "storage": {
+        "status": "unresolved"
+      }
+    }
+  },
+  "affected_artisans_count": 15,
+  "affected_methods": {
+    "artisan:electrical_equipment": 15
+  },
+  "examples": [
+    {
+      "id": "artisan:pop306:999:genasi:culture_genasi:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:genasi:culture_genasi:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "12.00"
+    },
+    {
+      "id": "artisan:pop306:999:gnomes:culture_gnomes:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:gnomes:culture_gnomes:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "2.00"
+    },
+    {
+      "id": "artisan:pop306:999:goblins:culture_goblins:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:goblins:culture_goblins:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "10.00"
+    },
+    {
+      "id": "artisan:pop306:999:goliaths:culture_goliaths:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:goliaths:culture_goliaths:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "5.00"
+    },
+    {
+      "id": "artisan:pop306:999:half_elves:culture_half_elves:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:half_elves:culture_half_elves:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "5.00"
+    },
+    {
+      "id": "artisan:pop306:999:halflings:culture_halflings:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:halflings:culture_halflings:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "5.00"
+    },
+    {
+      "id": "artisan:pop306:999:high_elves:culture_elves:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:high_elves:culture_elves:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "1.00"
+    },
+    {
+      "id": "artisan:pop306:999:humans:culture_draitarovtsy:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:humans:culture_draitarovtsy:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "69.00"
+    },
+    {
+      "id": "artisan:pop306:999:humans:culture_uttary:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:humans:culture_uttary:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "2.00"
+    },
+    {
+      "id": "artisan:pop306:999:humans:culture_vanovtsy:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:humans:culture_vanovtsy:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "36.00"
+    },
+    {
+      "id": "artisan:pop306:999:kobolds:culture_kobolds:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:kobolds:culture_kobolds:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "2.00"
+    },
+    {
+      "id": "artisan:pop306:999:orcs:culture_orcs:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:orcs:culture_orcs:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "33.00"
+    },
+    {
+      "id": "artisan:pop306:999:orcs:culture_orcs:religion_груумш:artisans:poor",
+      "owner_id": "pop306:999:orcs:culture_orcs:religion_груумш:artisans:poor",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "46.00"
+    },
+    {
+      "id": "artisan:pop306:999:sea_elves:culture_elves:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:sea_elves:culture_elves:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "1.00"
+    },
+    {
+      "id": "artisan:pop306:999:wood_elves:culture_elves:religion_груумш:artisans:lower",
+      "owner_id": "pop306:999:wood_elves:culture_elves:religion_груумш:artisans:lower",
+      "province_id": 999,
+      "method_id": "artisan:electrical_equipment",
+      "pending_retooling": null,
+      "income_policy": {
+        "cash_reserve_minor": "0",
+        "payout_fraction": 1,
+        "source": "victoria2-adaptation:2026-10-09"
+      },
+      "working_capital": {
+        "currency_id": "CUR_GOL",
+        "feasible_output": 0,
+        "minimum_minor": "0",
+        "period": "economic-recovery-2026-10-12",
+        "personal_funded_minor": "0",
+        "possible": false,
+        "requested_minor": "0"
+      },
+      "automatic_choice": true,
+      "fte": "9.00"
+    }
+  ]
+}

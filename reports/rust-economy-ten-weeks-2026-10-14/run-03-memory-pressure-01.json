@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-10-14T03:34:19.9318676Z",
+  "memory": {
+    "AvailableBytes": 990326784,
+    "CommittedBytes": 100828053504,
+    "CommitLimit": 113443426304,
+    "PageFaultsPersec": 15612,
+    "PagesInputPersec": 962,
+    "PagesOutputPersec": 0,
+    "PageReadsPersec": 494,
+    "PageWritesPersec": 0
+  },
+  "process": {
+    "IDProcess": 18780,
+    "PercentProcessorTime": 93,
+    "PageFaultsPersec": 2913,
+    "WorkingSet": 21534408704,
+    "PrivateBytes": 77449732096
+  }
+}

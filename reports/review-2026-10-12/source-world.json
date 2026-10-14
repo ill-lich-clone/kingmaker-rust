@@ -1,0 +1,760 @@
+{
+  "runtime": {
+    "schema": 1,
+    "storage": "memory",
+    "dbPath": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "campaignId": "world-306",
+    "workers": 1,
+    "maxHeapMiB": 16384,
+    "checkpointDirectory": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\checkpoints\\world-306-recovery-2026-10-12",
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8"
+  },
+  "tables": {
+    "registry/territory": 2679,
+    "registry/pops": 65916,
+    "accounts": 70050,
+    "stocks": 160223,
+    "registry/artisanEnterprises": 15189,
+    "registry/factoryEnterprises": 40
+  },
+  "examples": {
+    "registry/territory": {
+      "row_id": 139728,
+      "external_id": 1,
+      "decoded_province": 1,
+      "decoded_state": "state_001",
+      "typed_province_dictionary_ordinal": 139728
+    },
+    "registry/pops": {
+      "decoded_province": 1000,
+      "decoded_currency": "ZF",
+      "decoded_pop_type": "artisans",
+      "workforce": 203,
+      "employees": 153,
+      "typed_province_dictionary_ordinal": 140080,
+      "typed_currency_dictionary_ordinal": 176
+    },
+    "accounts": {
+      "row_id": 5,
+      "external_id": "[\"holding_region_001\",\"CUR_AZA\",\"employer_operating_capital\"]",
+      "decoded_owner": "holding_region_001",
+      "decoded_currency": "CUR_AZA",
+      "amount_minor": "1115314725",
+      "purpose": "employer_operating_capital",
+      "typed_currency_dictionary_ordinal": 7,
+      "typed_owner_dictionary_ordinal": 6
+    },
+    "stocks": {
+      "row_id": 128774,
+      "external_id": "start-306-2026-10-08:stock:holding_region_001:grain:prod_1",
+      "decoded_province": "1",
+      "decoded_owner": "holding_region_001",
+      "decoded_currency": "CUR_AZA",
+      "amount": 0,
+      "typed_province_dictionary_ordinal": 128778,
+      "typed_currency_dictionary_ordinal": 7,
+      "typed_owner_dictionary_ordinal": 6
+    },
+    "registry/artisanEnterprises": {
+      "row_id": 307998,
+      "external_id": "artisan:pop306:1000:aarakocra:culture_aarakocra:religion_маиша:farmers:poor",
+      "decoded_province": 1000,
+      "decoded_owner": "pop306:1000:aarakocra:culture_aarakocra:religion_маиша:farmers:poor",
+      "decoded_method": "artisan:spirits",
+      "typed_province_dictionary_ordinal": 140080,
+      "typed_owner_dictionary_ordinal": 521
+    },
+    "registry/factoryEnterprises": {
+      "row_id": 501027,
+      "external_id": "factory:1283:art_goods",
+      "decoded_province": 1283,
+      "decoded_owner": "holding_region_069",
+      "decoded_method": "factory:art_goods",
+      "typed_province_dictionary_ordinal": 177578,
+      "typed_owner_dictionary_ordinal": 253
+    }
+  },
+  "stocks_by_author_goods": {
+    "grain": {
+      "rows": 133,
+      "quantity": 156148.8334355633
+    },
+    "livestock": {
+      "rows": 79,
+      "quantity": 64688.62307059795
+    },
+    "produce": {
+      "rows": 41226,
+      "quantity": 679034.4605775393
+    },
+    "wood": {
+      "rows": 110,
+      "quantity": 319217.3199367231
+    },
+    "binders": {
+      "rows": 25,
+      "quantity": 179391.8242744305
+    },
+    "bricks": {
+      "rows": 30,
+      "quantity": 211928.20346692283
+    },
+    "clothing": {
+      "rows": 59,
+      "quantity": 32785636.14637452
+    },
+    "coal": {
+      "rows": 86,
+      "quantity": 832966.3238450099
+    },
+    "fibers": {
+      "rows": 59,
+      "quantity": 7698.603644222009
+    },
+    "flour": {
+      "rows": 54122,
+      "quantity": 6355970.68765786
+    },
+    "furniture": {
+      "rows": 23,
+      "quantity": 214791.29672414364
+    },
+    "glass": {
+      "rows": 16,
+      "quantity": 15144.579707790857
+    },
+    "industrial_chemicals": {
+      "rows": 16,
+      "quantity": 8347.628238999621
+    },
+    "leather": {
+      "rows": 16,
+      "quantity": 4395.690816382764
+    },
+    "meat": {
+      "rows": 44664,
+      "quantity": 1521967.0219463347
+    },
+    "nitrates": {
+      "rows": 14,
+      "quantity": 8.391643893881692
+    },
+    "paper": {
+      "rows": 23,
+      "quantity": 1145962.328301864
+    },
+    "synthetic_oil": {
+      "rows": 16,
+      "quantity": 85345.205266517
+    },
+    "textiles": {
+      "rows": 30,
+      "quantity": 59647.39479622502
+    },
+    "tools": {
+      "rows": 26,
+      "quantity": 66529.49085306143
+    },
+    "clay": {
+      "rows": 43,
+      "quantity": 435606.6518011801
+    },
+    "household_goods": {
+      "rows": 22,
+      "quantity": 1127568.3822229446
+    },
+    "iron": {
+      "rows": 88,
+      "quantity": 114659.60389894227
+    },
+    "salt": {
+      "rows": 22,
+      "quantity": 2241.1553457457144
+    },
+    "steel": {
+      "rows": 29,
+      "quantity": 36466.3890555481
+    },
+    "sulfur": {
+      "rows": 15,
+      "quantity": 443.81096571151306
+    },
+    "medicines": {
+      "rows": 15,
+      "quantity": 212527.98034038782
+    },
+    "military_supply": {
+      "rows": 15,
+      "quantity": 129465.69534377092
+    },
+    "fish": {
+      "rows": 18850,
+      "quantity": 634696.7277225314
+    },
+    "mechanisms": {
+      "rows": 15,
+      "quantity": 24644.51546464084
+    },
+    "stone": {
+      "rows": 65,
+      "quantity": 644993.580896246
+    },
+    "silk": {
+      "rows": 12,
+      "quantity": 898.1813510905279
+    },
+    "iron_ore": {
+      "rows": 55,
+      "quantity": 0
+    },
+    "alloy_metals": {
+      "rows": 14,
+      "quantity": 22.39723643237187
+    },
+    "copper": {
+      "rows": 24,
+      "quantity": 134.16262367709464
+    },
+    "sweeteners": {
+      "rows": 26,
+      "quantity": 6122.327163436823
+    },
+    "spirits": {
+      "rows": 11,
+      "quantity": 621744.1415056009
+    },
+    "dyes": {
+      "rows": 12,
+      "quantity": 126.25356774819788
+    },
+    "gold": {
+      "rows": 10,
+      "quantity": 222183.338334832
+    },
+    "art_goods": {
+      "rows": 4,
+      "quantity": 11208.960636381584
+    },
+    "crystals": {
+      "rows": 2,
+      "quantity": 3106.1342513688933
+    },
+    "diesel": {
+      "rows": 7,
+      "quantity": 3835090.3764904765
+    },
+    "fuel_oil": {
+      "rows": 6,
+      "quantity": 17920029.359332662
+    },
+    "gasoline": {
+      "rows": 7,
+      "quantity": 7001147.007497783
+    },
+    "gunpowder": {
+      "rows": 7,
+      "quantity": 2.0620269643016114
+    },
+    "jewelry": {
+      "rows": 5,
+      "quantity": 22132.101035810098
+    },
+    "kerosene": {
+      "rows": 6,
+      "quantity": 8960388.192908881
+    },
+    "lamp_oil": {
+      "rows": 6,
+      "quantity": 4478398.330688808
+    },
+    "leisure_goods": {
+      "rows": 7,
+      "quantity": 11189478.505983531
+    },
+    "luxury_clothing": {
+      "rows": 6,
+      "quantity": 448122.2408941106
+    },
+    "luxury_furniture": {
+      "rows": 6,
+      "quantity": 8958.779940949058
+    },
+    "printed_goods": {
+      "rows": 7,
+      "quantity": 11204120.299110696
+    },
+    "ammunition": {
+      "rows": 10,
+      "quantity": 11146.15885012208
+    },
+    "precious_metals": {
+      "rows": 6,
+      "quantity": 223.39142989599674
+    },
+    "weapons": {
+      "rows": 10,
+      "quantity": 22211.705247516114
+    },
+    "magic_raw": {
+      "rows": 5,
+      "quantity": 4482.062427624454
+    }
+  },
+  "stocks_incorrectly_classified_as_grain": {
+    "livestock": {
+      "rows": 79,
+      "quantity": 64688.62307059795,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_001:livestock:prod_4",
+        "province": "4",
+        "goods": "livestock",
+        "qty": 0
+      }
+    },
+    "produce": {
+      "rows": 39987,
+      "quantity": 670136.8531193322,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_001:produce:prod_8",
+        "province": "8",
+        "goods": "produce",
+        "qty": 5226.691244019736
+      }
+    },
+    "binders": {
+      "rows": 25,
+      "quantity": 179391.8242744305,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:binders:prod_18",
+        "province": "18",
+        "goods": "binders",
+        "qty": 14872.162300335865
+      }
+    },
+    "bricks": {
+      "rows": 30,
+      "quantity": 211928.20346692283,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:bricks:prod_11",
+        "province": "11",
+        "goods": "bricks",
+        "qty": 125.05149543898398
+      }
+    },
+    "fibers": {
+      "rows": 59,
+      "quantity": 7698.603644222009,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:fibers:prod_33",
+        "province": "33",
+        "goods": "fibers",
+        "qty": 312.4185206238283
+      }
+    },
+    "furniture": {
+      "rows": 23,
+      "quantity": 214791.29672414364,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:furniture:prod_22",
+        "province": "22",
+        "goods": "furniture",
+        "qty": 27899.375595678408
+      }
+    },
+    "glass": {
+      "rows": 16,
+      "quantity": 15144.579707790857,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:glass:prod_27",
+        "province": "27",
+        "goods": "glass",
+        "qty": 2583.8560171628433
+      }
+    },
+    "industrial_chemicals": {
+      "rows": 16,
+      "quantity": 8347.628238999621,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:industrial_chemicals:prod_30",
+        "province": "30",
+        "goods": "industrial_chemicals",
+        "qty": 1037.8088336822586
+      }
+    },
+    "leather": {
+      "rows": 16,
+      "quantity": 4395.690816382764,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:leather:prod_25",
+        "province": "25",
+        "goods": "leather",
+        "qty": 654.897841414753
+      }
+    },
+    "nitrates": {
+      "rows": 14,
+      "quantity": 8.391643893881692,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:nitrates:prod_31",
+        "province": "31",
+        "goods": "nitrates",
+        "qty": 2.0899178339332054
+      }
+    },
+    "paper": {
+      "rows": 23,
+      "quantity": 1145962.328301864,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:paper:prod_20",
+        "province": "20",
+        "goods": "paper",
+        "qty": 126739.75553993558
+      }
+    },
+    "synthetic_oil": {
+      "rows": 16,
+      "quantity": 85345.205266517,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:synthetic_oil:prod_32",
+        "province": "32",
+        "goods": "synthetic_oil",
+        "qty": 17105.88909356165
+      }
+    },
+    "tools": {
+      "rows": 26,
+      "quantity": 66529.49085306143,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_002:tools:prod_19",
+        "province": "19",
+        "goods": "tools",
+        "qty": 2570.5846903842576
+      }
+    },
+    "clay": {
+      "rows": 43,
+      "quantity": 435606.6518011801,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_004:clay:prod_67",
+        "province": "67",
+        "goods": "clay",
+        "qty": 7280.255817831334
+      }
+    },
+    "household_goods": {
+      "rows": 22,
+      "quantity": 1127568.3822229446,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_004:household_goods:prod_66",
+        "province": "66",
+        "goods": "household_goods",
+        "qty": 139132.19971636633
+      }
+    },
+    "salt": {
+      "rows": 22,
+      "quantity": 2241.1553457457144,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_004:salt:prod_69",
+        "province": "69",
+        "goods": "salt",
+        "qty": 118.71298486061363
+      }
+    },
+    "sulfur": {
+      "rows": 15,
+      "quantity": 443.81096571151306,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_004:sulfur:prod_70",
+        "province": "70",
+        "goods": "sulfur",
+        "qty": 56.54319525415212
+      }
+    },
+    "medicines": {
+      "rows": 15,
+      "quantity": 212527.98034038782,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_005:medicines:prod_87",
+        "province": "87",
+        "goods": "medicines",
+        "qty": 47921.89320649975
+      }
+    },
+    "military_supply": {
+      "rows": 15,
+      "quantity": 129465.69534377092,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_005:military_supply:prod_88",
+        "province": "88",
+        "goods": "military_supply",
+        "qty": 24964.97200263621
+      }
+    },
+    "mechanisms": {
+      "rows": 15,
+      "quantity": 24644.51546464084,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_006:mechanisms:prod_98",
+        "province": "98",
+        "goods": "mechanisms",
+        "qty": 1286.8778803448695
+      }
+    },
+    "stone": {
+      "rows": 65,
+      "quantity": 644993.580896246,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_006:stone:prod_91",
+        "province": "91",
+        "goods": "stone",
+        "qty": 62366.900792738095
+      }
+    },
+    "silk": {
+      "rows": 12,
+      "quantity": 898.1813510905279,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_007:silk:prod_103",
+        "province": "103",
+        "goods": "silk",
+        "qty": 89.4190926111784
+      }
+    },
+    "alloy_metals": {
+      "rows": 14,
+      "quantity": 22.39723643237187,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_019:alloy_metals:prod_535",
+        "province": "535",
+        "goods": "alloy_metals",
+        "qty": 7.956138742447348
+      }
+    },
+    "copper": {
+      "rows": 24,
+      "quantity": 134.16262367709464,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_019:copper:prod_528",
+        "province": "528",
+        "goods": "copper",
+        "qty": 20.037595786908323
+      }
+    },
+    "sweeteners": {
+      "rows": 26,
+      "quantity": 6122.327163436823,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_019:sweeteners:prod_529",
+        "province": "529",
+        "goods": "sweeteners",
+        "qty": 172.80640622433953
+      }
+    },
+    "spirits": {
+      "rows": 11,
+      "quantity": 621744.1415056009,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_023:spirits:prod_585",
+        "province": "585",
+        "goods": "spirits",
+        "qty": 37340.49934209801
+      }
+    },
+    "dyes": {
+      "rows": 12,
+      "quantity": 126.25356774819788,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_031:dyes:prod_685",
+        "province": "685",
+        "goods": "dyes",
+        "qty": 18.78315651206026
+      }
+    },
+    "gold": {
+      "rows": 10,
+      "quantity": 222183.338334832,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_057:gold:prod_1114",
+        "province": "1114",
+        "goods": "gold",
+        "qty": 6898.3127947374205
+      }
+    },
+    "art_goods": {
+      "rows": 4,
+      "quantity": 11208.960636381584,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:art_goods:prod_1283",
+        "province": "1283",
+        "goods": "art_goods",
+        "qty": 5759.911953346206
+      }
+    },
+    "crystals": {
+      "rows": 2,
+      "quantity": 3106.1342513688933,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:crystals:prod_1287",
+        "province": "1287",
+        "goods": "crystals",
+        "qty": 3065.6113077991795
+      }
+    },
+    "diesel": {
+      "rows": 7,
+      "quantity": 3835090.3764904765,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:diesel:prod_1259",
+        "province": "1259",
+        "goods": "diesel",
+        "qty": 91049.22542484288
+      }
+    },
+    "fuel_oil": {
+      "rows": 6,
+      "quantity": 17920029.359332662,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:fuel_oil:prod_1268",
+        "province": "1268",
+        "goods": "fuel_oil",
+        "qty": 10593589.640601248
+      }
+    },
+    "gasoline": {
+      "rows": 7,
+      "quantity": 7001147.007497783,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:gasoline:prod_1254",
+        "province": "1254",
+        "goods": "gasoline",
+        "qty": 41565.31801721935
+      }
+    },
+    "gunpowder": {
+      "rows": 7,
+      "quantity": 2.0620269643016114,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:gunpowder:prod_1252",
+        "province": "1252",
+        "goods": "gunpowder",
+        "qty": 0.09233588010166223
+      }
+    },
+    "jewelry": {
+      "rows": 5,
+      "quantity": 22132.101035810098,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:jewelry:prod_1281",
+        "province": "1281",
+        "goods": "jewelry",
+        "qty": 12954.424470511927
+      }
+    },
+    "kerosene": {
+      "rows": 6,
+      "quantity": 8960388.192908881,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:kerosene:prod_1266",
+        "province": "1266",
+        "goods": "kerosene",
+        "qty": 2152549.3328250092
+      }
+    },
+    "lamp_oil": {
+      "rows": 6,
+      "quantity": 4478398.330688808,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:lamp_oil:prod_1271",
+        "province": "1271",
+        "goods": "lamp_oil",
+        "qty": 612458.8976224648
+      }
+    },
+    "leisure_goods": {
+      "rows": 7,
+      "quantity": 11189478.505983531,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:leisure_goods:prod_1264",
+        "province": "1264",
+        "goods": "leisure_goods",
+        "qty": 4823277.086825345
+      }
+    },
+    "luxury_furniture": {
+      "rows": 6,
+      "quantity": 8958.779940949058,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:luxury_furniture:prod_1277",
+        "province": "1277",
+        "goods": "luxury_furniture",
+        "qty": 2563.4513106740355
+      }
+    },
+    "printed_goods": {
+      "rows": 7,
+      "quantity": 11204120.299110696,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_069:printed_goods:prod_1262",
+        "province": "1262",
+        "goods": "printed_goods",
+        "qty": 2221232.87497448
+      }
+    },
+    "ammunition": {
+      "rows": 10,
+      "quantity": 11146.15885012208,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_092:ammunition:prod_921",
+        "province": "921",
+        "goods": "ammunition",
+        "qty": 255.58241650290438
+      }
+    },
+    "precious_metals": {
+      "rows": 6,
+      "quantity": 223.39142989599674,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_092:precious_metals:prod_922",
+        "province": "922",
+        "goods": "precious_metals",
+        "qty": 3.206843779175449
+      }
+    },
+    "weapons": {
+      "rows": 10,
+      "quantity": 22211.705247516114,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_092:weapons:prod_920",
+        "province": "920",
+        "goods": "weapons",
+        "qty": 330.5736328599052
+      }
+    },
+    "magic_raw": {
+      "rows": 5,
+      "quantity": 4482.062427624454,
+      "example": {
+        "external_id": "start-306-2026-10-08:stock:holding_region_097:magic_raw:prod_994",
+        "province": "994",
+        "goods": "magic_raw",
+        "qty": 431.55778510432594
+      }
+    }
+  },
+  "stock_province_substitution_rows": 16269,
+  "source_treasury_accounts_by_purpose": {},
+  "source_people": 94955590,
+  "campaign": {
+    "revision": 20,
+    "date": {
+      "year": 306,
+      "month": 1,
+      "day": 1
+    },
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b"
+  },
+  "full_world_weeks_executed": 0,
+  "rust_source_sha256": "11e3831d66843a08e3a1083e2756815b37c492dae47ea5c89a0ccbe7b30d2596"
+}

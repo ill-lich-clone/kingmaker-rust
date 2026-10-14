@@ -1,0 +1,17 @@
+[package]
+name = "kingmaker-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+kingmaker-core = { path = "../kingmaker-core" }
+kingmaker-io = { path = "../kingmaker-io" }
+kingmaker-sim = { path = "../kingmaker-sim" }
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+rusqlite.workspace = true

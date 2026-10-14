@@ -1,0 +1,99 @@
+{
+  "accounts": 70050,
+  "accounts_recognized_as_state_treasury": 0,
+  "campaign": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "month": 1,
+    "revision": 20,
+    "year": 306
+  },
+  "enterprise_account_not_found": 15229,
+  "enterprise_province_not_found": 1531,
+  "enterprises": 15229,
+  "full_world_weeks_executed": 0,
+  "people": 94955590,
+  "pop_account_not_found": 65916,
+  "pop_province_not_found": 63529,
+  "pop_range_empty": 2679,
+  "pops": 65916,
+  "provinces": 2679,
+  "sample_account": {
+    "balance": 1115314725,
+    "id": 5,
+    "owner_type": "employer_operating_capital"
+  },
+  "sample_enterprise": {
+    "account_id": 521,
+    "employees": 153,
+    "id": 307998,
+    "is_artisan": true,
+    "level": 1,
+    "operating_capital": 116,
+    "province_id": 1000,
+    "recipe_id": "308000"
+  },
+  "sample_pop": {
+    "account_id": 176,
+    "consciousness": 0.39823007583618164,
+    "culture": "361198",
+    "id": 521,
+    "literacy": 0.3303834795951843,
+    "militancy": 0.699999988079071,
+    "pop_type": "361315",
+    "province_id": 9008,
+    "religion": "361243",
+    "size": 339
+  },
+  "sample_province": {
+    "controller_state_id": 33218,
+    "id": 1,
+    "name": "Земли Аристея Остина — провинция 1",
+    "owner_state_id": 33218,
+    "pop_range": [
+      0,
+      0
+    ]
+  },
+  "stock_province_not_found": 0,
+  "stockpiles": 160223,
+  "stocks_by_goods": {
+    "Cloth": [
+      95,
+      33293405.782064848
+    ],
+    "Coal": [
+      86,
+      832966.3238450099
+    ],
+    "Fish": [
+      18850,
+      634696.7277225314
+    ],
+    "Flour": [
+      54122,
+      6355970.68765786
+    ],
+    "Grain": [
+      40885,
+      70931363.55457059
+    ],
+    "Iron": [
+      143,
+      114659.6038989423
+    ],
+    "Meat": [
+      44664,
+      1521967.0219463347
+    ],
+    "Steel": [
+      29,
+      36466.3890555481
+    ],
+    "Timber": [
+      1349,
+      328114.9273949324
+    ]
+  },
+  "total_cash_minor_all_currencies_not_a_conservation_check": "219590531589"
+}

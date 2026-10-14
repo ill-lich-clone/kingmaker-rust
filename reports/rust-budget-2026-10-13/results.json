@@ -1,0 +1,147 @@
+{
+  "stage": "rust_budget_opening",
+  "status": "implemented_verified_published_raw_world_precondition_rejected",
+  "spec": "docs/superpowers/specs/2026-10-13-rust-budget-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-budget.md",
+  "campaign": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "runtime_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\runtime.json",
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "runtime_unchanged": true,
+  "source_database": {
+    "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "bytes": 5762625536,
+    "revision_date_signatures_unchanged": true,
+    "open_mode": "read_only",
+    "full_digest": "not_measured"
+  },
+  "rust_source_sha256": "9a72d149bee5c3c225f072ce319d5c9dabb2846216db9e57427b3f382ace5f47",
+  "binaries": {
+    "kingmaker-cli.exe": {
+      "sha256": "05fc4ae1d82ad35fd28738207eea38b28bc92f898b6e8c9a27f87839bffb2a96",
+      "bytes": 11868072
+    },
+    "kingmaker-server.exe": {
+      "sha256": "5eb65f06851b35ac77fdb04b7dddb7a3e7f31bdd7e92135fd9a7a43396615969",
+      "bytes": 9449440
+    }
+  },
+  "launchers": [
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "bca864e27c36a5608e2e3adde796be47e1f6189141bb5937cdd1c82eb2b5b4d6",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "2a10918a9493f1712ecf63bbce33840aa0d2ce619f5b53e1419329d4cee4b300",
+      "unchanged": true
+    }
+  ],
+  "reference_js_files": [
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\state-budget.cjs",
+      "sha256": "fba4a806777179f5bec8efcd8964ef8efeb3537778e55198053be64c41eef577"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-budget.cjs",
+      "sha256": "4af0e7ad0984817a17fb8274b3511be23aa312c101888d4ddbd2993d0dcf79f8"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\adventurer-income.cjs",
+      "sha256": "1a68bf1f873fa4112a9ce265c297e8543926d36da67e5d34f35f6c7ffb36d196"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\ledger.cjs",
+      "sha256": "30d99958b29f620fa919dfe6f5c899b48f72e1b682dc71769592ea6350b548ec"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-labor.cjs",
+      "sha256": "e2f6c36ca096f2bced9b8050263b0d4a283f46ce51072a31cfe4d678a083acd0"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\labor.cjs",
+      "sha256": "05f123230515fce8e51ee7d5a88f585095dc875fb33f0a44ddfeea38608de1d8"
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\scripts\\kingmaker\\foundation-turn.cjs",
+      "sha256": "639c0d483a463821786d4f8527437fa003b4714954abaa81c585cd4be807425f"
+    }
+  ],
+  "tests": {
+    "workspace_fresh": {
+      "passed": 205,
+      "failed": 0
+    },
+    "unchanged_full_readonly_case_reused": 1,
+    "combined_checked": 206,
+    "release": {
+      "passed": 21,
+      "failed": 0
+    }
+  },
+  "review": {
+    "file": "work/rust-budget-2026-10-13/final-review.md",
+    "resolution": "work/rust-budget-2026-10-13/review-resolution.md",
+    "important_fixed": 3,
+    "minor_regraded_fixed": 1,
+    "additional_reference_validation": true,
+    "shared_pool_precedence_regression": true
+  },
+  "raw_world_probe": {
+    "budget_ms": 301,
+    "counts": {
+      "adventurer_rates": 1513,
+      "employment": 59998,
+      "jobs": 12321,
+      "pops": 65916,
+      "source_revision": 20
+    },
+    "error": "Economic operation rejected: Service profession differs from authored job/contract: employment=employment:pop306:1101:humans:culture_vanovtsy:religion_унгадзе:clerks:middle:jobs_1101:jobs_1101:contract:clerks:clerks pop=pop306:1101:humans:culture_vanovtsy:religion_унгадзе:clerks:middle actual=artisans expected=clerks job=jobs_1101 contract=jobs_1101:contract:clerks:clerks",
+    "full_world_weeks_executed": 0,
+    "load_ms": 66632,
+    "mode": "isolated_ram_budget_probe",
+    "source_header": {
+      "campaign_id": "world-306",
+      "day": 1,
+      "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+      "month": 1,
+      "revision": 20,
+      "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+      "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+      "year": 306
+    },
+    "source_writes": 0,
+    "status": "failed"
+  },
+  "prevalidation_probe": {
+    "status": "passed_before_stronger_reference_validation",
+    "operations": 15864,
+    "payroll": 14278,
+    "load_ms": 59882,
+    "budget_ms": 163238,
+    "proof_of_healthy_economy": false
+  },
+  "reproductions": [
+    "work/rust-budget-2026-10-13/source-job-repro.json",
+    "work/rust-budget-2026-10-13/source-profession-repro.json"
+  ],
+  "full_world_weeks_executed": 0,
+  "economic_health": "not_measured",
+  "native_week_ready": false,
+  "missing": [
+    "native local labor and profession/migration phases",
+    "income/dividends/investment/construction",
+    "dated shipping/reserves/state raw procurement",
+    "full week commit/checkpoint/reload continuation"
+  ],
+  "next_plan": "docs/superpowers/plans/2026-10-13-rust-local-labor.md"
+}

@@ -1,0 +1,140 @@
+{
+  "source_and_input_verification": {
+    "snapshot_sha256_matches": true,
+    "executable_sha256_matches": true,
+    "runtime_sha256_matches": true,
+    "original_source_size_unchanged": true,
+    "original_source_mtime_unchanged": true,
+    "original_source_content_hash_checked": false
+  },
+  "aggregation_matches_existing_summary": true,
+  "completed_scope_self_seconds": 1092.5758841,
+  "guard_self_seconds": 135.2057001,
+  "guard_by_phase": [
+    {
+      "phase": "phase.mobility",
+      "self_seconds": 97.309898,
+      "calls": 121633,
+      "hash_bytes": 29254209091
+    },
+    {
+      "phase": "phase.service_payroll",
+      "self_seconds": 7.4983625,
+      "calls": 56,
+      "hash_bytes": 2202673882
+    },
+    {
+      "phase": "phase.maintenance",
+      "self_seconds": 7.2819048,
+      "calls": 48,
+      "hash_bytes": 2219978512
+    },
+    {
+      "phase": "phase.budget_opening",
+      "self_seconds": 7.2812731,
+      "calls": 56,
+      "hash_bytes": 2194556834
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "self_seconds": 6.1062987,
+      "calls": 67,
+      "hash_bytes": 1713479563
+    },
+    {
+      "phase": "phase.arrivals",
+      "self_seconds": 4.669508,
+      "calls": 58,
+      "hash_bytes": 1528766703
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "self_seconds": 3.5293379,
+      "calls": 15,
+      "hash_bytes": 1226193791
+    },
+    {
+      "phase": "phase.investments",
+      "self_seconds": 1.5274241,
+      "calls": 39,
+      "hash_bytes": 416578200
+    },
+    {
+      "phase": "outside_week",
+      "self_seconds": 0.001693,
+      "calls": 2,
+      "hash_bytes": 323
+    }
+  ],
+  "last_process_sample": {
+    "utc": "2026-10-14T12:24:15.9575196Z",
+    "pid": 42988,
+    "elapsed_seconds": 1125.0882237,
+    "cpu_seconds": 1096.75,
+    "user_seconds": 1065.0625,
+    "kernel_seconds": 31.6875,
+    "private_bytes": 12884860928,
+    "working_set_bytes": 12018208768,
+    "threads": 1,
+    "priority": ""
+  },
+  "phase_samples": [
+    {
+      "name": "phase.storage_capacity",
+      "seconds": 30.5648567,
+      "sampled_peak_private_bytes": 7986733056,
+      "sampled_cpu_seconds": 29.40625
+    },
+    {
+      "name": "phase.arrivals",
+      "seconds": 7.1659585,
+      "sampled_peak_private_bytes": 4495532032,
+      "sampled_cpu_seconds": 6.09375
+    },
+    {
+      "name": "phase.mobility",
+      "seconds": 132.4512335,
+      "sampled_peak_private_bytes": 4329357312,
+      "sampled_cpu_seconds": 131.21875
+    },
+    {
+      "name": "phase.budget_opening",
+      "seconds": 20.82711,
+      "sampled_peak_private_bytes": 4120506368,
+      "sampled_cpu_seconds": 20.234375
+    },
+    {
+      "name": "phase.investments",
+      "seconds": 210.0200019,
+      "sampled_peak_private_bytes": 4339736576,
+      "sampled_cpu_seconds": 208.359375
+    },
+    {
+      "name": "phase.artisan_opening",
+      "seconds": 389.2635697,
+      "sampled_peak_private_bytes": 7531368448,
+      "sampled_cpu_seconds": 384.0625
+    },
+    {
+      "name": "phase.service_payroll",
+      "seconds": 95.0298831,
+      "sampled_peak_private_bytes": 5373947904,
+      "sampled_cpu_seconds": 94.21875
+    },
+    {
+      "name": "phase.maintenance",
+      "seconds": 101.321801,
+      "sampled_peak_private_bytes": 8875851776,
+      "sampled_cpu_seconds": 100.34375
+    },
+    {
+      "name": "phase.early_food",
+      "complete": false,
+      "observed_seconds": 32.02842610000016,
+      "first_sample_private_bytes": 8428437504,
+      "last_sample_private_bytes": 12884860928,
+      "sampled_peak_private_bytes": 12884860928
+    }
+  ],
+  "cpu_memory_phase_alignment": "Approximate: process start vs instrumentation start and 1s sample cadence. CPU interval excludes edge samples."
+}

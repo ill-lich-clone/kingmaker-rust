@@ -1,0 +1,18 @@
+[package]
+name = "kingmaker-review-probes"
+version = "0.0.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+kingmaker-core = { path = "../../../crates/kingmaker-core" }
+kingmaker-sim = { path = "../../../crates/kingmaker-sim" }
+kingmaker-io = { path = "../../../crates/kingmaker-io" }
+kingmaker-server = { path = "../../../crates/kingmaker-server" }
+serde_json = "1.0"
+axum = "0.8"
+tokio = { version = "1.40", features = ["full"] }
+tower = { version = "0.5", features = ["util"] }
+rusqlite = { version = "0.33", features = ["bundled"] }
+

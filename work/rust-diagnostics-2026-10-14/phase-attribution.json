@@ -1,0 +1,479 @@
+{
+  "latest_trace_seconds": 1093.0597976,
+  "active": [
+    {
+      "name": "run.total",
+      "start_seconds": 0.0001286
+    },
+    {
+      "name": "run.week",
+      "start_seconds": 105.4468776
+    },
+    {
+      "name": "run.prepare",
+      "start_seconds": 105.5405707
+    },
+    {
+      "name": "week.prepare",
+      "start_seconds": 105.5408708
+    },
+    {
+      "name": "phase.early_food",
+      "start_seconds": 1093.0597976
+    }
+  ],
+  "completed_boundaries": [
+    {
+      "name": "run.identity",
+      "seconds": 0.0193264,
+      "self_seconds": 0.0193264,
+      "outcome": "ok",
+      "start_seconds": 0.0002146
+    },
+    {
+      "name": "run.load",
+      "seconds": 65.024588,
+      "self_seconds": 0.0061401,
+      "outcome": "ok",
+      "start_seconds": 0.0196121
+    },
+    {
+      "name": "run.initial_audit",
+      "seconds": 0.9942941,
+      "self_seconds": 0.9942941,
+      "outcome": "ok",
+      "start_seconds": 65.044242
+    },
+    {
+      "name": "run.initial_save",
+      "seconds": 39.2824342,
+      "self_seconds": 5e-05,
+      "outcome": "ok",
+      "start_seconds": 66.1193167
+    },
+    {
+      "name": "run.summary",
+      "seconds": 0.0931668,
+      "self_seconds": 0.0931668,
+      "outcome": "ok",
+      "start_seconds": 105.4471729
+    },
+    {
+      "name": "storage.capacity.index",
+      "seconds": 0.0116683,
+      "self_seconds": 0.0066807,
+      "outcome": "ok",
+      "start_seconds": 106.4556631
+    },
+    {
+      "name": "storage.capacity.installed",
+      "seconds": 0.2469314,
+      "self_seconds": 0.0757954,
+      "outcome": "ok",
+      "start_seconds": 106.4673402
+    },
+    {
+      "name": "storage.capacity.needs",
+      "seconds": 27.7546962,
+      "self_seconds": 26.6725917,
+      "outcome": "ok",
+      "start_seconds": 106.7142827
+    },
+    {
+      "name": "storage.capacity.occupancy",
+      "seconds": 1.9884629,
+      "self_seconds": 0.1107803,
+      "outcome": "ok",
+      "start_seconds": 134.4689975
+    },
+    {
+      "name": "storage.capacity.finalize",
+      "seconds": 0.1673935,
+      "self_seconds": 0.1673935,
+      "outcome": "ok",
+      "start_seconds": 136.4577378
+    },
+    {
+      "name": "phase.storage_capacity",
+      "seconds": 30.5648567,
+      "self_seconds": 0.0022772,
+      "outcome": "ok",
+      "start_seconds": 106.0615848
+    },
+    {
+      "name": "phase.arrivals",
+      "seconds": 7.1659585,
+      "self_seconds": 2.3138237,
+      "outcome": "ok",
+      "start_seconds": 136.74917
+    },
+    {
+      "name": "phase.mobility",
+      "seconds": 132.4512335,
+      "self_seconds": 35.1413355,
+      "outcome": "ok",
+      "start_seconds": 143.915991
+    },
+    {
+      "name": "phase.budget_opening",
+      "seconds": 20.82711,
+      "self_seconds": 13.5458369,
+      "outcome": "ok",
+      "start_seconds": 276.3805711
+    },
+    {
+      "name": "phase.investments",
+      "seconds": 210.0200019,
+      "self_seconds": 208.4925778,
+      "outcome": "ok",
+      "start_seconds": 297.2083461
+    },
+    {
+      "name": "phase.artisan_opening",
+      "seconds": 389.2635697,
+      "self_seconds": 383.157271,
+      "outcome": "ok",
+      "start_seconds": 507.4122918
+    },
+    {
+      "name": "phase.service_payroll",
+      "seconds": 95.0298831,
+      "self_seconds": 87.5315206,
+      "outcome": "ok",
+      "start_seconds": 896.6974424
+    },
+    {
+      "name": "phase.maintenance",
+      "seconds": 101.321801,
+      "self_seconds": 94.0398962,
+      "outcome": "ok",
+      "start_seconds": 991.737726
+    }
+  ],
+  "groups": [
+    {
+      "phase": "phase.artisan_opening",
+      "name": "phase.artisan_opening",
+      "calls": 1,
+      "self_ns": 383157271000,
+      "inclusive_ns": 389263569700,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.investments",
+      "name": "phase.investments",
+      "calls": 1,
+      "self_ns": 208492577800,
+      "inclusive_ns": 210020001900,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.mobility",
+      "name": "guard.serialize",
+      "calls": 121633,
+      "self_ns": 97309898000,
+      "inclusive_ns": 103392740400,
+      "hash_calls": 121633,
+      "hash_bytes": 29254209091
+    },
+    {
+      "phase": "phase.maintenance",
+      "name": "phase.maintenance",
+      "calls": 1,
+      "self_ns": 94039896200,
+      "inclusive_ns": 101321801000,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.service_payroll",
+      "name": "phase.service_payroll",
+      "calls": 1,
+      "self_ns": 87531520600,
+      "inclusive_ns": 95029883100,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "io.load",
+      "calls": 1,
+      "self_ns": 50458358600,
+      "inclusive_ns": 65018447900,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "io.checkpoint.save",
+      "calls": 1,
+      "self_ns": 39282384200,
+      "inclusive_ns": 39282384200,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.mobility",
+      "name": "phase.mobility",
+      "calls": 1,
+      "self_ns": 35141335500,
+      "inclusive_ns": 132451233500,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "storage.capacity.needs",
+      "calls": 1,
+      "self_ns": 26672591700,
+      "inclusive_ns": 27754696200,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "io.project",
+      "calls": 1,
+      "self_ns": 14560089300,
+      "inclusive_ns": 14560089300,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.budget_opening",
+      "name": "phase.budget_opening",
+      "calls": 1,
+      "self_ns": 13545836900,
+      "inclusive_ns": 20827110000,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.service_payroll",
+      "name": "guard.serialize",
+      "calls": 56,
+      "self_ns": 7498362500,
+      "inclusive_ns": 7498362500,
+      "hash_calls": 56,
+      "hash_bytes": 2202673882
+    },
+    {
+      "phase": "phase.maintenance",
+      "name": "guard.serialize",
+      "calls": 48,
+      "self_ns": 7281904800,
+      "inclusive_ns": 7281904800,
+      "hash_calls": 48,
+      "hash_bytes": 2219978512
+    },
+    {
+      "phase": "phase.budget_opening",
+      "name": "guard.serialize",
+      "calls": 56,
+      "self_ns": 7281273100,
+      "inclusive_ns": 7281273100,
+      "hash_calls": 56,
+      "hash_bytes": 2194556834
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "name": "guard.serialize",
+      "calls": 67,
+      "self_ns": 6106298700,
+      "inclusive_ns": 6106298700,
+      "hash_calls": 67,
+      "hash_bytes": 1713479563
+    },
+    {
+      "phase": "phase.arrivals",
+      "name": "guard.serialize",
+      "calls": 58,
+      "self_ns": 4669508000,
+      "inclusive_ns": 4669508000,
+      "hash_calls": 58,
+      "hash_bytes": 1528766703
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "guard.serialize",
+      "calls": 15,
+      "self_ns": 3529337900,
+      "inclusive_ns": 3529337900,
+      "hash_calls": 15,
+      "hash_bytes": 1226193791
+    },
+    {
+      "phase": "phase.arrivals",
+      "name": "phase.arrivals",
+      "calls": 1,
+      "self_ns": 2313823700,
+      "inclusive_ns": 7165958500,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.investments",
+      "name": "guard.serialize",
+      "calls": 39,
+      "self_ns": 1527424100,
+      "inclusive_ns": 1527932400,
+      "hash_calls": 39,
+      "hash_bytes": 416578200
+    },
+    {
+      "phase": "outside_week",
+      "name": "run.initial_audit",
+      "calls": 1,
+      "self_ns": 994294100,
+      "inclusive_ns": 994294100,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "index.rows",
+      "calls": 58,
+      "self_ns": 337265100,
+      "inclusive_ns": 337265100,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.arrivals",
+      "name": "audit.arrivals.stock_rights",
+      "calls": 1,
+      "self_ns": 182626800,
+      "inclusive_ns": 182626800,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "week.income_basis",
+      "calls": 1,
+      "self_ns": 174551600,
+      "inclusive_ns": 174551600,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "storage.capacity.finalize",
+      "calls": 1,
+      "self_ns": 167393500,
+      "inclusive_ns": 167393500,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "storage.capacity.occupancy",
+      "calls": 1,
+      "self_ns": 110780300,
+      "inclusive_ns": 1988462900,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "run.summary",
+      "calls": 1,
+      "self_ns": 93166800,
+      "inclusive_ns": 93166800,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "storage.capacity.installed",
+      "calls": 1,
+      "self_ns": 75795400,
+      "inclusive_ns": 246931400,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "run.identity",
+      "calls": 1,
+      "self_ns": 19326400,
+      "inclusive_ns": 19326400,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "storage.capacity.index",
+      "calls": 1,
+      "self_ns": 6680700,
+      "inclusive_ns": 11668300,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "run.load",
+      "calls": 1,
+      "self_ns": 6140100,
+      "inclusive_ns": 65024588000,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "name": "phase.storage_capacity",
+      "calls": 1,
+      "self_ns": 2277200,
+      "inclusive_ns": 30564856700,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "week.transaction",
+      "calls": 1,
+      "self_ns": 1770400,
+      "inclusive_ns": 2821700,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "guard.serialize",
+      "calls": 2,
+      "self_ns": 1693000,
+      "inclusive_ns": 1693000,
+      "hash_calls": 2,
+      "hash_bytes": 323
+    },
+    {
+      "phase": "outside_week",
+      "name": "week.history",
+      "calls": 1,
+      "self_ns": 1589900,
+      "inclusive_ns": 1589900,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "world.index",
+      "calls": 1,
+      "self_ns": 790200,
+      "inclusive_ns": 338055300,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    },
+    {
+      "phase": "outside_week",
+      "name": "run.initial_save",
+      "calls": 1,
+      "self_ns": 50000,
+      "inclusive_ns": 39282434200,
+      "hash_calls": 0,
+      "hash_bytes": 0
+    }
+  ]
+}

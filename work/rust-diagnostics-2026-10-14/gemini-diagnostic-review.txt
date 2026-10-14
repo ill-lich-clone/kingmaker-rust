@@ -1,0 +1,29 @@
+### Boundaries of Mobility Execution
+Mobility execution is strictly partitioned across pipeline stages:
+1. **Pre-flight & Order Enforcements**: `prepare_mobility_opening` verifies revision integrity, evaluates prior execution via `replay` (validating history and subphase receipts), and enforces economic ordering via `order`.
+2. **Subphase Execution**: Sequential state mutations execute within an isolated `WorldTransaction`: `execute_migration_arrivals_in` → `execute_local_labor_in` → `execute_profession_changes_in` → `execute_migration_departures_in`.
+3. **Integrity & Session Reconciliation**: Invariants are checked via `check_mobility_operations`. An `OperationSession` stages cash/stock ops and verifies that account balances and stockpiles reconcile exactly.
+4. **State Adoption & Delta Application**: Projections are published via `adopt_projection`, encapsulated in `PreparedMobilityOpening` with `Reads::capture`, and atomically committed via `execute_atomic` wrapping `apply_mobility_opening_in`.
+
+---
+
+### `guard.serialize` Instrumentation: Evidence vs. Hypotheses
+
+#### Static Evidence
+- **Narrow Timing Window**: `guard.serialize` exclusively wraps `fingerprint`.
+- **Unmeasured Guard Harness**: Map insertions, key hashing, and comparison branches in `RowGuards::read`, `RowGuards::scan`, and `validate_with_cache` execute outside `guard.serialize`.
+- **Cache Invisibility**: In `scan_owned` and `validate_owned`, `OnceCell` cache hits bypass `fingerprint` entirely, emitting no `Metric::HashCalls`, `Metric::HashBytes`, or trace spans.
+- **Unmeasured Table Validation**: Read validation (`Reads::unchanged`) in `apply_mobility_opening_in` has no dedicated instrumentation outside nested `fingerprint` calls.
+
+#### Unmeasured Hypotheses
+- High durations within `guard.serialize` during `selection_uncached` may stem from row-fetching overhead in `RowRead::iter` during `SerializeSeq` iteration, rather than serialization formatting.
+- `run_control::check("read_guard")` invocations every 4,096 writes or 64 KiB chunks may introduce significant overhead under highly fragmented inputs.
+- Unstable key/field iteration order across data structures could cause hash mismatches without leaving diagnostic traces.
+
+---
+
+### Diagnostic Questions
+1. Does `Reads::capture` in `prepare_mobility_opening` record row-level keys via `RowGuards::read` or full collections via `RowGuards::scan`?
+2. What fraction of time inside `guard.serialize` is consumed by `RowRead::iter` traversal versus actual JSON encoding in `serde_json::to_writer`?
+3. How frequently do `OnceCell` cache hits in `validate_owned` mask repeated stale-read checks during transaction retries?
+

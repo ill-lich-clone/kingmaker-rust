@@ -1,0 +1,8 @@
+{
+  "database_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+  "database_bytes": 5762625536,
+  "database_last_write_utc": "2026-10-12T13:31:26.9852814Z",
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "source_writes": 0,
+  "command": "bin/kingmaker-cli.exe --runtime ../Проект карты Тейванкаля/data/kingmaker/runtime.json --run-weeks10 --output reports/rust-economy-ten-weeks-2026-10-14/run-02 --verify-save"
+}

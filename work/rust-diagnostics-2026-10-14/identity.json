@@ -1,0 +1,16 @@
+{
+  "runtime": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\runtime.json",
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "source": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+  "source_size": 5762625536,
+  "source_mtime_ns": 1791811886985281400,
+  "snapshot": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\work\\rust-diagnostics-2026-10-14\\input.sqlite",
+  "snapshot_sha256": "8014fb425fb4f82166c388b8288f7d67991408d6ade2f62a86607aa85135af9a",
+  "snapshot_size": 5762625536,
+  "executable": "C:\\Users\\ill_lich\\.cargo-target\\kingmaker-rust\\release\\kingmaker-cli.exe",
+  "executable_sha256": "8867eddd547e1c92dae5be9ab9ee548fd5e3c981f2a1a981192eea2bc91697c5",
+  "preparation_seconds": 156.5949030000047,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "compilation_included": false,
+  "filesystem_cache": "not flushed; snapshot creation and hashing warm the input"
+}

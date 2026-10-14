@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-12",
+  "verdict": "not_functionally_equivalent_blocking_defects",
+  "mode": "read_only_review",
+  "full_world_weeks": 0,
+  "source_edits": 0,
+  "campaign": {
+    "revision": 20,
+    "date": {
+      "year": 306,
+      "month": 1,
+      "day": 1
+    },
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b"
+  },
+  "rust_source_sha256": "11e3831d66843a08e3a1083e2756815b37c492dae47ea5c89a0ccbe7b30d2596",
+  "baseline_tests": {
+    "passed": 12,
+    "evidence": "Terminal output observed in this review",
+    "failed": 0,
+    "exit_code": 0,
+    "command": "cargo test --workspace --locked"
+  },
+  "contract_tests": {
+    "log": "contract-tests.txt",
+    "passed": 1,
+    "failed": 18,
+    "exit_code": 101,
+    "command": "cargo test --manifest-path reports/review-2026-10-12/probes/Cargo.toml --offline"
+  },
+  "loaded_world": {
+    "recognized_treasury_accounts": 0,
+    "enterprise_account_not_found": 15229,
+    "accounts": 70050,
+    "people": 94955590,
+    "pop_province_not_found": 63529,
+    "stock_rows_incorrectly_classified_as_grain": 40752.0,
+    "empty_province_pop_ranges": 2679,
+    "pop_account_not_found": 65916,
+    "stockpiles": 160223,
+    "stock_province_substitution_rows": 16269,
+    "enterprises": 15229,
+    "pops": 65916,
+    "provinces": 2679,
+    "stock_goods_incorrectly_classified_as_grain": 44,
+    "enterprise_province_not_found": 1531
+  },
+  "findings": [
+    {
+      "kind": "implementation",
+      "priority": 0,
+      "id": "R1",
+      "summary": "Dictionary ordinals, external IDs, currencies and account references are confused"
+    },
+    {
+      "kind": "implementation",
+      "priority": 0,
+      "id": "R2",
+      "summary": "Unknown goods become grain and holding regions replace stock provinces"
+    },
+    {
+      "kind": "missing_mechanics",
+      "priority": 0,
+      "id": "R3",
+      "summary": "CLI/server use empty recipes and major weekly phases are absent"
+    },
+    {
+      "kind": "implementation",
+      "priority": 1,
+      "id": "R4",
+      "summary": "Production ignores inputs, ownership and actual stock creation"
+    },
+    {
+      "kind": "implementation",
+      "priority": 1,
+      "id": "R5",
+      "summary": "Market does not pay, deliver or consume; reserves are shared without rights"
+    },
+    {
+      "kind": "implementation",
+      "priority": 1,
+      "id": "R6",
+      "summary": "Procurement debits treasury without seller credit or title transfer"
+    },
+    {
+      "kind": "implementation",
+      "priority": 1,
+      "id": "R7",
+      "summary": "Ledger self-transfer creates cash; negative transfers and unknown payees accepted"
+    },
+    {
+      "kind": "diagnostic_gap",
+      "priority": 1,
+      "id": "R8",
+      "summary": "Goods invariant constant true; people checked by POP row count"
+    },
+    {
+      "kind": "implementation",
+      "priority": 1,
+      "id": "R9",
+      "summary": "Viewer routes missing; arbitrary campaign ID executes active RAM world"
+    },
+    {
+      "kind": "implementation_and_missing_mechanics",
+      "priority": 1,
+      "id": "R10",
+      "summary": "Campaign date resets on loading, missing campaign accepted, persistence absent"
+    }
+  ],
+  "unverified": [
+    "Full-world economic stability",
+    "Equivalent Rust week performance",
+    "Annual checkpoint save/load/continuation",
+    "Full rendered browser integration",
+    "Supplied bin executables equivalence to current source"
+  ],
+  "gemini": {
+    "contribution": "Independent review of provided simulation and ledger source excerpts",
+    "important_claims_verified": "Direct source inspection and failing contract tests"
+  }
+}

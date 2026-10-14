@@ -1,0 +1,49 @@
+{
+  "status": "completed_preparation_stage",
+  "stage": 11,
+  "goal_status": "active",
+  "full_world_weeks": 0,
+  "target_weeks": 10,
+  "spec": "docs/superpowers/specs/2026-10-14-rust-checkpoint-runner-design.md",
+  "plan": "docs/superpowers/plans/2026-10-14-rust-checkpoint-runner.md",
+  "native_source_fingerprint": "3970883deb3e73e88ca5f49038f3f5adfa3c7451c227d29083f5f2bf0723bc14",
+  "fingerprint_format": "SHA256 UTF8 compressed JSON sorted path/sha256 manifest",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "16c389014038c7435ee58491cac92b93115f95102973ec8637e1ebe94de7a39b",
+      "previous_sha256": "b7e62112e5fd5d7b104e64819259c4279fed3bb7d9beca17eaf4340cb4f8afb2"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "f2860296a31d2d9d2d0b15beb039ea891738de58dc82236a9c087e609864d916",
+      "previous_sha256": "24f151f4310115b6741e98bfce5be568cd8e82b8ee546931886be32bc5fc06d8"
+    }
+  ],
+  "source_runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "workers": 1,
+  "economy": "memory",
+  "source_writes": 0,
+  "debug_workspace_cases": 641,
+  "release_workspace_cases": 641,
+  "verification_logs": [
+    "final-debug-after-review.txt",
+    "final-release-after-review.txt",
+    "final-build-after-review.txt"
+  ],
+  "final_review": {
+    "reviews_completed": 1,
+    "correction_passes": 1,
+    "reviewer": "checkpoint_runner_final_review",
+    "gemini": "unavailable; no usable final review",
+    "verified_important_fixed": 4,
+    "critical": 0,
+    "minor_deferred": [
+      "CSV omits need_id, samples and construction_status; JSONL retains them"
+    ],
+    "report": "work/rust-checkpoint-runner-2026-10-14/final-review.md"
+  },
+  "full_world_save": "not_verified",
+  "full_world_new_process_continuation": "not_verified",
+  "next": "Actual source audit and autonomous10weeks with --verify-save"
+}

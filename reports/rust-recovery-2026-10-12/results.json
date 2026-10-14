@@ -1,0 +1,206 @@
+{
+  "stage": "rust_recovery_1",
+  "status": "implemented_verified_published",
+  "date": "2026-10-12",
+  "spec": "docs/superpowers/specs/2026-10-12-rust-recovery-design.md",
+  "plan": "docs/superpowers/plans/2026-10-12-rust-recovery.md",
+  "campaign": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "requested_runtime": {
+    "campaign_id": "world-306",
+    "db_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "not_implemented",
+    "storage": "memory",
+    "workers": 1
+  },
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "runtime_unchanged": true,
+  "source_database": {
+    "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "bytes": 5762625536,
+    "open_mode": "read_only",
+    "revision_date_hashes_unchanged": true,
+    "full_database_byte_digest": "not_measured"
+  },
+  "rust_source_sha256": "37b0cf33a109e6f4806cb4106bb7516ee87da22ef624c8f089a53cddf2b4c3af",
+  "fingerprint_files": [
+    "Cargo.lock",
+    "Cargo.toml",
+    "crates\\kingmaker-cli\\Cargo.toml",
+    "crates\\kingmaker-cli\\src\\main.rs",
+    "crates\\kingmaker-cli\\tests\\cli_test.rs",
+    "crates\\kingmaker-core\\Cargo.toml",
+    "crates\\kingmaker-core\\src\\enterprise.rs",
+    "crates\\kingmaker-core\\src\\enums.rs",
+    "crates\\kingmaker-core\\src\\identity.rs",
+    "crates\\kingmaker-core\\src\\ids.rs",
+    "crates\\kingmaker-core\\src\\lib.rs",
+    "crates\\kingmaker-core\\src\\money.rs",
+    "crates\\kingmaker-core\\src\\pop.rs",
+    "crates\\kingmaker-core\\src\\province.rs",
+    "crates\\kingmaker-core\\src\\state.rs",
+    "crates\\kingmaker-core\\tests\\identity_test.rs",
+    "crates\\kingmaker-core\\tests\\primitives_test.rs",
+    "crates\\kingmaker-io\\Cargo.toml",
+    "crates\\kingmaker-io\\src\\codec.rs",
+    "crates\\kingmaker-io\\src\\lib.rs",
+    "crates\\kingmaker-io\\src\\projection.rs",
+    "crates\\kingmaker-io\\src\\runtime_config.rs",
+    "crates\\kingmaker-io\\src\\sqlite_loader.rs",
+    "crates\\kingmaker-io\\tests\\codec_test.rs",
+    "crates\\kingmaker-io\\tests\\common\\mod.rs",
+    "crates\\kingmaker-io\\tests\\identity_graph_test.rs",
+    "crates\\kingmaker-io\\tests\\load_world_test.rs",
+    "crates\\kingmaker-io\\tests\\review_regression_test.rs",
+    "crates\\kingmaker-io\\tests\\runtime_config_test.rs",
+    "crates\\kingmaker-server\\Cargo.toml",
+    "crates\\kingmaker-server\\src\\lib.rs",
+    "crates\\kingmaker-server\\src\\main.rs",
+    "crates\\kingmaker-server\\src\\routes.rs",
+    "crates\\kingmaker-server\\src\\state.rs",
+    "crates\\kingmaker-server\\tests\\server_api_test.rs",
+    "crates\\kingmaker-sim\\Cargo.toml",
+    "crates\\kingmaker-sim\\src\\artisan_capital.rs",
+    "crates\\kingmaker-sim\\src\\invariants.rs",
+    "crates\\kingmaker-sim\\src\\ledger.rs",
+    "crates\\kingmaker-sim\\src\\lib.rs",
+    "crates\\kingmaker-sim\\src\\market.rs",
+    "crates\\kingmaker-sim\\src\\needs.rs",
+    "crates\\kingmaker-sim\\src\\pipeline.rs",
+    "crates\\kingmaker-sim\\src\\production.rs",
+    "crates\\kingmaker-sim\\src\\state_procurement.rs",
+    "crates\\kingmaker-sim\\src\\supply.rs",
+    "crates\\kingmaker-sim\\tests\\invariants_test.rs",
+    "crates\\kingmaker-sim\\tests\\ledger_contract_test.rs",
+    "crates\\kingmaker-sim\\tests\\ledger_test.rs",
+    "crates\\kingmaker-sim\\tests\\pipeline_gate_test.rs",
+    "crates\\kingmaker-sim\\tests\\production_test.rs",
+    "crates\\kingmaker-sim\\tests\\supply_test.rs"
+  ],
+  "binaries": {
+    "kingmaker-cli.exe": {
+      "sha256": "c476769c41087f8c415bfed10cb71341fc2c5d8b33ee6af5c09c71354221ae82",
+      "bytes": 4634522,
+      "release_matches": true
+    },
+    "kingmaker-server.exe": {
+      "sha256": "8d5ff6d47de7bd6f5f6421c9c6bd420d3004123985e645d35bb5f8b499b17534",
+      "bytes": 8122481,
+      "release_matches": true
+    }
+  },
+  "launchers": [
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\kingmaker-rust\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "bca864e27c36a5608e2e3adde796be47e1f6189141bb5937cdd1c82eb2b5b4d6",
+      "utf8_no_bom_crlf": true,
+      "uses_current_runtime": true,
+      "automatic_browser": false
+    },
+    {
+      "path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Запустить кингмейкер на Rust.cmd",
+      "sha256": "2a10918a9493f1712ecf63bbce33840aa0d2ce619f5b53e1419329d4cee4b300",
+      "utf8_no_bom_crlf": true,
+      "uses_current_runtime": true,
+      "automatic_browser": false
+    }
+  ],
+  "counts": {
+    "accounts": 70050,
+    "enterprises": 15229,
+    "people": 94955590,
+    "personal_account_absent_in_source": 7340,
+    "personal_account_bindings": 58576,
+    "pops": 65916,
+    "provinces": 2679,
+    "source_records": 1146248,
+    "stockpiles": 160223
+  },
+  "food_reserve_rows": 158446,
+  "dictionary_entries": 1385233,
+  "factory_enterprises": 40,
+  "artisan_enterprises": 15189,
+  "tests": {
+    "workspace": {
+      "passed": 70,
+      "failed": 0,
+      "ignored": 0
+    },
+    "updated_historical_probes": {
+      "passed": 10,
+      "failed": 0,
+      "ignored": 9
+    },
+    "deferred_contracts_explicit_run": {
+      "passed": 0,
+      "failed": 9,
+      "ignored": 0
+    },
+    "release_cli": {
+      "passed": 2,
+      "failed": 0,
+      "ignored": 0
+    },
+    "review_regressions": {
+      "initial_red": 7,
+      "final_green": 8
+    },
+    "full_world_read_only_audit_debug_seconds": 116.16
+  },
+  "full_world_comparison": {
+    "stock_goods_owner_province_quantity_mismatches": 0,
+    "account_identity_owner_currency_purpose_amount_mismatches": 0,
+    "pop_size_workforce_employed_unemployed_mismatches": 0
+  },
+  "release_inspect_load_ms": 22706,
+  "release_inspect_process_wall_seconds": 24.0413592,
+  "validation": {
+    "errors": [],
+    "not_measured": [
+      "Complete employment assignments, warehouse capacity/reservations and legal-title operations are not yet implemented"
+    ]
+  },
+  "native_week_ready": false,
+  "full_world_weeks_executed": 0,
+  "full_week_duration": "not_measured",
+  "missing_native_phases": [
+    "labor_hiring_professions_migration",
+    "raw_resource_and_recipe_production",
+    "paid_market_and_real_pop_consumption",
+    "dated_shipping_and_food_reserves",
+    "payroll_taxes_and_state_budgets",
+    "validated_adventurer_issuance",
+    "artisan_capital_profit_and_ownership_income",
+    "investments_and_construction",
+    "goods_labor_title_operation_validators",
+    "checkpoint_and_history_commit"
+  ],
+  "full_viewer_api": "not_implemented",
+  "native_heap_limit": "not_implemented",
+  "persisted_ledger_history": "not_implemented",
+  "annual_save_reload_continuation": "not_tested",
+  "review": {
+    "independent": "work/rust-recovery-2026-10-12/final-review.md",
+    "resolution": "work/rust-recovery-2026-10-12/review-resolution.md",
+    "important_fixed": [
+      "I1",
+      "I2"
+    ],
+    "minor_fixed": [
+      "M1"
+    ]
+  },
+  "limits": [
+    "Typed native Money is checked i64; unsupported amounts reject explicitly.",
+    "Source envelopes are preserved; full economic execution parity is not established."
+  ]
+}

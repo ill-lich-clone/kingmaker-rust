@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'../../../Проект карты Тейванкаля/scripts/kingmaker');
+const input=JSON.parse(fs.readFileSync(0,'utf8'));
+input.snapshot.appliedEventIds=new Set(input.snapshot.appliedEventIds||[]);
+let result;
+if(input.action==='assessment')result=require(path.join(root,'investment-assessment.cjs')).assessInvestmentOpportunities(input.snapshot,{opportunities:input.opportunities,policies:input.policies||{}});
+else if(input.action==='labor')result=require(path.join(root,'foundation-labor.cjs')).planConstructionLabor(input.snapshot,{period:input.period,policies:input.policies||{}});
+else if(input.action==='automatic')result=require(path.join(root,'foundation-investment-policy.cjs')).planAutomaticInvestments(input.snapshot,{period:input.period,catalog:input.snapshot.registry.productionCatalog,policies:input.policies||{}});
+else if(input.action==='progress')result=require(path.join(root,'construction.cjs')).planConstruction(input.snapshot,{period:input.period},{paidLabor:input.paidLabor});
+else if(input.action==='cancel')result=require(path.join(root,'construction.cjs')).planCancelProject(input.snapshot,input.request);
+else throw Error('Unknown construction oracle action');
+process.stdout.write(JSON.stringify(result,(_,v)=>typeof v==='bigint'?String(v):v));

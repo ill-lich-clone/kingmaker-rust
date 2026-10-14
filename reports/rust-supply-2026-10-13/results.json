@@ -1,0 +1,103 @@
+{
+  "status": "completed_stage_only",
+  "stage": "native_dated_supply_food_reserves_raw_procurement",
+  "goal_status": "active",
+  "full_world_weeks_executed": 0,
+  "spec": "docs/superpowers/specs/2026-10-13-rust-supply-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-supply.md",
+  "native_source_fingerprint": "f3db3575610c2592090f1e61286c9fe7874f4bba673393a6e71d9a1359f4db4a",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "12c86bff53a99ddc6790fbdb941df44095816b99c0555d98f091dc2829e733a0",
+      "previous_sha256": "112ed84d78f59b72740c074f4e25bf32aa81dd71cd64a2411565eb9141b15194"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "50eab449530fe3be32db8800cc818729369a68ec4d02393faad52994e43a1d1b",
+      "previous_sha256": "78d418d88b39437a8ba66b14e21da877ff0544961e69c14fab2932ed86763f77"
+    }
+  ],
+  "source": {
+    "campaign": "world-306",
+    "revision": 20,
+    "date": "306-01-01",
+    "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+    "source_writes": 0,
+    "workers": 1,
+    "economy": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано",
+    "readonly_projection": "work/rust-supply-2026-10-13/source-table-counts.json"
+  },
+  "verification": {
+    "workspace_cases": 558,
+    "release_cases": 150,
+    "final_review": {
+      "approved": true,
+      "final_reviews": 1,
+      "correction_passes": 1,
+      "critical": 0,
+      "important": 4,
+      "unresolved_critical": 0,
+      "unresolved_important": 0,
+      "review": "work/rust-supply-2026-10-13/final-review.md",
+      "resolution": [
+        {
+          "finding": 1,
+          "fix": "Incoming nonfood coverage consumed once per matched destination/title; new cargo stays allocated to its own order",
+          "test": "distinct_nonfood_orders_allocate_incoming_goods_only_once; existing_pipeline_is_consumed_once_and_keeps_destination_title"
+        },
+        {
+          "finding": 2,
+          "fix": "Matched stock owner/good/unit/currency/payment terms required; procurement fallback disabled",
+          "test": "procurement_requires_matching_sale_title_and_payment_terms"
+        },
+        {
+          "finding": 3,
+          "fix": "Existing accepted parties follow full cohort identity through sparse/scoped reads and profession/migration/opening publication",
+          "test": "full_cohort_transfer_preserves_existing_approved_recovery_in_scalar_and_scope; full_profession_transfer_publishes_approved_recovery_titles_through_opening"
+        },
+        {
+          "finding": 4,
+          "fix": "Action date and economic revision authenticated; canonical expenses included once; orphan and tampered action receipts refused",
+          "test": "actual_paid_recovery_is_authenticated_in_income_exactly_once"
+        }
+      ],
+      "red": [
+        "review-regression-red.txt",
+        "review-mobility-red.txt"
+      ],
+      "green": [
+        "review-regression-green.txt",
+        "review-mobility-green.txt"
+      ],
+      "rereview": "not requested; one final review and one correction pass per approved inline workflow",
+      "publication": "Requires current final workspace/release/build verification in publish-stage.ps1"
+    },
+    "loader": "unchanged expensive loader excluded; actual readonly Source proof retained",
+    "snapshot": "mini native serde/replay; NOT fullworld checkpoint"
+  },
+  "regressions": {
+    "dispatch": "actual cash->escrow/carrier, stock->cargo, shared capacity and one-use incoming coverage by destination/title",
+    "arrival": "actual date, full/partial storage and accumulated escrow settlement",
+    "return": "approved buyer/terms, source reservation before destination release, unpaid money refunded on physical return",
+    "food": "weekly/7, travel+7, held/protected/shared beneficial stores, delayed cargo and dispatch feedback",
+    "state_buy": "two-week public service shortfall and debt protection, funding0..100, matched legal RGO/state/offer/warehouse, actual seller payment",
+    "income": "four canonical shipping phases plus authenticated dated action costs; frozen opening cargo; real factory and artisan delivery income",
+    "cohort": "recovery consent follows full identity through scalar/scoped split, profession and mobility publication"
+  },
+  "remaining": [
+    "dynamic trade-offer refresh and full native week envelope",
+    "atomic fullworld checkpoint/new-process continuation",
+    "autonomous X-week runner",
+    "10 actual fullworld weeks and economic diagnosis"
+  ],
+  "unsupported": [
+    "native heap limit",
+    "full legal property audit where market reports NotMeasured",
+    "school/medical outcomes",
+    "hunger deaths",
+    "sea passenger migration"
+  ]
+}

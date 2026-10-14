@@ -1,0 +1,48 @@
+{
+  "automatic_systems": [
+    "employment/mobility",
+    "existing budget funding",
+    "capitalist construction",
+    "artisan capital/methods",
+    "production/market/supply",
+    "raw state procurement",
+    "income/history"
+  ],
+  "completed_weeks": 0,
+  "configuration": {
+    "db_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "economy": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано",
+    "runtime": "../Проект карты Тейванкаля/data/kingmaker/runtime.json",
+    "source_campaign": "world-306",
+    "source_writes": 0,
+    "workers": 1
+  },
+  "identity": {
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "native_fingerprint": "1ee80bf3d911290d9393d9b7472fc234c3c837520e81a6a820a157f34a5f1e86",
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d"
+  },
+  "initial_campaign": {
+    "campaign_id": "rust-test-18780-20",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "initial_save_elapsed_ms": 37487,
+  "initial_snapshot": "initial",
+  "last_recoverable_checkpoint": "initial",
+  "load_elapsed_ms": 79603,
+  "native_heap_limit": "не реализовано",
+  "player_decisions": "no synthetic orders; existing policies only",
+  "schema": 1,
+  "status": "running",
+  "stop_file": "reports/rust-economy-ten-weeks-2026-10-14/run-03\\STOP",
+  "target_weeks": 10
+}

@@ -1,0 +1,49 @@
+{
+  "status": "completed_admission_fix",
+  "stage": 12,
+  "goal_status": "active",
+  "full_world_weeks": 0,
+  "target_weeks": 10,
+  "spec": "docs/superpowers/specs/2026-10-14-rust-fullworld-admission-design.md",
+  "plan": "docs/superpowers/plans/2026-10-14-rust-fullworld-admission.md",
+  "native_source_fingerprint": "00c87c372d29d88f75a96fc5ba878931018531233cf06ad79c446cd4d49bba9c",
+  "fingerprint_format": "SHA256 UTF8 compressed JSON sorted path/sha256 manifest",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "5155c07ee67f64efab61d89067569a525e16bc54ecc241ea4144f6a7223d1f75",
+      "previous_sha256": "16c389014038c7435ee58491cac92b93115f95102973ec8637e1ebe94de7a39b"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "9922ba2bee8eb9586588289957db359b31820b40632b9ab9fdbe8c6e1fd06dd3",
+      "previous_sha256": "f2860296a31d2d9d2d0b15beb039ea891738de58dc82236a9c087e609864d916"
+    }
+  ],
+  "source_runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "source_writes": 0,
+  "workers": 1,
+  "economy": "memory",
+  "debug_workspace_cases": 649,
+  "release_workspace_cases": 649,
+  "review": {
+    "reviewer": "Gemini3.8FlashHigh via AGY; complete supplied diff",
+    "reviews": 1,
+    "critical": 0,
+    "important": 0,
+    "correction_passes": 0,
+    "minor_deferred": [
+      "linear scans: performance not measured or changed",
+      "geography overwrite benign because conflict blocks admission"
+    ],
+    "report": "work/rust-fullworld-admission-2026-10-14/final-review.md"
+  },
+  "fixes": [
+    "Explicit empty sea/lake admission; land remains strict",
+    "Genuinely unclaimed empty RGO owner exception shared by audit and reserve finance",
+    "Actual dormant RGO native week no longer fails Reserve owner missing; no funds/output invented",
+    "Initial error phase=initial_audit"
+  ],
+  "full_initial_checkpoint_proof": "../rust-economy-ten-weeks-2026-10-14/full-initial-checkpoint-proof.json",
+  "next": "New frozen run-02: actual10 fullworld weeks and saved continuation comparison"
+}

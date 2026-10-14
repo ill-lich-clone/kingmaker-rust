@@ -1,0 +1,73 @@
+{
+  "campaign": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "counts": {
+    "accounts": 70050,
+    "enterprises": 15229,
+    "people": 94955590,
+    "personal_account_absent_in_source": 7340,
+    "personal_account_bindings": 58576,
+    "pops": 65916,
+    "provinces": 2679,
+    "source_records": 1146248,
+    "stockpiles": 160223
+  },
+  "full_world_weeks_executed": 0,
+  "isolated_market_entry": "kingmaker_sim::market_cycle::execute_market_phase",
+  "isolated_production_entry": "kingmaker_sim::production::execute_production_cycle",
+  "load_elapsed_ms": 73379,
+  "market_data_counts": {
+    "maintenance_agreements": 7340,
+    "native_phase_receipts": 0,
+    "need_profiles": 48,
+    "profile_refs": 65916,
+    "sale_offers": 1620,
+    "territory": 2679
+  },
+  "market_stages": [
+    "maintenance",
+    "early_food",
+    "closing_market"
+  ],
+  "missing_phases": [
+    "labor_hiring_professions_migration",
+    "raw_resource_and_recipe_production",
+    "paid_market_and_real_pop_consumption",
+    "dated_shipping_and_food_reserves",
+    "payroll_taxes_and_state_budgets",
+    "validated_adventurer_issuance",
+    "artisan_capital_profit_and_ownership_income",
+    "investments_and_construction",
+    "goods_labor_title_operation_validators",
+    "checkpoint_and_history_commit"
+  ],
+  "mode": "read_only",
+  "native_isolated_market": true,
+  "native_isolated_production": true,
+  "native_week_ready": false,
+  "production_catalog_validation": {
+    "status": "passed"
+  },
+  "requested": {
+    "campaign_id": "world-306",
+    "db_path": "D:\\ЛИЧный хлам\\🎲 ДнД для поляны\\Карты тейванкаля\\Фулл карта\\Проект карты Тейванкаля\\data\\kingmaker\\current-world.sqlite",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "not_implemented",
+    "storage": "memory",
+    "workers": 1
+  },
+  "validation": {
+    "errors": [],
+    "not_measured": [
+      "Complete employment assignments, warehouse capacity/reservations and legal-title operations are not yet implemented"
+    ]
+  }
+}

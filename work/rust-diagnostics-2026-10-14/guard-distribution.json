@@ -1,0 +1,358 @@
+{
+  "completed_guard_calls": 121974,
+  "buckets": [
+    {
+      "phase": "outside_week",
+      "bucket": "<1KiB",
+      "calls": 2,
+      "bytes": 323,
+      "self_seconds": 0.001693
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "bucket": ">=100MiB",
+      "calls": 4,
+      "bytes": 1139814558,
+      "self_seconds": 3.2367298
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "bucket": "<1MiB",
+      "calls": 4,
+      "bytes": 1331564,
+      "self_seconds": 0.0071009
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "bucket": "<100MiB",
+      "calls": 5,
+      "bytes": 85047665,
+      "self_seconds": 0.2854966
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "bucket": "<1KiB",
+      "calls": 2,
+      "bytes": 4,
+      "self_seconds": 1.06e-05
+    },
+    {
+      "phase": "phase.arrivals",
+      "bucket": "<1KiB",
+      "calls": 32,
+      "bytes": 5642,
+      "self_seconds": 0.0015504000000000002
+    },
+    {
+      "phase": "phase.arrivals",
+      "bucket": "<100MiB",
+      "calls": 10,
+      "bytes": 384398523,
+      "self_seconds": 1.2899531
+    },
+    {
+      "phase": "phase.arrivals",
+      "bucket": "<1MiB",
+      "calls": 12,
+      "bytes": 4547980,
+      "self_seconds": 0.0205879
+    },
+    {
+      "phase": "phase.arrivals",
+      "bucket": ">=100MiB",
+      "calls": 4,
+      "bytes": 1139814558,
+      "self_seconds": 3.3574166
+    },
+    {
+      "phase": "phase.mobility",
+      "bucket": "<1KiB",
+      "calls": 66778,
+      "bytes": 53799095,
+      "self_seconds": 0.4485089999999186
+    },
+    {
+      "phase": "phase.mobility",
+      "bucket": "<1MiB",
+      "calls": 54528,
+      "bytes": 204800500,
+      "self_seconds": 0.8697341000002482
+    },
+    {
+      "phase": "phase.mobility",
+      "bucket": "<100MiB",
+      "calls": 236,
+      "bytes": 5360126940,
+      "self_seconds": 19.133365300000005
+    },
+    {
+      "phase": "phase.mobility",
+      "bucket": ">=100MiB",
+      "calls": 91,
+      "bytes": 23635482556,
+      "self_seconds": 76.85828959999998
+    },
+    {
+      "phase": "phase.budget_opening",
+      "bucket": ">=100MiB",
+      "calls": 6,
+      "bytes": 1783870730,
+      "self_seconds": 5.7545915
+    },
+    {
+      "phase": "phase.budget_opening",
+      "bucket": "<100MiB",
+      "calls": 16,
+      "bytes": 406897092,
+      "self_seconds": 1.5105362000000002
+    },
+    {
+      "phase": "phase.budget_opening",
+      "bucket": "<1MiB",
+      "calls": 8,
+      "bytes": 3785170,
+      "self_seconds": 0.016036400000000003
+    },
+    {
+      "phase": "phase.budget_opening",
+      "bucket": "<1KiB",
+      "calls": 26,
+      "bytes": 3842,
+      "self_seconds": 0.00010899999999999998
+    },
+    {
+      "phase": "phase.investments",
+      "bucket": "<1KiB",
+      "calls": 12,
+      "bytes": 2434,
+      "self_seconds": 0.0006496999999999999
+    },
+    {
+      "phase": "phase.investments",
+      "bucket": "<1MiB",
+      "calls": 15,
+      "bytes": 6359020,
+      "self_seconds": 0.0261318
+    },
+    {
+      "phase": "phase.investments",
+      "bucket": ">=100MiB",
+      "calls": 1,
+      "bytes": 185764991,
+      "self_seconds": 0.6995969
+    },
+    {
+      "phase": "phase.investments",
+      "bucket": "<100MiB",
+      "calls": 11,
+      "bytes": 224451755,
+      "self_seconds": 0.8010457
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "bucket": "<1KiB",
+      "calls": 23,
+      "bytes": 5763,
+      "self_seconds": 0.0010923
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "bucket": "<100MiB",
+      "calls": 16,
+      "bytes": 275940267,
+      "self_seconds": 1.0384670000000003
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "bucket": "<1MiB",
+      "calls": 23,
+      "bytes": 7968320,
+      "self_seconds": 0.036497299999999996
+    },
+    {
+      "phase": "phase.artisan_opening",
+      "bucket": ">=100MiB",
+      "calls": 5,
+      "bytes": 1429565213,
+      "self_seconds": 5.030242100000001
+    },
+    {
+      "phase": "phase.service_payroll",
+      "bucket": ">=100MiB",
+      "calls": 6,
+      "bytes": 1783870730,
+      "self_seconds": 5.8783216
+    },
+    {
+      "phase": "phase.service_payroll",
+      "bucket": "<100MiB",
+      "calls": 20,
+      "bytes": 414899040,
+      "self_seconds": 1.6032813000000001
+    },
+    {
+      "phase": "phase.service_payroll",
+      "bucket": "<1MiB",
+      "calls": 10,
+      "bytes": 3901190,
+      "self_seconds": 0.0166704
+    },
+    {
+      "phase": "phase.service_payroll",
+      "bucket": "<1KiB",
+      "calls": 20,
+      "bytes": 2922,
+      "self_seconds": 8.92e-05
+    },
+    {
+      "phase": "phase.maintenance",
+      "bucket": ">=100MiB",
+      "calls": 8,
+      "bytes": 1994910230,
+      "self_seconds": 6.4273036
+    },
+    {
+      "phase": "phase.maintenance",
+      "bucket": "<100MiB",
+      "calls": 14,
+      "bytes": 221556330,
+      "self_seconds": 0.8423052000000001
+    },
+    {
+      "phase": "phase.maintenance",
+      "bucket": "<1MiB",
+      "calls": 16,
+      "bytes": 3511904,
+      "self_seconds": 0.0122561
+    },
+    {
+      "phase": "phase.maintenance",
+      "bucket": "<1KiB",
+      "calls": 10,
+      "bytes": 48,
+      "self_seconds": 3.9899999999999994e-05
+    }
+  ],
+  "largest_self_calls": [
+    {
+      "phase": "phase.artisan_opening",
+      "parent": "phase.artisan_opening",
+      "bytes": 686145261,
+      "self_seconds": 2.0995135,
+      "inclusive_seconds": 2.0995135,
+      "start_seconds": 894.1356244
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.0445339,
+      "inclusive_seconds": 2.0445339,
+      "start_seconds": 249.7220465
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.033644,
+      "inclusive_seconds": 2.033644,
+      "start_seconds": 195.3003023
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "guard.serialize",
+      "bytes": 686145261,
+      "self_seconds": 2.029379,
+      "inclusive_seconds": 2.029379,
+      "start_seconds": 148.7178937
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.0196941,
+      "inclusive_seconds": 2.0196941,
+      "start_seconds": 170.9728028
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.018949,
+      "inclusive_seconds": 2.018949,
+      "start_seconds": 235.5776533
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.0154104,
+      "inclusive_seconds": 2.0154104,
+      "start_seconds": 199.8151999
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.0137132,
+      "inclusive_seconds": 2.0137132,
+      "start_seconds": 261.6127423
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.009802,
+      "inclusive_seconds": 2.009802,
+      "start_seconds": 210.0377818
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 686145261,
+      "self_seconds": 2.0049611,
+      "inclusive_seconds": 2.0049611,
+      "start_seconds": 226.3542711
+    },
+    {
+      "phase": "phase.arrivals",
+      "parent": "phase.arrivals",
+      "bytes": 686145261,
+      "self_seconds": 1.8803186,
+      "inclusive_seconds": 1.8803186,
+      "start_seconds": 140.2020128
+    },
+    {
+      "phase": "phase.storage_capacity",
+      "parent": "storage.capacity.occupancy",
+      "bytes": 686145261,
+      "self_seconds": 1.8776826,
+      "inclusive_seconds": 1.8776826,
+      "start_seconds": 134.4692535
+    },
+    {
+      "phase": "phase.service_payroll",
+      "parent": "phase.service_payroll",
+      "bytes": 581257490,
+      "self_seconds": 1.8468878,
+      "inclusive_seconds": 1.8468878,
+      "start_seconds": 904.7464416
+    },
+    {
+      "phase": "phase.maintenance",
+      "parent": "phase.maintenance",
+      "bytes": 581257490,
+      "self_seconds": 1.8419024,
+      "inclusive_seconds": 1.8419024,
+      "start_seconds": 1033.27484
+    },
+    {
+      "phase": "phase.mobility",
+      "parent": "phase.mobility",
+      "bytes": 581257490,
+      "self_seconds": 1.8406241,
+      "inclusive_seconds": 3.8700031,
+      "start_seconds": 148.7178883
+    }
+  ]
+}

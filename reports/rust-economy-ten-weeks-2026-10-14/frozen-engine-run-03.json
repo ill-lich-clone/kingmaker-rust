@@ -1,0 +1,47 @@
+{
+  "status": "completed_unavailable_artisan_fix",
+  "stage": 13,
+  "goal_status": "active",
+  "full_world_weeks": 0,
+  "target_weeks": 10,
+  "spec": "docs/superpowers/specs/2026-10-14-rust-unavailable-artisan-capital-design.md",
+  "plan": "docs/superpowers/plans/2026-10-14-rust-unavailable-artisan-capital.md",
+  "native_source_fingerprint": "790b7d0db43b930b600d521541b3d99640c2c9ee8848cb07745bfaac131feb96",
+  "fingerprint_format": "SHA256 UTF8 compressed JSON sorted path/sha256 manifest",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "1ee80bf3d911290d9393d9b7472fc234c3c837520e81a6a820a157f34a5f1e86",
+      "previous_sha256": "5155c07ee67f64efab61d89067569a525e16bc54ecc241ea4144f6a7223d1f75"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "1ae5218f1bb2c5989b4dcb5e2958fdca860d6f37b62246190c95e5d9f76ccefe",
+      "previous_sha256": "9922ba2bee8eb9586588289957db359b31820b40632b9ab9fdbe8c6e1fd06dd3"
+    }
+  ],
+  "source_runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "source_writes": 0,
+  "workers": 1,
+  "economy": "memory",
+  "debug_workspace_cases": 653,
+  "release_workspace_cases": 653,
+  "affected_cases": 28,
+  "review": {
+    "reviewer": "Gemini3.8FlashHigh via AGY; complete supplied diff",
+    "reviews": 1,
+    "critical": 0,
+    "important": 0,
+    "minor": 0,
+    "correction_passes": 0,
+    "report": "work/rust-unavailable-artisan-capital-2026-10-14/final-review.md"
+  },
+  "fixes": [
+    "status!=ready: no feasible output/request, retain authored reserve and all entity/group rights",
+    "ready+missing productivity remains refusal with exact artisan/method/province",
+    "valid production/input/price/route/budget formulas unchanged; catalog productivity not substituted"
+  ],
+  "failure_diagnosis": "../rust-economy-ten-weeks-2026-10-14/run-02-failure-diagnosis.json",
+  "full_initial_save_load": "proved earlier actualfullworld, continuation not yet proved",
+  "next": "New frozen run-03 actual10weeks and save-continuation verification"
+}

@@ -1,0 +1,332 @@
+{
+  "status": "completed_stage_only",
+  "stage": "native_pop_mobility",
+  "spec": "docs/superpowers/specs/2026-10-13-rust-pop-mobility-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-pop-mobility.md",
+  "native_source_fingerprint": "5d2070f1f50451891154028dbaeca8f2d0d042c6157ebc9ee3aa3f6cc120a3a0",
+  "fingerprint_algorithm": "SHA256 UTF8 sorted source path=sha256 joined LF; source-manifest.json",
+  "source_header": {
+    "campaign_id": "world-306",
+    "day": 1,
+    "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+    "month": 1,
+    "revision": 20,
+    "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+    "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+    "year": 306
+  },
+  "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+  "requested": {
+    "storage": "memory",
+    "native_heap_limit": "not_implemented",
+    "maxHeapMiB": 16384,
+    "workers": 1
+  },
+  "final_probe": {
+    "budget": {
+      "issuance": [
+        [
+          "CUR_AZA",
+          "15303146"
+        ],
+        [
+          "CUR_DEV",
+          "48648"
+        ],
+        [
+          "CUR_GOL",
+          "2558232"
+        ],
+        [
+          "CUR_GUD",
+          "4907878"
+        ],
+        [
+          "CUR_HUR",
+          "4033328"
+        ],
+        [
+          "CUR_KUR",
+          "3093866"
+        ],
+        [
+          "CUR_MAI",
+          "1242690"
+        ],
+        [
+          "CUR_MEN",
+          "5297948"
+        ],
+        [
+          "CUR_NIR",
+          "667004"
+        ],
+        [
+          "CUR_PON",
+          "4119012"
+        ],
+        [
+          "CUR_TEB",
+          "1417646"
+        ],
+        [
+          "ILD",
+          "5418516"
+        ],
+        [
+          "IMB",
+          "612014"
+        ],
+        [
+          "UME",
+          "14190138"
+        ],
+        [
+          "YUL",
+          "2676956"
+        ],
+        [
+          "ZF",
+          "7827458"
+        ]
+      ],
+      "ms": 292449,
+      "operations": 15075,
+      "status": "passed"
+    },
+    "final": {
+      "accounts": 70130,
+      "cash_by_currency": {
+        "\"CUR_AZA\"": "31616574067",
+        "\"CUR_DEV\"": "456311275",
+        "\"CUR_GOL\"": "29735613256",
+        "\"CUR_GUD\"": "9799541936",
+        "\"CUR_HUR\"": "17504729496",
+        "\"CUR_KUR\"": "11656168307",
+        "\"CUR_MAI\"": "2539962273",
+        "\"CUR_MEN\"": "14030319717",
+        "\"CUR_NIR\"": "2325740750",
+        "\"CUR_PON\"": "15491308211",
+        "\"CUR_TEB\"": "10494773733",
+        "\"ILD\"": "16141879834",
+        "\"IMB\"": "1806216962",
+        "\"UME\"": "33307260175",
+        "\"YUL\"": "8057051370",
+        "\"ZF\"": "14700494707"
+      },
+      "employed": 48223639.0,
+      "link_errors": [],
+      "people": 94955590,
+      "pops": 65916,
+      "stocks": 160223,
+      "workforce": 56973354.0
+    },
+    "full_world_weeks_executed": 0,
+    "initial": {
+      "accounts": 70050,
+      "cash_by_currency": {
+        "\"CUR_AZA\"": "31601270921",
+        "\"CUR_DEV\"": "456262627",
+        "\"CUR_GOL\"": "29733055024",
+        "\"CUR_GUD\"": "9794634058",
+        "\"CUR_HUR\"": "17500696168",
+        "\"CUR_KUR\"": "11653074441",
+        "\"CUR_MAI\"": "2538719583",
+        "\"CUR_MEN\"": "14025021769",
+        "\"CUR_NIR\"": "2325073746",
+        "\"CUR_PON\"": "15487189199",
+        "\"CUR_TEB\"": "10493356087",
+        "\"ILD\"": "16136461318",
+        "\"IMB\"": "1805604948",
+        "\"UME\"": "33293070037",
+        "\"YUL\"": "8054374414",
+        "\"ZF\"": "14692667249"
+      },
+      "employed": 39985794.0,
+      "link_errors": [],
+      "people": 94955590,
+      "pops": 65916,
+      "stocks": 160223,
+      "workforce": 56973354.0
+    },
+    "load_ms": 76986,
+    "mode": "isolated_full_source_ram_mobility_budget",
+    "opening": {
+      "arrived_workers": 0,
+      "departed_workers": 0,
+      "hired_fte": 8237845.0,
+      "invariants": {
+        "goods": {
+          "status": "passed"
+        },
+        "labor": {
+          "status": "passed"
+        },
+        "money": {
+          "status": "passed"
+        },
+        "people": {
+          "status": "passed"
+        },
+        "rights": {
+          "status": "passed"
+        }
+      },
+      "migration_blocked": [],
+      "ms": 260994,
+      "operations": 0,
+      "profession_blocked": [],
+      "profession_workers": 0,
+      "released_fte": -0.0,
+      "status": "passed"
+    },
+    "run_header": {
+      "campaign_id": "mobility-probe-96072",
+      "day": 1,
+      "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+      "month": 1,
+      "revision": 20,
+      "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+      "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+      "year": 306
+    },
+    "source_header": {
+      "campaign_id": "world-306",
+      "day": 1,
+      "engine_hash": "aa0843a303b55e625f1088f7169522c5ffaf6267bf4a2047b837fe17199c01e8",
+      "month": 1,
+      "revision": 20,
+      "rules_hash": "a39c5fb0460647d8ba092031ecaa35f80f46a651671838b9e9dfb91e904d535b",
+      "source_hash": "9e7670ad84df91ae911526072fd96d55946ea063567c46c32a3d2f0bf43f0c3d",
+      "year": 306
+    },
+    "source_writes": 0
+  },
+  "currency_reconciliation": [
+    {
+      "currency": "\"CUR_AZA\"",
+      "delta": "15303146",
+      "authorized_issuance": "15303146",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_DEV\"",
+      "delta": "48648",
+      "authorized_issuance": "48648",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_GOL\"",
+      "delta": "2558232",
+      "authorized_issuance": "2558232",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_GUD\"",
+      "delta": "4907878",
+      "authorized_issuance": "4907878",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_HUR\"",
+      "delta": "4033328",
+      "authorized_issuance": "4033328",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_KUR\"",
+      "delta": "3093866",
+      "authorized_issuance": "3093866",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_MAI\"",
+      "delta": "1242690",
+      "authorized_issuance": "1242690",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_MEN\"",
+      "delta": "5297948",
+      "authorized_issuance": "5297948",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_NIR\"",
+      "delta": "667004",
+      "authorized_issuance": "667004",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_PON\"",
+      "delta": "4119012",
+      "authorized_issuance": "4119012",
+      "matches": true
+    },
+    {
+      "currency": "\"CUR_TEB\"",
+      "delta": "1417646",
+      "authorized_issuance": "1417646",
+      "matches": true
+    },
+    {
+      "currency": "\"ILD\"",
+      "delta": "5418516",
+      "authorized_issuance": "5418516",
+      "matches": true
+    },
+    {
+      "currency": "\"IMB\"",
+      "delta": "612014",
+      "authorized_issuance": "612014",
+      "matches": true
+    },
+    {
+      "currency": "\"UME\"",
+      "delta": "14190138",
+      "authorized_issuance": "14190138",
+      "matches": true
+    },
+    {
+      "currency": "\"YUL\"",
+      "delta": "2676956",
+      "authorized_issuance": "2676956",
+      "matches": true
+    },
+    {
+      "currency": "\"ZF\"",
+      "delta": "7827458",
+      "authorized_issuance": "7827458",
+      "matches": true
+    }
+  ],
+  "verification": {
+    "workspace_fresh_cases": 344,
+    "review_important": 6,
+    "release_cases": 61,
+    "review_fixes": 6,
+    "full_loader_test": "unchanged separate loader test omitted; actual final full-source IO probe passed",
+    "roundtrip": "mini native state only; full checkpoint not yet tested"
+  },
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "d7910f2b4d4ccdf7585ffbf30fa24e8b3dfcf6e60cf4c9ab5a57ac70947dbede",
+      "previous_sha256": "788a7e365baec2aa05759a5f1f9de7e64612f9c0500a2694450808cef8662f3d"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "04d9a6594f101b2c806b79ff8b3a8a0b5015f51c359137aff05f45d1e6bf4d54",
+      "previous_sha256": "fa9431f63185d8910608e8a55115bc33b864932cec5b2c2bee3064b5478f0576"
+    }
+  ],
+  "full_world_weeks_executed": 0,
+  "goal_status": "active",
+  "not_yet_implemented": [
+    "ownership_income_and_artisan_decisions",
+    "investments_and_construction",
+    "dated_goods_supply_food_reserves_state_raw_buy",
+    "assembled_week_history_checkpoint",
+    "10_week_full_world_run_and_economic_diagnosis"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "status": "completed_stage_only",
+  "stage": 10,
+  "stage_name": "complete_native_RAM_week",
+  "goal_status": "active",
+  "full_world_weeks_executed": 0,
+  "target_weeks": 10,
+  "spec": "docs/superpowers/specs/2026-10-13-rust-week-design.md",
+  "plan": "docs/superpowers/plans/2026-10-13-rust-week.md",
+  "next_spec": "docs/superpowers/specs/2026-10-14-rust-checkpoint-runner-design.md",
+  "next_plan": "docs/superpowers/plans/2026-10-14-rust-checkpoint-runner.md",
+  "native_source_fingerprint": "caeb42fb731a3645ba812bcf13d380c2f378960c3bff55ac5ea656b411c65443",
+  "binaries": [
+    {
+      "name": "kingmaker-cli.exe",
+      "sha256": "b7e62112e5fd5d7b104e64819259c4279fed3bb7d9beca17eaf4340cb4f8afb2",
+      "previous_sha256": "12c86bff53a99ddc6790fbdb941df44095816b99c0555d98f091dc2829e733a0"
+    },
+    {
+      "name": "kingmaker-server.exe",
+      "sha256": "24f151f4310115b6741e98bfce5be568cd8e82b8ee546931886be32bc5fc06d8",
+      "previous_sha256": "50eab449530fe3be32db8800cc818729369a68ec4d02393faad52994e43a1d1b"
+    }
+  ],
+  "source": {
+    "campaign": "world-306",
+    "revision": 20,
+    "date": "306-01-01",
+    "runtime_sha256": "e664337014e3181d31a872343c0c2b494f1df386b4d634fda8f8369195f3c7d5",
+    "source_writes": 0,
+    "workers": 1,
+    "economy": "memory",
+    "maxHeapMiB": 16384,
+    "native_heap_limit": "не реализовано",
+    "readonly_proof": "work/rust-construction-2026-10-13/full-source-inspect.json",
+    "snapshot": "Fullworld save/load NOT verified"
+  },
+  "verification": {
+    "workspace_cases": 602,
+    "workspace_log": "final-workspace-after-review.txt",
+    "additional_targeted_cases": 7,
+    "additional_new_cases_after_workspace": 2,
+    "current_unique_cases_covered": 604,
+    "affected_log": "review-capital-source-final.txt",
+    "release_cases": 166,
+    "final_review": {
+      "approved": true,
+      "final_reviews": 1,
+      "correction_passes": 1,
+      "unresolved_important": 0,
+      "unresolved_critical": 0,
+      "minor_findings": [],
+      "review": "final-review.md",
+      "reviewer": "native_week_stage_final_review",
+      "findings": [
+        {
+          "id": 1,
+          "grade": "Important",
+          "status": "verified_fixed",
+          "cause": "artisan opening omitted actual capital funding, release, property income/tax and bootstrap retooling",
+          "red": [
+            "review-red.txt",
+            "review-capital-release-red.txt",
+            "review-capital-bootstrap-red.txt"
+          ],
+          "green": [
+            "review-capital-green.txt",
+            "review-capital-source-final.txt"
+          ],
+          "source_cases": 5
+        },
+        {
+          "id": 2,
+          "grade": "Important",
+          "status": "verified_fixed",
+          "cause": "required income operation replay omitted authenticated mobility cohort inventory transfers",
+          "red": [
+            "review-mobility-history-red.txt"
+          ],
+          "green": [
+            "review-mobility-history-green.txt",
+            "final-workspace-after-review.txt"
+          ]
+        },
+        {
+          "id": 3,
+          "grade": "Important",
+          "status": "verified_fixed",
+          "cause": "weekly registry evidence did not authenticate separate profession, migration and cohort histories",
+          "red": [
+            "review-mobility-history-red.txt"
+          ],
+          "green": [
+            "review-mobility-history-green.txt",
+            "final-workspace-after-review.txt"
+          ]
+        },
+        {
+          "id": 4,
+          "grade": "Important",
+          "status": "verified_fixed",
+          "cause": "fresh period bypassed completed chain/header checks and reused a committed date/revision interval",
+          "red": [
+            "review-mobility-history-red.txt"
+          ],
+          "green": [
+            "review-mobility-history-green.txt",
+            "final-workspace-after-review.txt"
+          ]
+        }
+      ],
+      "suite_scope": "602 workspace cases after all product edits; two later additional test-only cases covered by targeted7 and final release; no second product change or rereview",
+      "balance_or_source_changes": false,
+      "fullworld_weeks": 0
+    },
+    "loader": "unchanged costly SQLite loader excluded; retained actual readonly proof",
+    "source_comparison": "actual supplied miniature only; factory whole cash/output and five artisan capital flows",
+    "snapshot": "native miniature serde/replay only"
+  },
+  "measured_native_mini_behaviors": [
+    "all Source ordered economic stages; 21 timed phase labels",
+    "real payroll/raw input/output/paid demand without seeded output offer",
+    "dated actual output dispatch then arrival and revenue next week",
+    "actual investment, builder payroll, construction and completion",
+    "same-week full profession transfer, real hire and opening inventory consumption",
+    "306-12-28 -> 307-01-05, +7days/revision+1 exactly once",
+    "historical replay, mandatory subphase history and header tampering refusal",
+    "closed capital funding/release/inactive taxed profit/bootstrap retooling"
+  ],
+  "remaining": [
+    "lossless independent fullworld checkpoint",
+    "new-process continuation economic/history comparison",
+    "autonomous measured X-week CLI",
+    "initial current-full-world audit",
+    "10 actual consecutive fullworld weeks and economic diagnosis"
+  ],
+  "unsupported": [
+    "native heap limit",
+    "full legal property graph audit",
+    "school/medical outcomes",
+    "hunger deaths",
+    "sea passenger migration"
+  ]
+}

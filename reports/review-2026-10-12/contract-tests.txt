@@ -1,0 +1,168 @@
+   Compiling kingmaker-review-probes v0.0.0 (D:\ЛИЧный хлам\🎲 ДнД для поляны\Карты тейванкаля\Фулл карта\kingmaker-rust\reports\review-2026-10-12\probes)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.05s
+     Running unittests src\main.rs (C:/Users/ill_lich/.cargo-target/kingmaker-rust\debug\deps\kingmaker_review_probes-c1a3c51678127800.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\contracts.rs (C:/Users/ill_lich/.cargo-target/kingmaker-rust\debug\deps\contracts-a17030481e8fdbdb.exe)
+
+running 19 tests
+test invariant_must_detect_unexplained_goods_creation ... FAILED
+test another_owners_reserve_must_not_hide_pop_food_demand ... FAILED
+test invariant_must_check_people_not_just_pop_row_count ... FAILED
+test purchased_stock_must_leave_the_seller_ownership ... FAILED
+test grain_supply_cannot_fulfill_cloth_orders ... FAILED
+test procurement_must_pay_the_seller_and_conserve_cash ... FAILED
+test self_transfer_must_not_create_money ... FAILED
+test unknown_payee_must_be_rejected ... FAILED
+test negative_transfer_must_be_rejected ... FAILED
+test calendar_fixture_crosses_year_with_thirty_day_months ... ok
+test food_consumption_must_reduce_real_stocks ... FAILED
+test factory_must_consume_recipe_inputs ... FAILED
+test reported_production_must_reach_real_stock ... FAILED
+test factory_cannot_produce_without_inputs ... FAILED
+test viewer_campaign_load_requires_reports ... FAILED
+test viewer_bootstrap_requires_campaign_list ... FAILED
+test wrong_campaign_must_not_execute_active_world ... FAILED
+test sqlite_loader_must_reject_nonexistent_campaign ... FAILED
+test sqlite_loader_must_preserve_encoded_campaign_date ... FAILED
+
+failures:
+
+---- invariant_must_detect_unexplained_goods_creation stdout ----
+
+thread 'invariant_must_detect_unexplained_goods_creation' (47404) panicked at tests\contracts.rs:129:5:
+assertion failed: !check_conservation(&before, &after).goods_ok
+
+---- another_owners_reserve_must_not_hide_pop_food_demand stdout ----
+
+thread 'another_owners_reserve_must_not_hide_pop_food_demand' (64248) panicked at tests\contracts.rs:74:5:
+POP silently uses another owner's food
+
+---- invariant_must_check_people_not_just_pop_row_count stdout ----
+
+thread 'invariant_must_check_people_not_just_pop_row_count' (32320) panicked at tests\contracts.rs:136:5:
+assertion failed: !check_conservation(&before, &after).pops_ok
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- purchased_stock_must_leave_the_seller_ownership stdout ----
+
+thread 'purchased_stock_must_leave_the_seller_ownership' (24796) panicked at tests\contracts.rs:122:5:
+assertion `left != right` failed
+  left: 999
+ right: 999
+
+---- grain_supply_cannot_fulfill_cloth_orders stdout ----
+
+thread 'grain_supply_cannot_fulfill_cloth_orders' (42560) panicked at tests\contracts.rs:84:5:
+assertion `left == right` failed
+  left: 5.0
+ right: 0.0
+
+---- procurement_must_pay_the_seller_and_conserve_cash stdout ----
+
+thread 'procurement_must_pay_the_seller_and_conserve_cash' (75016) panicked at tests\contracts.rs:113:5:
+Treasury debit has no corresponding seller credit
+
+---- self_transfer_must_not_create_money stdout ----
+
+thread 'self_transfer_must_not_create_money' (74220) panicked at tests\contracts.rs:90:5:
+assertion `left == right` failed
+  left: Money(150)
+ right: Money(100)
+
+---- unknown_payee_must_be_rejected stdout ----
+
+thread 'unknown_payee_must_be_rejected' (17524) panicked at tests\contracts.rs:101:5:
+assertion failed: ledger.transfer(AccountId(1), AccountId(999), Money(50), "unknown").is_err()
+
+---- negative_transfer_must_be_rejected stdout ----
+
+thread 'negative_transfer_must_be_rejected' (67864) panicked at tests\contracts.rs:96:5:
+assertion failed: ledger.transfer(AccountId(1), AccountId(2), Money(-50), "negative").is_err()
+
+---- food_consumption_must_reduce_real_stocks stdout ----
+
+thread 'food_consumption_must_reduce_real_stocks' (19220) panicked at tests\contracts.rs:68:5:
+Food was never eaten
+
+---- factory_must_consume_recipe_inputs stdout ----
+
+thread 'factory_must_consume_recipe_inputs' (1160) panicked at tests\contracts.rs:54:5:
+assertion `left == right` failed
+  left: 10.0
+ right: 0.0
+
+---- reported_production_must_reach_real_stock stdout ----
+
+thread 'reported_production_must_reach_real_stock' (24052) panicked at tests\contracts.rs:61:5:
+assertion `left == right` failed
+  left: 5.0
+ right: -0.0
+
+---- factory_cannot_produce_without_inputs stdout ----
+
+thread 'factory_cannot_produce_without_inputs' (69532) panicked at tests\contracts.rs:47:5:
+assertion `left == right` failed
+  left: 5.0
+ right: 0.0
+
+---- viewer_campaign_load_requires_reports stdout ----
+
+thread 'viewer_campaign_load_requires_reports' (72920) panicked at tests\contracts.rs:152:5:
+assertion `left == right` failed
+  left: 404
+ right: 200
+
+---- viewer_bootstrap_requires_campaign_list stdout ----
+
+thread 'viewer_bootstrap_requires_campaign_list' (15220) panicked at tests\contracts.rs:145:5:
+assertion `left == right` failed
+  left: 404
+ right: 200
+
+---- wrong_campaign_must_not_execute_active_world stdout ----
+
+thread 'wrong_campaign_must_not_execute_active_world' (8) panicked at tests\contracts.rs:161:5:
+assertion `left == right` failed: Invalid campaign unexpectedly advanced the active world
+  left: 21
+ right: 20
+
+---- sqlite_loader_must_reject_nonexistent_campaign stdout ----
+
+thread 'sqlite_loader_must_reject_nonexistent_campaign' (67756) panicked at tests\contracts.rs:193:5:
+A fabricated revision-20 empty world must not count as a successfully loaded campaign
+
+---- sqlite_loader_must_preserve_encoded_campaign_date stdout ----
+
+thread 'sqlite_loader_must_preserve_encoded_campaign_date' (73808) panicked at tests\contracts.rs:188:5:
+assertion `left == right` failed
+  left: (306, 1, 1)
+ right: (307, 4, 12)
+
+
+failures:
+    another_owners_reserve_must_not_hide_pop_food_demand
+    factory_cannot_produce_without_inputs
+    factory_must_consume_recipe_inputs
+    food_consumption_must_reduce_real_stocks
+    grain_supply_cannot_fulfill_cloth_orders
+    invariant_must_check_people_not_just_pop_row_count
+    invariant_must_detect_unexplained_goods_creation
+    negative_transfer_must_be_rejected
+    procurement_must_pay_the_seller_and_conserve_cash
+    purchased_stock_must_leave_the_seller_ownership
+    reported_production_must_reach_real_stock
+    self_transfer_must_not_create_money
+    sqlite_loader_must_preserve_encoded_campaign_date
+    sqlite_loader_must_reject_nonexistent_campaign
+    unknown_payee_must_be_rejected
+    viewer_bootstrap_requires_campaign_list
+    viewer_campaign_load_requires_reports
+    wrong_campaign_must_not_execute_active_world
+
+test result: FAILED. 1 passed; 18 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.88s
+
+error: test failed, to rerun pass `--test contracts`
