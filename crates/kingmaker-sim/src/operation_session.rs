@@ -1744,39 +1744,27 @@ pub(crate) fn apply_prepared_phase(world: &mut crate::world_transaction::WorldTr
         return Err(reject("Duplicate stock before commit"));
     }
     for (k, old, _) in &d.accounts {
-        if world.accounts().iter().find(|a| &a.address() == k) != old.as_ref() {
+        if world.accounts().get(k) != old.as_ref() {
             return Err(reject("Prepared account precondition changed"));
         }
     }
     for (k, old, _) in &d.stocks {
-        if world.stockpiles().iter().find(|s| &s.external_id == k) != old.as_ref() {
+        if world.stockpiles().get(k) != old.as_ref() {
             return Err(reject("Prepared stock precondition changed"));
         }
     }
     for (k, old, _) in &d.storage {
-        if world.storage_reservations()
-            .iter()
-            .find(|r| &r.id == k)
-            != old.as_ref()
-        {
+        if world.storage_reservations().get(k) != old.as_ref() {
             return Err(reject("Prepared storage precondition changed"));
         }
     }
     for (k, old, _) in &d.factories {
-        if world.factories()
-            .iter()
-            .find(|r| &r.base.id == k)
-            != Some(old)
-        {
+        if world.factories().get(k) != Some(old) {
             return Err(reject("Prepared factory precondition changed"));
         }
     }
     for (k, old, _) in &d.debts {
-        if world.obligations()
-            .iter()
-            .find(|r| &r.obligation_id == k)
-            != old.as_ref()
-        {
+        if world.obligations().get(k) != old.as_ref() {
             return Err(reject("Prepared debt precondition changed"));
         }
     }
@@ -1789,18 +1777,22 @@ pub(crate) fn apply_prepared_phase(world: &mut crate::world_transaction::WorldTr
         }
     }
     let views = if world.production_catalog().is_some() {
+        // Lookup only: the existing row iterators still determine publication order.
+        let changed_accounts: std::collections::HashSet<AccountAddress> =
+            d.accounts.iter().map(|(key, _, _)| key.clone()).collect();
+        let mut changed_factories: HashMap<ExternalId, &FactoryEnterprise> = HashMap::new();
+        for (key, _, row) in &d.factories {
+            // Retain the first match, exactly as the previous linear find did.
+            changed_factories.entry(key.clone()).or_insert(row);
+        }
         Some(
             (world as &dyn WorldRead).derive_enterprise_views(
                     world.accounts()
                         .iter()
-                        .filter(|a| !d.accounts.iter().any(|(k, _, _)| a.address() == *k))
+                        .filter(|a| !changed_accounts.contains(&a.address()))
                         .chain(d.accounts.iter().map(|(_, _, r)| r)),
                     world.factories().iter().map(|f| {
-                        d.factories
-                            .iter()
-                            .find(|(k, _, _)| *k == f.base.id)
-                            .map(|(_, _, r)| r)
-                            .unwrap_or(f)
+                        changed_factories.get(&f.base.id).copied().unwrap_or(f)
                     }),
                     d.stocks
                         .iter()
@@ -1950,3 +1942,7 @@ mod publication_order_tests {
         assert_eq!(world.production_data.obligations, vec![old, text, number]);
     }
 }
+
+#[cfg(test)]
+#[path = "../tests/internal/perf_preconditions.rs"]
+mod perf_preconditions_tests;

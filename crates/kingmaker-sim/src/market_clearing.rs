@@ -120,6 +120,43 @@ struct Bid {
     fulfilled: f64,
     allocations: Vec<(usize, f64)>,
 }
+// Keep the first-seen stock order and exactly the original per-stock f64
+// addition order. Hash iteration must never decide payouts or rounding order.
+fn coalesce_allocations(rows: Vec<(usize, f64)>) -> Vec<(usize, f64)> {
+    let mut allocated: Vec<(usize, f64)> = Vec::new();
+    let mut positions: HashMap<usize, usize> = HashMap::new();
+    for (stock, quantity) in rows {
+        if let Some(&position) = positions.get(&stock) {
+            allocated[position].1 += quantity;
+        } else {
+            positions.insert(stock, allocated.len());
+            allocated.push((stock, quantity));
+        }
+    }
+    allocated
+}
+
+fn fund_bids(rows: Vec<Bid>, budget: Money) -> OpResult<Vec<Bid>> {
+    let allocations = allocate_big_budget(
+        &rows.iter()
+            .map(|b| (ExternalId::from(b.order.id.clone()), b.requested.clone()))
+            .collect::<Vec<_>>(),
+        budget,
+    )?;
+    // phase_clear already validated unique order IDs. Move each candidate
+    // vector instead of cloning it while retaining the budget allocator's order.
+    let mut by_id: HashMap<ExternalId, Bid> = rows.into_iter()
+        .map(|b| (ExternalId::from(b.order.id.clone()), b))
+        .collect();
+    let mut funded = Vec::with_capacity(allocations.len());
+    for a in allocations {
+        let mut b = by_id.remove(&a.id).expect("validated unique market order");
+        b.budget = a.paid;
+        funded.push(b);
+    }
+    Ok(funded)
+}
+
 impl MarketView<'_> {
     fn can_settle(&self, s: &StockpileRecord, o: &MarketOrder) -> bool {
         s.owner_id == o.owner_id
@@ -322,22 +359,10 @@ fn phase_clear(
         }
     }
     for (addr, rows) in buyers {
-        let allocations = allocate_big_budget(
-            &rows
-                .iter()
-                .map(|b| (ExternalId::from(b.order.id.clone()), b.requested.clone()))
-                .collect::<Vec<_>>(),
+        eligible.extend(fund_bids(
+            rows,
             view.cash.get(&addr).copied().unwrap_or(Money(0)),
-        )?;
-        for a in allocations {
-            let mut b = rows
-                .iter()
-                .find(|b| b.order.id.as_str() == a.id.as_str().unwrap())
-                .unwrap()
-                .clone();
-            b.budget = a.paid;
-            eligible.push(b);
-        }
+        )?);
     }
     for b in &mut eligible {
         b.wanted = if b.own || b.requested == BigInt::from(0) {
@@ -439,14 +464,7 @@ fn phase_clear(
                     .ok_or_else(|| error("Actual market payment overflow"))?,
             )
         };
-        let mut allocated: Vec<(usize, f64)> = Vec::new();
-        for (i, q) in b.allocations {
-            if let Some((_, n)) = allocated.iter_mut().find(|(s, _)| s == &i) {
-                *n += q;
-            } else {
-                allocated.push((i, q));
-            }
-        }
+        let mut allocated = coalesce_allocations(b.allocations);
         allocated.sort_by(|(a, _), (b, _)| {
             collation.compare(
                 &crate::needs::js_string(&view.stocks[*a].external_id.json()),
@@ -654,6 +672,17 @@ pub fn plan_local_orders(
     priorities: &[String],
 ) -> OpResult<MarketClearResult> {
     let mut state = view.clone();
+    plan_local_orders_in_place(&mut state, period, orders, priorities)
+}
+
+// Private callers may consume their own scratch view. The public API above
+// still leaves its input unchanged, including when planning fails.
+fn plan_local_orders_in_place(
+    state: &mut MarketView,
+    period: &str,
+    orders: &[MarketOrder],
+    priorities: &[String],
+) -> OpResult<MarketClearResult> {
     let mut result = MarketClearResult::default();
     let mut phase = 0;
     let supply_by_pop = orders
@@ -667,7 +696,7 @@ pub fn plan_local_orders(
             .filter(|o| &o.priority == priority)
             .cloned()
             .collect::<Vec<_>>();
-        clear_rows(&mut state, period, &rows, &mut result, &mut phase)?;
+        clear_rows(state, period, &rows, &mut result, &mut phase)?;
         let mut groups: Vec<((Option<ExternalId>, ExternalId), Vec<&MarketOrder>)> = Vec::new();
         let mut group_index = HashMap::new();
         for o in rows
@@ -768,7 +797,7 @@ pub fn plan_local_orders(
                 fallback.push(o);
             }
         }
-        clear_rows(&mut state, period, &fallback, &mut result, &mut phase)?;
+        clear_rows(state, period, &fallback, &mut result, &mut phase)?;
     }
     Ok(result)
 }
@@ -863,9 +892,9 @@ pub(crate) fn plan_foundation_market(
                 s.stage(&metadata(format!("market-blocked:{period}:{}",o.id).into(),OperationKind::Blocked,json!({"reason":reason,"province_id":o.province_id.0,"goods_id":o.goods_id,"order_id":o.id})))?;
             }
         }
-        let view = MarketView::from_session(s)?;
+        let mut view = MarketView::from_session(s)?;
         s.purchase_policy = Some(view.policy.clone());
-        let mut market = plan_local_orders(&view, period, &accepted, priorities)?;
+        let mut market = plan_local_orders_in_place(&mut view, period, &accepted, priorities)?;
         apply_market_result(s, &market)?;
         for (order, id) in reserved {
             let q = market.fulfilled.get(&order).copied().unwrap_or(0.0);
@@ -894,3 +923,7 @@ pub(crate) fn plan_foundation_market(
     }
     result
 }
+
+#[cfg(test)]
+#[path = "../tests/internal/perf_market.rs"]
+mod perf_market_tests;

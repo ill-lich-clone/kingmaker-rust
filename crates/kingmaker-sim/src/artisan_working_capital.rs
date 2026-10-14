@@ -21,6 +21,26 @@ use num_traits::ToPrimitive;
 use serde_json::json;
 use std::collections::HashMap;
 
+// Immutable forecast lookups only. Funding and remainder assignment retain
+// the original enterprise/group iteration order; duplicate keys keep the first row.
+struct ForecastIndex<'a> {
+    entities: HashMap<ExternalId, &'a crate::income_capital::CapitalEntity>,
+    groups: HashMap<(ExternalId, ExternalId), &'a crate::income_capital::CapitalGroup>,
+}
+impl<'a> ForecastIndex<'a> {
+    fn new(forecast: &'a crate::income_capital::CapitalForecast) -> Self {
+        let mut entities = HashMap::new();
+        for entity in &forecast.entities {
+            entities.entry(entity.id.clone()).or_insert(entity);
+        }
+        let mut groups = HashMap::new();
+        for group in &forecast.groups {
+            groups.entry((group.owner_id.clone(), group.currency_id.clone())).or_insert(group);
+        }
+        Self { entities, groups }
+    }
+}
+
 fn money(n: i128) -> OpResult<Money> {
     i64::try_from(n)
         .map(Money)
@@ -51,10 +71,11 @@ pub(crate) fn plan_artisan_working_capital(
     }
     let quotes = build_opening_artisan_quotes(w, profile)?;
     let initial = working_capital_requirements(w, &quotes)?;
+    let initial_index = ForecastIndex::new(&initial);
     let stocks = choice_stocks(w)?;
     let mut session = OperationSession::new(w)?;
     for e in &mut result.enterprises {
-        let Some(req) = initial.entities.iter().find(|req| req.id == e.base.id) else {
+        let Some(req) = initial_index.entities.get(&e.base.id).copied() else {
             continue;
         };
         if req.possible
@@ -117,7 +138,9 @@ pub(crate) fn plan_artisan_working_capital(
     let mut state=crate::world_transaction::WorldTransaction::new(w);
     state.apply_phase(session.finish()?)?;
     state.replace_artisans(result.enterprises.clone())?;
+    // Retooling may have changed requirements: never reuse initial_index here.
     let requirements = working_capital_requirements(&state, &quotes)?;
+    let requirements_index = ForecastIndex::new(&requirements);
     let policies = effective_income_policies(w, r);
     let mut session = OperationSession::new(&state)?;
     let mut principals = HashMap::new();
@@ -213,15 +236,11 @@ pub(crate) fn plan_artisan_working_capital(
     let mut principal_left = principals.clone();
     let mut profit_left = profits.clone();
     for e in &mut result.enterprises {
-        let Some(req) = requirements.entities.iter().find(|r| r.id == e.base.id) else {
+        let Some(req) = requirements_index.entities.get(&e.base.id).copied() else {
             continue;
         };
         let key = (req.owner_id.clone(), req.currency_id.clone());
-        let g = requirements
-            .groups
-            .iter()
-            .find(|g| g.owner_id == req.owner_id && g.currency_id == req.currency_id)
-            .unwrap();
+        let g = requirements_index.groups.get(&key).copied().unwrap();
         let last = g.ids.last() == Some(&e.base.id);
         let principal = if last {
             principal_left[&key]
@@ -259,3 +278,7 @@ pub(crate) fn plan_artisan_working_capital(
     }
     Ok(result)
 }
+
+#[cfg(test)]
+#[path = "../tests/internal/perf_artisan_index.rs"]
+mod perf_artisan_index_tests;
